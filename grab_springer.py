@@ -54,4 +54,4 @@ def grab_springer_info(file_url, dst_url, doi_column):
     return
 
 
-grab_springer_info('data/outputs/or64_elsevier.xlsx', 'data/outputs/or64_elsevier_y.xlsx', 'DOI')
+# grab_springer_info('data/outputs/or64_elsevier.xlsx', 'data/outputs/or64_elsevier_y.xlsx', 'DOI')
