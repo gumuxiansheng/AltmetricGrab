@@ -1,0 +1,927 @@
+﻿FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU Santi, E
+   Ferreira, L
+   Borenstein, D
+AF Santi, Everton
+   Ferreira, Luciano
+   Borenstein, Denis
+TI ENHANCING THE DISCRIMINATION OF ALTERNATIVES IN FUZZY-TOPSIS
+SO INFOR
+LA English
+DT Article
+DE Decision making; Multicriteria; Fuzzy sets; TOPSIS; ELECTRE
+ID GROUP DECISION-MAKING; AHP; MODEL; SELECTION; TRANSPORTATION;
+   ENVIRONMENT
+AB Fuzzy-TOPSIS is one of the most widely applied methods for solving multi-attribute decision making problems. However, an analysis of academic and real-life applications of this method has pointed out that the final alternative scores are very close, with little dispersion among them, making it difficult for the decision makers' to choice/ranking the alternatives. The main objective of this paper is to enhance the ability of Fuzzy-TOPSIS to discriminate alternatives, making it easy for a decision maker to select or ranking alternatives. To achieve this, we redefined the computation of the positive and negative ideal solution of the classical TOPSIS method as a combination of the fuzzy concordance and discordance indexes from Fuzzy-ELECTRE. The proposed model was validated in a real case study, and further compared with Fuzzy-ELECTRE, using simulation experiments, and Fuzzy-TOPSIS, using results from four recent papers published in the literature. The results obtained show that the proposed method improved the ranking and sorting of the alternatives for all analyzed cases, considering ranking dispersion, global interval range of the scores, and the difference between the first and second best alternatives. The main justification for this behavior is the partial non-compensatory nature of our method, introduced by incorporating some ELECTRE's elements into Fuzzy-TOPSIS.
+C1 [Santi, Everton; Ferreira, Luciano] Univ Fed Rio Grande do Norte, Escola Ciencia & Tecnol, BR-59072970 Natal, RN, Brazil.
+   [Borenstein, Denis] Univ Fed Rio Grande do Sul, Escola Adm, Porto Alegre, RS, Brazil.
+RP Santi, E; Ferreira, L (reprint author), Univ Fed Rio Grande do Norte, Escola Ciencia & Tecnol, BR-59072970 Natal, RN, Brazil.; Borenstein, D (reprint author), Univ Fed Rio Grande do Sul, Escola Adm, Porto Alegre, RS, Brazil.
+EM santi.everton@gmail.com; ferreira@ufrnet.br; denisb@ea.ufrgs.br
+RI Ferreira, Luciano/A-2937-2015
+OI Ferreira, Luciano/0000-0001-7511-094X
+FU CNPq, Brazil [301453/2013-6]; Prometeo Project, Senescyt, Ecuador
+FX The authors thank the two anonymous referees for their comments that
+   greatly improved the quality of the paper. This research work was
+   partially funded by CNPq, Brazil, grants 301453/2013-6, and Prometeo
+   Project, Senescyt, Ecuador.
+NR 39
+TC 1
+Z9 1
+U1 1
+U2 12
+PU UNIV TORONTO PRESS INC
+PI TORONTO
+PA JOURNALS DIVISION, 5201 DUFFERIN ST, DOWNSVIEW, TORONTO, ON M3H 5T8,
+   CANADA
+SN 0315-5986
+EI 1916-0615
+J9 INFOR
+JI Infor
+PD NOV
+PY 2015
+VL 53
+IS 4
+BP 155
+EP 169
+DI 10.3138/infor.53.4.155
+PG 15
+WC Computer Science, Information Systems; Operations Research & Management
+   Science
+SC Computer Science; Operations Research & Management Science
+GA DI1MN
+UT WOS:000373260300001
+DA 2019-08-04
+ER
+
+PT J
+AU Alfares, HK
+AF Alfares, Hesham K.
+TI Production and Inventory Planning with Variable Holding Cost and
+   All-Units Quantity Discounts
+SO INFOR
+LA English
+DT Article
+DE Production-inventory planning; Retroactive holding cost; Incremental
+   holding cost; All-units quantity discounts
+ID DEPENDENT DEMAND; STOCK-LEVEL; EOQ MODEL; LOT-SIZE; PRICE; TIME; OFFERS;
+   POLICY
+AB A new production-inventory planning model is considered, in which the holding cost is variable and the purchase cost is subject to quantity discounts. The new production-inventory planning model has three important and realistic features. First, the production rate is finite, so the whole order is not received in one instant, but is gradually produced. Second, the unit holding cost of each item per time period is not constant throughout the entire storage duration, but it increases with longer storage times. Third, the unit purchase cost of each item is not constant, but it decreases with larger orders according to an all-units quantity discount structure. Considering these features, mathematical formulations and optimum solution procedures are developed for two types of holding costs functions of storage time: retroactive increase, and incremental increase.
+C1 [Alfares, Hesham K.] King Fahd Univ Petr & Minerals, Dept Syst Engn, POB 5067, Dhahran 31261, Saudi Arabia.
+RP Alfares, HK (reprint author), King Fahd Univ Petr & Minerals, Dept Syst Engn, POB 5067, Dhahran 31261, Saudi Arabia.
+EM alfares@kfupm.edu.sa
+RI Alfares, Hesham K/L-3858-2018
+OI Alfares, Hesham K/0000-0003-4040-2787
+FU British Council; King Fahd University of Petroleum and Minerals
+FX The author is grateful to the British Council and King Fahd University
+   of Petroleum and Minerals, for funding this research project, and to the
+   University of East Anglia for the gracious hospitality. The author also
+   thanks the anonymous reviewers for their valuable suggestions that
+   significantly improved this paper.
+NR 17
+TC 1
+Z9 1
+U1 0
+U2 0
+PU UNIV TORONTO PRESS INC
+PI TORONTO
+PA JOURNALS DIVISION, 5201 DUFFERIN ST, DOWNSVIEW, TORONTO, ON M3H 5T8,
+   CANADA
+SN 0315-5986
+EI 1916-0615
+J9 INFOR
+JI Infor
+PD NOV
+PY 2015
+VL 53
+IS 4
+BP 170
+EP 177
+DI 10.3138/infor.53.4.170
+PG 8
+WC Computer Science, Information Systems; Operations Research & Management
+   Science
+SC Computer Science; Operations Research & Management Science
+GA DI1MN
+UT WOS:000373260300002
+DA 2019-08-04
+ER
+
+PT J
+AU Koowattanatianchai, N
+   Charles, MB
+AF Koowattanatianchai, Nattawoot
+   Charles, Michael B.
+TI An Extended Asset Replacement Model: Impacts of Taxation, Inflation and
+   Technological Advancement on Optimal Asset Duration
+SO INFOR
+LA English
+DT Article
+DE Asset replacement; Taxation; Inflation; Technological advancement
+ID OPTIMAL EQUIPMENT REPLACEMENT; TAX DEPRECIATION POLICY; INVESTMENT
+   INCENTIVES; SIMULATION; STRATEGY; LIFE
+AB The article develops an extended way to determine asset replacement strategies that takes inflation, taxation and technological advancement into account simultaneously. The model, which modifies classical asset replacement models developed by Perrin (1972) and Smith (1990), implies that the inflation effects on replacement decisions are generally positive, except in the case of short assets that are not fully written off at the end of their life where ambiguity exists. Tax effects on asset optimal lives are also analysed in a context of zero and positive inflation. Results show that a tax cut generally incentivizes firms to increase the frequency of replacement, and that this incentive will become stronger with higher inflation and longer time to replacement. Technological progress is found to play an insignificant role in the replacement decision after the tax cut/rise.
+C1 [Koowattanatianchai, Nattawoot] Kasetsart Univ, Dept Finance, Kasetsart Business Sch, Bangkok, Thailand.
+   [Charles, Michael B.] So Cross Univ, Sch Business & Tourism, Bilinga, Australia.
+RP Koowattanatianchai, N (reprint author), Kasetsart Univ, Dept Finance, Kasetsart Business Sch, Bangkok, Thailand.; Charles, MB (reprint author), So Cross Univ, Sch Business & Tourism, Bilinga, Australia.
+EM fbusnwk@ku.ac.th; michael.charles@scu.edu.au
+OI Koowattanatianchai, Nattawoot/0000-0001-5608-5152
+NR 50
+TC 0
+Z9 0
+U1 0
+U2 0
+PU TAYLOR & FRANCIS INC
+PI PHILADELPHIA
+PA 530 WALNUT STREET, STE 850, PHILADELPHIA, PA 19106 USA
+SN 0315-5986
+EI 1916-0615
+J9 INFOR
+JI Infor
+PD NOV
+PY 2015
+VL 53
+IS 4
+BP 178
+EP 193
+DI 10.3138/infor.53.4.178
+PG 16
+WC Computer Science, Information Systems; Operations Research & Management
+   Science
+SC Computer Science; Operations Research & Management Science
+GA DI1MN
+UT WOS:000373260300003
+DA 2019-08-04
+ER
+
+PT J
+AU Blake, J
+   McTaggart, K
+   Hardy, M
+AF Blake, John
+   McTaggart, Ken
+   Hardy, Matthew
+TI Modelling a Blood Distribution Network in the Prairies with a Generic
+   Simulation Framework
+SO INFOR
+LA English
+DT Article
+DE Blood supply chain; facilities location; transportation and logistics;
+   simulation modelling
+ID DISTRIBUTION-SYSTEM; INVENTORY; POLICIES; MANAGEMENT; ALLOCATION
+AB As part of its infrastructure renewal, Canadian Blood Services (CBS) will consolidate production and support functions for hospitals in the provinces of Alberta and Saskatchewan. Existing production and distribution facilities in Calgary, Edmonton, and Regina will be combined into a single production facility to be located in Calgary. Stakeholders, however, have questioned whether there is a need for a stock holding unit (SHU) to be located in Saskatoon. In this paper we provide the details of a simulation study to evaluate the network performance expected under the consolidated plan. A simulation model was developed from a generic framework. Once validated, the model was used to conduct a series of experiments in which RBC availability and outdates were measured with and without a SHU in Saskatoon. Results suggest that product wastage will increase with a SHU, along with a small increase in product availability. However, any increase in product availability is unlikely to be practically significant if 1.4 or fewer road closures are experienced per year.
+C1 [Blake, John; Hardy, Matthew] Dalhousie Univ, Dept Ind Engn, Halifax, NS B3H 4R2, Canada.
+   [Blake, John; McTaggart, Ken; Hardy, Matthew] Canadian Blood Serv, Ctr Innovat, 1800 Alta Vista Rd, Ottawa, ON K1G 4J5, Canada.
+RP Blake, J (reprint author), Dalhousie Univ, Dept Ind Engn, Halifax, NS B3H 4R2, Canada.
+EM john.blake@dal.ca
+NR 31
+TC 1
+Z9 1
+U1 0
+U2 13
+PU UNIV TORONTO PRESS INC
+PI TORONTO
+PA JOURNALS DIVISION, 5201 DUFFERIN ST, DOWNSVIEW, TORONTO, ON M3H 5T8,
+   CANADA
+SN 0315-5986
+EI 1916-0615
+J9 INFOR
+JI Infor
+PD NOV
+PY 2015
+VL 53
+IS 4
+BP 194
+EP 210
+DI 10.3138/infor.53.4.194
+PG 17
+WC Computer Science, Information Systems; Operations Research & Management
+   Science
+SC Computer Science; Operations Research & Management Science
+GA DI1MN
+UT WOS:000373260300004
+DA 2019-08-04
+ER
+
+PT J
+AU Zhang, RN
+   Fry, MJ
+   Krishnan, H
+AF Zhang, Ruonan
+   Fry, Michael J.
+   Krishnan, Harish
+TI Efficiency and Equity in Healthcare: An Analysis of Resource Allocation
+   Decisions in a Long-Term Home Care Setting
+SO INFOR
+LA English
+DT Article
+DE resource allocation; long term home care; equity; efficiency;
+   integer-programming
+ID TRADE-OFF; SIMULATION; FAIRNESS
+AB In this paper we analyse resource allocation decisions in a Long-Term Home Care (LTHC) program. LTHC programs provide various long-term in-home care services to patients who have been discharged from acute care facilities (e. g. hospitals), residential care facilities (e. g. nursing homes) and assisted living facilities. Two metrics, efficiency and equity, are used to measure the performance of the system. We develop integer-programming models to optimize these metrics, and we derive solution properties that provide insights into the trade-offs between efficiency and equity. We compare our optimal solutions to several well-known allocation policies used in practice such as the first-in-first-out policy, the shortest processing time policy and the spread policy. We compare our optimal and heuristic solutions through a set of numerical experiments to establish operating guidelines for specific scenarios. Finally, we examine the current LTHC admission policy used at a major health-care organization, and we evaluate the performance of this policy in terms of both efficiency and equity.
+C1 [Zhang, Ruonan] Xian Jiaotong Liverpool Univ, Dept Math Sci, Suzhou 215123, Jiangsu, Peoples R China.
+   [Fry, Michael J.] Univ Cincinnati, Carl H Lindner Coll Business, Dept Operat Business Analyt & Informat Syst, Cincinnati, OH 45221 USA.
+   [Krishnan, Harish] Univ British Columbia, Sauder Sch Business, Vancouver, BC V6T 1Z2, Canada.
+RP Zhang, RN (reprint author), Xian Jiaotong Liverpool Univ, Dept Math Sci, Suzhou 215123, Jiangsu, Peoples R China.
+EM ruonan.zhang@xjtlu.edu.cn; mike.fry@uc.edu;
+   harish.krishnan@sauder.ubc.ca
+NR 29
+TC 0
+Z9 1
+U1 0
+U2 13
+PU UNIV TORONTO PRESS INC
+PI TORONTO
+PA JOURNALS DIVISION, 5201 DUFFERIN ST, DOWNSVIEW, TORONTO, ON M3H 5T8,
+   CANADA
+SN 0315-5986
+EI 1916-0615
+J9 INFOR
+JI Infor
+PD AUG
+PY 2015
+VL 53
+IS 3
+BP 97
+EP 112
+DI 10.3138/infor.53.3.97
+PG 16
+WC Computer Science, Information Systems; Operations Research & Management
+   Science
+SC Computer Science; Operations Research & Management Science
+GA DG2FP
+UT WOS:000371882400001
+DA 2019-08-04
+ER
+
+PT J
+AU Zhou, XQ
+   Xiao, QM
+   Li, W
+AF Zhou, Xiaoqiang
+   Xiao, Qimei
+   Li, Wu
+TI A Group Decision Making Approach Based on Hesitant Fuzzy Soft Set Theory
+SO INFOR
+LA English
+DT Article
+DE Hesitant fuzzy set; Soft set; Fuzzy soft set; Hesitant fuzzy soft set;
+   Decision making
+ID BCK/BCI-ALGEBRAS; MATRIX-THEORY; ROUGH SETS; AGGREGATION; INFORMATION;
+   OPERATORS
+AB Hesitant fuzzy set and soft set are two new mathematical tools which have been used successfully to deal with vagueness and uncertainties. In this paper, we propose a new hybrid model named hesitant fuzzy soft set by combining hesitant fuzzy set and soft set, which can be viewed as an extension of many existing models, such as hesitant fuzzy set, soft set, fuzzy soft set, interval-valued fuzzy soft set and multi-fuzzy soft set. Some operations on hesitant fuzzy soft set are defined and some properties of those operations are also discussed. Furthermore, an algorithm is presented by using union operation and generalized comparison table on hesitant fuzzy soft set, an application of hesitant fuzzy soft set in group decision making is shown.
+C1 [Zhou, Xiaoqiang] Hunan Inst Sci & Technol, Sch Comp, Yueyang 414006, Peoples R China.
+   [Xiao, Qimei] Changsha Univ Sci & Technol, Coll Math & Comp Sci, Changsha 410076, Hunan, Peoples R China.
+   [Li, Wu] Hunan Inst Sci & Technol, Coll Informat & Commun Engn, Yueyang 414006, Peoples R China.
+RP Zhou, XQ (reprint author), Hunan Inst Sci & Technol, Sch Comp, Yueyang 414006, Peoples R China.
+EM zxq0923@163.com; qimeixiao@sohu.com; liwu0817@163.com
+FU National Natural Science Foundation of China [61473118, 11401052,
+   71501135]; China Postdoctoral Science Foundation [2015M572482,
+   2012M511773]; Natural Science Foundation of Hunan Province [2015JJ2074];
+   Young project of Hunan Provincial Education Department [15B104, 15B004];
+   Scientific Research Fund of Hunan Provincial Education Department
+   [13K102]
+FX The authors would like to thank the associate editor and the anonymous
+   referees for their insightful and constructive comments and suggestions.
+   This work is supported by the National Natural Science Foundation of
+   China (Nos. 61473118, 11401052, 71501135), China Postdoctoral Science
+   Foundation (Nos. 2015M572482, 2012M511773), Natural Science Foundation
+   of Hunan Province (No. 2015JJ2074), Young project of Hunan Provincial
+   Education Department (Nos. 15B104, 15B004) and Scientific Research Fund
+   of Hunan Provincial Education Department (No. 13K102).
+NR 43
+TC 1
+Z9 1
+U1 2
+U2 19
+PU UNIV TORONTO PRESS INC
+PI TORONTO
+PA JOURNALS DIVISION, 5201 DUFFERIN ST, DOWNSVIEW, TORONTO, ON M3H 5T8,
+   CANADA
+SN 0315-5986
+EI 1916-0615
+J9 INFOR
+JI Infor
+PD AUG
+PY 2015
+VL 53
+IS 3
+BP 113
+EP 124
+DI 10.3138/infor.53.3.113
+PG 12
+WC Computer Science, Information Systems; Operations Research & Management
+   Science
+SC Computer Science; Operations Research & Management Science
+GA DG2FP
+UT WOS:000371882400002
+DA 2019-08-04
+ER
+
+PT J
+AU Ali, AF
+   Tawhid, MA
+AF Ali, Ahmed F.
+   Tawhid, Mohamed A.
+TI Hybrid Particle Swarm Optimization with a Modified Arithmetical
+   Crossover for Solving Unconstrained Optimization Problems
+SO INFOR
+LA English
+DT Article
+DE Particle swarm optimization; arithmetical crossover; unconstrained
+   optimization problems; global optimization
+ID GENETIC ALGORITHM; DESIGN
+AB In this article, we propose a new hybrid algorithm by combining the particle swarm optimization and genetic arithmetical crossover operator. We adjust the proposed algorithm in order to avoid the problem of stagnation and premature convergence of the population. Invoking the modified arithmetical crossover operator improves the exploration process of the proposed algorithm. We call the new proposed algorithm hybrid particle swarm optimization with a modified arithmetical crossover (HPSOAC). Also, we test HPSOAC on 26 functions (16 unconstrained optimization benchmark functions and 10 CEC05 special session functions). Furthermore, we compare the general performance of the proposed algorithm against 6 various particle swarm optimization algorithms. Moreover, we show the efficiency of the proposed algorithm and its ability to solve unconstrained optimization problems by giving several computational results.
+C1 [Ali, Ahmed F.] Suez Canal Univ, Fac Comp & Informat, Dept Comp Sci, Ismailia, Egypt.
+   [Ali, Ahmed F.; Tawhid, Mohamed A.] Thompson Rivers Univ, Fac Sci, Dept Math & Stat, Kamloops, BC V2C 0C8, Canada.
+   [Tawhid, Mohamed A.] Univ Alexandria, Fac Sci, Dept Math & Comp Sci, Alexandria 21511, Egypt.
+RP Ali, AF (reprint author), Suez Canal Univ, Fac Comp & Informat, Dept Comp Sci, Ismailia, Egypt.
+EM ahmed_fouad@ci.suez.edu.eg; mtawhid@tru.ca
+RI Ali, Ahmed Fouad/F-7079-2014
+OI Ali, Ahmed Fouad/0000-0003-1479-7148
+FU Natural Sciences and Engineering Research Council of Canada (NSERC);
+   NSERC
+FX The research of the second author is supported in part by the Natural
+   Sciences and Engineering Research Council of Canada (NSERC). The
+   postdoctoral fellowship of the first author is supported by NSERC.
+NR 31
+TC 3
+Z9 3
+U1 0
+U2 4
+PU TAYLOR & FRANCIS INC
+PI PHILADELPHIA
+PA 530 WALNUT STREET, STE 850, PHILADELPHIA, PA 19106 USA
+SN 0315-5986
+EI 1916-0615
+J9 INFOR
+JI Infor
+PD AUG
+PY 2015
+VL 53
+IS 3
+BP 125
+EP 141
+DI 10.3138/infor.53.3.125
+PG 17
+WC Computer Science, Information Systems; Operations Research & Management
+   Science
+SC Computer Science; Operations Research & Management Science
+GA DG2FP
+UT WOS:000371882400003
+DA 2019-08-04
+ER
+
+PT J
+AU Bakhtiari, B
+   Berk, E
+   Hassini, E
+   Parlar, M
+AF Bakhtiari, Behrouz
+   Berk, Emre
+   Hassini, Elkafi
+   Parlar, Mahmut
+TI Optimal Spacing of "Covered" and "Exposed" Time Intervals in a
+   Stochastic Process with High Penalty Costs: Applications to Parking and
+   Insurance
+SO INFOR
+LA English
+DT Article
+DE Poisson processes; parking policies; insurance
+ID DOWNTOWN PARKING; REQUIREMENTS; LOSSES
+AB This paper studies a class of policies for a stochastic process that is constituted of several time intervals of total time T. The intervals can be covered (or insured) at a pay-per-use rate or exposed (uninsured) with the risk of a large penalty. A decision maker has the three options: (i) Pay the user fee for the full period, (ii) not pay at all, and (iii) sporadically pay a user fee leaving an uncovered period at the end of each covered one. The penalty risk is assumed to occur during an uncovered interval according to a Poisson process. We present the expected cost model and find the optimal coverage policy. We present conditions under which it is always optimal to pay in full or not pay at all to minimize the expected total cost. Finally, we relax two assumptions and allow for the consideration of setup costs for every time the decision maker pays the coverage fees as well as a random duration T and derive new conditions for optimal strategies. Possible application of our model is paying parking meter fees and deciding between self-insuring one's property and buying full (or partial) insurance coverage.
+C1 [Bakhtiari, Behrouz; Hassini, Elkafi; Parlar, Mahmut] McMaster Univ, DeGroote Sch Business, Operat Management Area, Hamilton, ON L8S 4M4, Canada.
+   [Berk, Emre] Bilkent Univ, Fac Business Adm, Dept Management, TR-06800 Bilkent, Turkey.
+RP Bakhtiari, B (reprint author), McMaster Univ, DeGroote Sch Business, Operat Management Area, Hamilton, ON L8S 4M4, Canada.
+EM bakhtib@mcmaster.ca; eberk@bilkent.edu.tr; hassini@mcmaster.ca;
+   parlar@mcmaster.ca
+OI Hassini, Elkafi/0000-0002-5337-5389
+FU Natural Sciences and Engineering Research Council through their
+   Discovery Grants Program
+FX We would like to thank the anonymous reviewers and an associate editor
+   for their valuable comments and suggestions. The last two authors
+   acknowledge financial support from The Natural Sciences and Engineering
+   Research Council through their Discovery Grants Program.
+NR 29
+TC 0
+Z9 0
+U1 1
+U2 4
+PU UNIV TORONTO PRESS INC
+PI TORONTO
+PA JOURNALS DIVISION, 5201 DUFFERIN ST, DOWNSVIEW, TORONTO, ON M3H 5T8,
+   CANADA
+SN 0315-5986
+EI 1916-0615
+J9 INFOR
+JI Infor
+PD AUG
+PY 2015
+VL 53
+IS 3
+BP 142
+EP 154
+DI 10.3138/infor.53.3.142
+PG 13
+WC Computer Science, Information Systems; Operations Research & Management
+   Science
+SC Computer Science; Operations Research & Management Science
+GA DG2FP
+UT WOS:000371882400004
+OA Green Published
+DA 2019-08-04
+ER
+
+PT J
+AU Crainic, TG
+   Gajpal, Y
+   Gendreau, M
+AF Crainic, Teodor Gabriel
+   Gajpal, Yuvraj
+   Gendreau, Michel
+TI Multi-Zone Multi-Trip Vehicle Routing Problem with Time Windows
+SO INFOR
+LA English
+DT Article
+DE Vehicle routing; multi-trip; time windows; synchronization; City
+   Logistics
+ID TABU SEARCH; SCHEDULING PROBLEM; FACILITIES; ALGORITHM; ROUTES
+AB We introduce a new vehicle routing problem class in which customers are divided into a number of customer zones defined through geographical or timing characteristics. The customers of each of these zones must be serviced within time windows by dedicated routes originating at associated supply points characterized by hard time windows and very limited waiting facilities, if any. A key feature of the problem is that a vehicle can be used to cover routes in different zones at different times. The objective is to minimize the total transportation cost to ensure that the customers are serviced on time and that vehicles arrive at the next customer zone just in time for the next assignment. The problem is addressed by a decomposition-based heuristic. Lower-bound procedures and benchmark problem instances are introduced, highlighting the satisfactory performance of the heuristic. Finally, a wide range of sensitivity analyses on several key parameters reveal interesting facets of the behavior of this new problem class.
+C1 [Crainic, Teodor Gabriel; Gendreau, Michel] Univ Montreal, CIRRELT, CP 6128,Succ Ctr Ville, Montreal, PQ H3C 3J7, Canada.
+   [Crainic, Teodor Gabriel] Univ Quebec Montreal, Ecole Sci Gest, Dept Management & Technol, Montreal, PQ H3C 3J7, Canada.
+   [Gajpal, Yuvraj] Univ Manitoba, Asper Sch Business, Dept Supply Chain Management, Winnipeg, MB R3T5V4, Canada.
+   [Gendreau, Michel] Ecole Polytech, Dept Math & Genie Ind, Montreal, PQ H3C 3J7, Canada.
+RP Crainic, TG (reprint author), Univ Montreal, CIRRELT, CP 6128,Succ Ctr Ville, Montreal, PQ H3C 3J7, Canada.
+RI Gendreau, Michel/N-7950-2019; Gendreau, Michel/M-6235-2018
+OI Gendreau, Michel/0000-0002-9262-3648; Gendreau,
+   Michel/0000-0002-9262-3648
+FU Natural Sciences and Engineering Council of Canada (NSERC); Fonds
+   quebecois de la recherche sur la nature et les technologies (FQRNT)
+FX Partial funding for this project has been provided by the Natural
+   Sciences and Engineering Council of Canada (NSERC), through its
+   Industrial Research Chair and Discovery Grant programs, by our partners
+   CN, Rona, Alimentation Couche-Tard, and the Ministry of Transportation
+   of Quebec, and by the Fonds quebecois de la recherche sur la nature et
+   les technologies (FQRNT).
+NR 34
+TC 3
+Z9 3
+U1 6
+U2 18
+PU UNIV TORONTO PRESS INC
+PI TORONTO
+PA JOURNALS DIVISION, 5201 DUFFERIN ST, DOWNSVIEW, TORONTO, ON M3H 5T8,
+   CANADA
+SN 0315-5986
+EI 1916-0615
+J9 INFOR
+JI Infor
+PD MAY
+PY 2015
+VL 53
+IS 2
+BP 49
+EP 67
+DI 10.3138/infor.53.2.49
+PG 19
+WC Computer Science, Information Systems; Operations Research & Management
+   Science
+SC Computer Science; Operations Research & Management Science
+GA DF0SH
+UT WOS:000371048800001
+DA 2019-08-04
+ER
+
+PT J
+AU Ben Amor, S
+   Guitouni, A
+   Martel, JM
+AF Ben Amor, Sarah
+   Guitouni, Adel
+   Martel, Jean-Marc
+TI A Synthesis of Information Imperfection Representations for Decision Aid
+SO INFOR
+LA English
+DT Article
+DE Information imperfections; uncertainty modeling; fuzzy set theory;
+   probability theory; theory of evidence; multicriteria decision aid
+ID EVIDENTIAL REASONING APPROACH; FUZZY-SETS; UNCERTAINTY; PROBABILITY;
+   JUDGMENT
+AB Information imperfection encompasses different terms such as uncertainty, imprecision, inaccuracy or incompleteness, used in the literature to describe any weakness in the quality of available information. Many theories or languages such as probability theory, fuzzy set theory, possibility theory or the theory of evidence, handle these imperfections using different representation formalisms and processing modes. A review of main theories is presented emphasizing their conditions of use, some useful properties and relationships between these theories. These relationships are exploited to build an approach with high-level guidelines to assist the choice of information imperfection representation language in a decision aiding process.
+C1 [Ben Amor, Sarah] Univ Ottawa, Telfer Sch Management, 55 Laurier Ave E, Ottawa, ON K1N 6N5, Canada.
+   [Guitouni, Adel] Univ Victoria, Victoria, BC V8P 5C2, Canada.
+   [Guitouni, Adel; Martel, Jean-Marc] Univ Laval, Fac Sci Adm, Quebec City, PQ G1V 0A6, Canada.
+RP Ben Amor, S (reprint author), Univ Ottawa, Telfer Sch Management, 55 Laurier Ave E, Ottawa, ON K1N 6N5, Canada.
+EM Benamor@telfer.uottawa.ca; adelg@uvic.ca;
+   Jean-marc.claudette@sympatico.ca
+NR 45
+TC 1
+Z9 1
+U1 0
+U2 0
+PU UNIV TORONTO PRESS INC
+PI TORONTO
+PA JOURNALS DIVISION, 5201 DUFFERIN ST, DOWNSVIEW, TORONTO, ON M3H 5T8,
+   CANADA
+SN 0315-5986
+EI 1916-0615
+J9 INFOR
+JI Infor
+PD MAY
+PY 2015
+VL 53
+IS 2
+BP 68
+EP 77
+DI 10.3138/infor.53.2.68
+PG 10
+WC Computer Science, Information Systems; Operations Research & Management
+   Science
+SC Computer Science; Operations Research & Management Science
+GA DF0SH
+UT WOS:000371048800002
+DA 2019-08-04
+ER
+
+PT J
+AU Liang, NN
+   Chen, Y
+   Zha, Y
+   Hu, HH
+AF Liang, Nannan
+   Chen, Yao
+   Zha, Yong
+   Hu, Hanhui
+TI Performance Evaluation of Individuals in Workgroups with Shared Outcomes
+   Using DEA
+SO INFOR
+LA English
+DT Article
+DE DEA; workgroup; shared outcome; cooperation motivation
+ID DATA ENVELOPMENT ANALYSIS; EFFICIENCY EVALUATION; TEAMS; DECOMPOSITION;
+   INCENTIVES; MODELS; INPUT; UNITS
+AB Workgroups consist of employees who are interdependent and work together to achieve common goals. For example, employees in marketing units, production cells on factory floors, and schools/departments in universities are often expected to collaborate with each other, and share knowledge, skills, and experiences to enhance the productivity and performance of the workgroups. While a workgroup's outcomes/outputs can be a sum of each individual or employee's output/outcome (for example, the number of research publications), there are shared workgroup outcomes that are a result of many individuals' performance, for example, an University's reputation. In other words, the outputs of a workgroup can be classified into two categories: individual workgroup outputs and shared workgroup outcomes. The objective of this paper is to study how shared workgroup' outcomes/outputs can be accounted when we evaluate the performance of individuals in the workgroup. Using data envelopment analysis (DEA), we propose several models to credit portions of the shared workgroup outcomes to the individuals based upon (i) outcome linkage where the outcome of one employee's task is influenced by that of another, and (ii) priority information, where an employee (e.g., workgroup leader) has a higher priority to get the credits from the shared workgroup outcomes. We examine how the efficiencies of employees are affected by the shared outcome credit. We discuss how the credit of shared outcomes affects the efficiencies of employees and cooperation motivation. A numerical example is provided to illustrate and justify the proposed models.
+C1 [Liang, Nannan; Zha, Yong] Univ Sci & Technol China, Sch Management, Hefei 230026, Anhui, Peoples R China.
+   [Chen, Yao] Nanjing Audit Univ, Int Ctr Auditing & Evaluat, Nanjing 211815, Jiangsu, Peoples R China.
+   [Chen, Yao] Univ Massachusetts Lowell, Manning Sch Business, Lowell, MA 01845 USA.
+   [Hu, Hanhui] Southeast Univ, Nanjing 210096, Jiangsu, Peoples R China.
+RP Liang, NN (reprint author), Univ Sci & Technol China, Sch Management, Hefei 230026, Anhui, Peoples R China.
+EM lnn@mail.ustc.edu.cn; yao_chen@uml.edu; lnn@mail.ustc.edu.cn;
+   huhh@seu.edu.cn
+FU Priority Academic Program Development of Jiangsu Higher Education
+   Institutions (China); National Natural Science Foundation of China
+   [71001093, 71371008]; Major International (Regional) Joint Research
+   Projects [71110107024]; National Natural Science Foundation of China for
+   Innovative Research Groups [71121061]
+FX The authors wish to thank two anonymous reviewers and Mr. Steven Tang
+   for their helpful comments and suggestions. This paper is partially
+   supported by the Priority Academic Program Development of Jiangsu Higher
+   Education Institutions (China). This paper is also supported by the
+   National Natural Science Foundation of China (Grant Nos. 71001093,
+   71371008), Major International (Regional) Joint Research Projects (Grant
+   No. 71110107024), the National Natural Science Foundation of China for
+   Innovative Research Groups (Grant No. 71121061),
+NR 30
+TC 3
+Z9 3
+U1 1
+U2 17
+PU UNIV TORONTO PRESS INC
+PI TORONTO
+PA JOURNALS DIVISION, 5201 DUFFERIN ST, DOWNSVIEW, TORONTO, ON M3H 5T8,
+   CANADA
+SN 0315-5986
+EI 1916-0615
+J9 INFOR
+JI Infor
+PD MAY
+PY 2015
+VL 53
+IS 2
+BP 78
+EP 89
+DI 10.3138/infor.53.2.78
+PG 12
+WC Computer Science, Information Systems; Operations Research & Management
+   Science
+SC Computer Science; Operations Research & Management Science
+GA DF0SH
+UT WOS:000371048800003
+DA 2019-08-04
+ER
+
+PT J
+AU Ashtab, S
+   Caron, RJ
+   Selvarajah, E
+AF Ashtab, Sahand
+   Caron, Richard J.
+   Selvarajah, Esaignani
+TI A Characterization of Alternate Optimal Solutions for a Supply Chain
+   Network Design Model
+SO INFOR
+LA English
+DT Article
+DE Supply chain network design; Facility location; Multi-echelon;
+   Multi-capacitated; Alternate optimal solutions
+ID FACILITY LOCATION
+AB This paper characterizes the complete set of alternate optimal solutions in a model for multi-echelon, multi-capacitated supply chain design. The supply chain under consideration has a given finite set of customer zones with known demands and a finite set of potential facility (plant and warehouse) locations. If a facility is built at a potential location, the capacity level is selected from a finite set of capacity levels. The design problem is to choose the locations and capacity levels at which the facilities are to be built; and to determine the flow of goods from plants to warehouses to customers in order to minimize costs. Specifically, we characterize the complete set of alternate optimal solutions in the well-known model presented by Amiri (2006). We extend Amiri's model through the addition of a constraint set that eliminates certain undesirable optimal solutions and we show that the extended model requires, essentially, the same computational effort as the original.
+C1 [Ashtab, Sahand] Univ Windsor, Ind & Mfg Syst Engn, Windsor, ON N9B 3P4, Canada.
+   [Caron, Richard J.] Univ Windsor, Math & Stat, Windsor, ON N9B 3P4, Canada.
+   [Selvarajah, Esaignani] Univ Windsor, Odette Sch Business, Windsor, ON N9B 3P4, Canada.
+RP Ashtab, S (reprint author), Univ Windsor, Ind & Mfg Syst Engn, Windsor, ON N9B 3P4, Canada.
+EM ashtab@uwindsor.ca; rcaron@uwindsor.ca; selvare@uwindsor.ca
+FU Natural Sciences and Engineering Research Council of Canada [436581-12,
+   1798-03]
+FX This work was supported by the Natural Sciences and Engineering Research
+   Council of Canada under grant numbers 436581-12 and 1798-03.
+NR 5
+TC 1
+Z9 1
+U1 0
+U2 0
+PU UNIV TORONTO PRESS INC
+PI TORONTO
+PA JOURNALS DIVISION, 5201 DUFFERIN ST, DOWNSVIEW, TORONTO, ON M3H 5T8,
+   CANADA
+SN 0315-5986
+EI 1916-0615
+J9 INFOR
+JI Infor
+PD MAY
+PY 2015
+VL 53
+IS 2
+BP 90
+EP 93
+DI 10.3138/infor.53.2.90
+PG 4
+WC Computer Science, Information Systems; Operations Research & Management
+   Science
+SC Computer Science; Operations Research & Management Science
+GA DF0SH
+UT WOS:000371048800004
+DA 2019-08-04
+ER
+
+PT J
+AU Hojati, M
+AF Hojati, Mehran
+TI A Compact Formulation of "Scheduling Security Personnel for the
+   Vancouver 2010 Winter Olympic Games"
+SO INFOR
+LA English
+DT Article
+DE Integer linear programming; personnel scheduling
+AB This note provides a compact integer linear programming formulation of the personnel scheduling problem presented in the article by B. L. Kaluzny and A. Hill, INFOR, Vol. 49, No. 3, August 2011, pp. 221-231. This formulation is easily solved to optimality by available solvers and results in less total unmet demand (overtime).
+C1 [Hojati, Mehran] Univ Saskatchewan, Edwards Sch Business, Saskatoon, SK S7N 5A7, Canada.
+RP Hojati, M (reprint author), Univ Saskatchewan, Edwards Sch Business, Saskatoon, SK S7N 5A7, Canada.
+EM Hojati@Edwards.usask.ca
+NR 1
+TC 0
+Z9 0
+U1 1
+U2 5
+PU UNIV TORONTO PRESS INC
+PI TORONTO
+PA JOURNALS DIVISION, 5201 DUFFERIN ST, DOWNSVIEW, TORONTO, ON M3H 5T8,
+   CANADA
+SN 0315-5986
+EI 1916-0615
+J9 INFOR
+JI Infor
+PD MAY
+PY 2015
+VL 53
+IS 2
+BP 94
+EP 96
+DI 10.3138/infor.53.2.94
+PG 3
+WC Computer Science, Information Systems; Operations Research & Management
+   Science
+SC Computer Science; Operations Research & Management Science
+GA DF0SH
+UT WOS:000371048800005
+DA 2019-08-04
+ER
+
+PT J
+AU Montes, I
+   Martinetti, D
+   Diaz, S
+   Montes, S
+AF Montes, Ignacio
+   Martinetti, Davide
+   Diaz, Susana
+   Montes, Susana
+TI Interpretation of Statistical Preference in Terms of Location Parameters
+SO INFOR
+LA English
+DT Article
+DE Stochastic dominance; statistical preference; location parameter;
+   expectation; median; independent random variables
+ID STOCHASTIC-DOMINANCE APPROACH; RANDOM-VARIABLES; DECISION-MAKING;
+   ORDER-STATISTICS; RISK-MANAGEMENT; MODELS; DISTRIBUTIONS; TRANSITIVITY;
+   DEPENDENCE
+AB Stochastic orders are methods that allow the comparison of random quantities. One of the most used stochastic orders is stochastic dominance. This method is based on the direct comparison of the cumulative distribution functions of the random variables, and it is characterized by comparing the expectations of the adequate transformation of the variables. Statistical preference is another alternative based on a probabilistic relation that provides preference degrees between the variables. This paper proves that statistical preference is connected to another location parameter different from the expectation: the median. Then, both stochastic orders have different interpretations, in the same way as mean and median are two different location parameters for describing random samples. Nevertheless, we prove that stochastic dominance and statistical preference are connected when the random variables are independent.
+C1 [Montes, Ignacio; Martinetti, Davide; Diaz, Susana; Montes, Susana] Univ Oviedo, Dept Stat & Operat Res, Oviedo, Spain.
+RP Montes, I (reprint author), Univ Oviedo, Dept Stat & Operat Res, Oviedo, Spain.
+EM imontes@uniovi.es; martinettidavide@uniovi.es; diazsusana@uniovi.es;
+   montes@uniovi.es
+RI Montes, Ignacio/L-3356-2014; Martinetti, Davide/L-3822-2014
+OI Montes, Ignacio/0000-0001-6534-1613; Martinetti,
+   Davide/0000-0003-2047-1793; Diaz Vazquez, Susana/0000-0002-7510-9858
+FU Spanish Ministry of Economy [TIN2014-59543-P]
+FX The research reported in this paper has been supported by Project
+   TIN2014-59543-P of the Spanish Ministry of Economy.
+NR 40
+TC 3
+Z9 3
+U1 1
+U2 4
+PU UNIV TORONTO PRESS INC
+PI TORONTO
+PA JOURNALS DIVISION, 5201 DUFFERIN ST, DOWNSVIEW, TORONTO, ON M3H 5T8,
+   CANADA
+SN 0315-5986
+EI 1916-0615
+J9 INFOR
+JI Infor
+PD FEB
+PY 2015
+VL 53
+IS 1
+BP 1
+EP 12
+DI 10.3138/infor.53.1.1
+PG 12
+WC Computer Science, Information Systems; Operations Research & Management
+   Science
+SC Computer Science; Operations Research & Management Science
+GA DF0RH
+UT WOS:000371046100001
+DA 2019-08-04
+ER
+
+PT J
+AU Li, YF
+   Huang, X
+AF Li, Yunfan
+   Huang, Xiao
+TI A One-Vendor Multiple-Buyer Production-Distribution System: The Value of
+   Vendor Managed Inventory
+SO INFOR
+LA English
+DT Article
+DE Production; inventory; vendor managed inventory; supply chain; game
+   theory
+ID CONSIGNMENT-STOCK; REPLENISHMENT POLICIES; SUPPLY CHAIN; MODEL
+AB The paper considers a production/distribution system that involves one vendor and multiple buyers. The buyers belong to an entity that is operationally more cost efficient than the vendor. We compare vendor-managed inventory (VMI) with integrated production and inventory decision-making to the traditional decentralized setting in which the vendor and the buyers make independent decisions. Specifically for the two-buyer problem, we characterize the optimal solution under VMI which is more cost efficient than literature. For the general multiple-buyer problem, we develop a heuristic to approach decisions under both settings. One surprising finding is that under VMI, the production decision does not involve all operational information of the vendor or the buyers. Numerical results suggest that VMI and just-in-time production are substitutes in improving the efficiency of the distribution network. VMI can be more critical for companies with rigid capacity, seasonally low demand, or complex distribution networks.
+C1 [Li, Yunfan] TD Bank Grp, 77 King St West, Toronto, ON M5K 2A1, Canada.
+   [Huang, Xiao] Concordia Univ, John Molson Sch Business, Dept Supply Chain & Business Technol Management, Montreal, PQ H3G 1M8, Canada.
+RP Li, YF (reprint author), TD Bank Grp, 77 King St West, Toronto, ON M5K 2A1, Canada.
+EM yunfan.li@td.com; xiao.huang@concordia.ca
+FU Natural Sciences and Engineering Research Council of Canada (NSERC)
+FX The research of Dr. Xiao Huang is partially supported by the Natural
+   Sciences and Engineering Research Council of Canada (NSERC). The authors
+   thank the research assistance of Dr. Hehui Wu.
+NR 25
+TC 0
+Z9 0
+U1 2
+U2 5
+PU TAYLOR & FRANCIS INC
+PI PHILADELPHIA
+PA 530 WALNUT STREET, STE 850, PHILADELPHIA, PA 19106 USA
+SN 0315-5986
+EI 1916-0615
+J9 INFOR
+JI Infor
+PD FEB
+PY 2015
+VL 53
+IS 1
+BP 13
+EP 25
+DI 10.3138/infor.53.1.13
+PG 13
+WC Computer Science, Information Systems; Operations Research & Management
+   Science
+SC Computer Science; Operations Research & Management Science
+GA DF0RH
+UT WOS:000371046100002
+DA 2019-08-04
+ER
+
+PT J
+AU Wang, C
+   Dessouky, M
+   Ordonez, F
+AF Wang, Chen
+   Dessouky, Maged
+   Ordonez, Fernando
+TI Routing Courier Delivery Services with Urgent Demand
+SO INFOR
+LA English
+DT Article
+DE Stochastic vehicle routing; Multi-trip; Time windows; Heuristics
+ID TABU SEARCH ALGORITHM; TRAVELING SALESMAN PROBLEM; STOCHASTIC DEMANDS;
+   VEHICLE; TRIPS
+AB Courier delivery services in many cases are faced with sporadic, tightly constrained, urgent requests in addition to regular demand. An example of such an application is the transportation of medical specimens, where an efficient delivery is crucial in providing high quality and affordable service. However, the presence of random urgent requests, due to medical emergencies, can create substantial additional costs if not taken into account.
+   We model this problem as a multi-trip vehicle routing problem with time windows using stochastic programming with recourse to represent the random urgent requests. We develop an insertion based heuristic with a tabu-search improvement phase to solve this problem. Our computational results show that this approach obtains significant improvement in travel costs as well as in route similarity over alternative methods, both on randomly generated data as well as on a real data set provided by a leading healthcare provider in Southern California.
+C1 [Wang, Chen; Dessouky, Maged] Univ So Calif, Daniel J Epstein Dept Ind & Syst Engn, Los Angeles, CA 90089 USA.
+   [Ordonez, Fernando] Univ Chile, Dept Ind Engn, Santiago, Chile.
+RP Wang, C (reprint author), Univ So Calif, Daniel J Epstein Dept Ind & Syst Engn, Los Angeles, CA 90089 USA.
+EM wang20@usc.edu; maged@usc.edu; fordon@dii.uchile.cl
+RI Ordonez, Fernando/I-4889-2013
+OI Ordonez, Fernando/0000-0001-7037-6300
+NR 36
+TC 1
+Z9 1
+U1 0
+U2 13
+PU UNIV TORONTO PRESS INC
+PI TORONTO
+PA JOURNALS DIVISION, 5201 DUFFERIN ST, DOWNSVIEW, TORONTO, ON M3H 5T8,
+   CANADA
+SN 0315-5986
+EI 1916-0615
+J9 INFOR
+JI Infor
+PD FEB
+PY 2015
+VL 53
+IS 1
+BP 26
+EP 39
+DI 10.3138/infor.53.1.26
+PG 14
+WC Computer Science, Information Systems; Operations Research & Management
+   Science
+SC Computer Science; Operations Research & Management Science
+GA DF0RH
+UT WOS:000371046100003
+DA 2019-08-04
+ER
+
+PT J
+AU Adams, E
+   Anjos, MF
+   Rendl, F
+   Wiegele, A
+AF Adams, Elspeth
+   Anjos, Miguel F.
+   Rendl, Franz
+   Wiegele, Angelika
+TI A Hierarchy of Subgraph Projection-Based Semidefinite Relaxations for
+   Some NP-Hard Graph Optimization Problems
+SO INFOR
+LA English
+DT Article
+ID MAX-CUT; MAXIMUM CUT; APPROXIMATION; FACETS; CONE
+AB Many important NP-hard combinatorial problems can be efficiently approximated using semidefinite programming relaxations. We propose a new hierarchy of semidefinite relaxations for classes of such problems that are based on graphs and for which the projection of the problem onto a subgraph shares the same structure as the original problem. This includes the well-studied max-cut and stable-set problems. Each level k of the proposed hierarchy consists of the basic semidefinite relaxation of the problem augmented by the constraints enforcing the structural projection condition on every k-node subgraph of the problem. This hierarchy has the distinguishing feature that all the relaxations are formulated in the space of the original semidefinite relaxation. Because the size of the relaxations increases rapidly with the number of subgraphs, we explore the possibility of adding the projection constraints only for selected subgraphs. Preliminary computational results show that the proposed hierarchy yields improved bounds when compared to the initial relaxation for benchmark instances of the max-cut and stable-set problems, and that the improved bounds result in significantly smaller enumeration trees when the relaxation is used in a branch-and-bound scheme.
+C1 [Adams, Elspeth; Anjos, Miguel F.] Ecole Hautes Etud Commerciales, Gerad, Montreal, PQ, Canada.
+   [Adams, Elspeth; Anjos, Miguel F.] Polytech Montreal, Montreal, PQ, Canada.
+   [Rendl, Franz; Wiegele, Angelika] Alpen Adria Univ Klagenfurt, Inst Math, A-9020 Klagenfurt, Austria.
+RP Adams, E (reprint author), Ecole Hautes Etud Commerciales, Gerad, Montreal, PQ, Canada.
+EM elspeth.adams@polymtl.ca; anjos@stanfordalumni.org; rendl@aau.at;
+   angelika.wiegele@aau.at
+RI Anjos, Miguel F/C-8133-2012
+OI Rendl, Franz/0000-0003-1578-9414; Wiegele, Angelika/0000-0003-1670-7951
+FU Natural Sciences and Engineering Research Council of Canada (NSERC);
+   Marie-Curie-ITN Project MINO [MC-ITN 316647]
+FX The second author acknowledges the support of this research by the
+   Natural Sciences and Engineering Research Council of Canada (NSERC). The
+   authors from Klagenfurt gratefully acknowledge partial financial support
+   from Marie-Curie-ITN Project MINO, MC-ITN 316647.
+NR 28
+TC 0
+Z9 0
+U1 0
+U2 0
+PU TAYLOR & FRANCIS INC
+PI PHILADELPHIA
+PA 530 WALNUT STREET, STE 850, PHILADELPHIA, PA 19106 USA
+SN 0315-5986
+EI 1916-0615
+J9 INFOR
+JI Infor
+PD FEB
+PY 2015
+VL 53
+IS 1
+BP 40
+EP 47
+DI 10.3138/infor.53.1.40
+PG 8
+WC Computer Science, Information Systems; Operations Research & Management
+   Science
+SC Computer Science; Operations Research & Management Science
+GA DF0RH
+UT WOS:000371046100004
+DA 2019-08-04
+ER
+
+EF

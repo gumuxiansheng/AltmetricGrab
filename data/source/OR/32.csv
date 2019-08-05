@@ -1,0 +1,2729 @@
+﻿FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU Morsy, E
+   Pesch, E
+AF Morsy, Ehab
+   Pesch, Erwin
+TI Approximation algorithms for inventory constrained scheduling on a
+   single machine
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Approximation algorithms; Scheduling problem; Weighted completion time;
+   Inventory constraints
+ID MAINTENANCE ACTIVITIES; MINIMIZE MAKESPAN; OUTBOUND TRUCKS; ASSIGNMENT;
+   STORAGE; TIME; JOBS
+AB We consider the problem of scheduling a set of jobs on a single machine subject to inventory constraints, i.e., conditions that jobs add or remove items to or from a centralized inventory, respectively. Jobs that remove items cannot be processed if the required number of items is not available. We focus on scheduling problems on a single machine where the objective is to minimize the total weighted completion time. In this paper, we design 2-approximation algorithms for special cases of the problem that run in polynomial time.
+C1 [Morsy, Ehab] Univ Siegen, Dept Management Informat Sci, D-57068 Siegen, Germany.
+   [Morsy, Ehab] Suez Canal Univ, Dept Math, Ismailia 22541, Egypt.
+   [Pesch, Erwin] Univ Siegen, Dept Management Informat Sci, D-57068 Siegen, Germany.
+RP Morsy, E (reprint author), Univ Siegen, Dept Management Informat Sci, Holderlinstr 3, D-57068 Siegen, Germany.
+EM ehabmorsy@gmail.com; erwin.pesch@uni-siegen.de
+RI Morsy, Ehab/Q-1958-2015; Pesch, Erwin/M-2308-2015
+OI Morsy, Ehab/0000-0002-3489-6736; Pesch, Erwin/0000-0003-0182-870X
+FU Alexander von Humboldt Stiftung; German Science Foundation (DFG) [PE
+   514/16-1, PE 514/16-2, PE 514/22-1]
+FX E. Morsy has been supported by the Alexander von Humboldt Stiftung, E.
+   Pesch has been supported by the German Science Foundation (DFG) through
+   the grant "Optimierung der Containerabfertigung in Umschlagbahnhofen"
+   (PE 514/16-1,2), as well as the Grant "Scheduling mechanisms for rail
+   mounted gantries with regard to crane interdependencies" (PE 514/22-1).
+NR 24
+TC 4
+Z9 4
+U1 0
+U2 6
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD DEC
+PY 2015
+VL 18
+IS 6
+BP 645
+EP 653
+DI 10.1007/s10951-015-0433-1
+PG 9
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CT6GL
+UT WOS:000362911200008
+DA 2019-08-04
+ER
+
+PT J
+AU Bienkowski, M
+   Byrka, J
+   Chrobak, M
+   Dobbs, N
+   Nowicki, T
+   Sviridenko, M
+   Swirszcz, G
+   Young, NE
+AF Bienkowski, Marcin
+   Byrka, Jaroslaw
+   Chrobak, Marek
+   Dobbs, Neil
+   Nowicki, Tomasz
+   Sviridenko, Maxim
+   Swirszcz, Grzegorz
+   Young, Neal E.
+TI Approximation algorithms for the joint replenishment problem with
+   deadlines
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Joint replenishment problem; NP-completeness; APX-hardness;
+   Approximation algorithms
+ID WAREHOUSE MULTIRETAILER PROBLEM; AGGREGATION; NETWORKS
+AB The Joint Replenishment Problem () is a fundamental optimization problem in supply-chain management, concerned with optimizing the flow of goods from a supplier to retailers. Over time, in response to demands at the retailers, the supplier ships orders, via a warehouse, to the retailers. The objective is to schedule these orders to minimize the sum of ordering costs and retailers' waiting costs. We study the approximability of , the version of with deadlines, where instead of waiting costs the retailers impose strict deadlines. We study the integrality gap of the standard linear-program (LP) relaxation, giving a lower bound of , a stronger, computer-assisted lower bound of , as well as an upper bound and approximation ratio of . The best previous upper bound and approximation ratio was ; no lower bound was previously published. For the special case when all demand periods are of equal length, we give an upper bound of , a lower bound of , and show APX-hardness.
+C1 [Bienkowski, Marcin; Byrka, Jaroslaw] Univ Wroclaw, Inst Comp Sci, PL-51151 Wroclaw, Poland.
+   [Chrobak, Marek; Young, Neal E.] Univ Calif Riverside, Dept Comp Sci, Riverside, CA 92521 USA.
+   [Dobbs, Neil; Nowicki, Tomasz; Swirszcz, Grzegorz] IBM Corp, Thomas J Watson Res Ctr, Yorktown Hts, NY 10598 USA.
+   [Sviridenko, Maxim] Univ Warwick, Dept Comp Sci, Coventry CV4 7AL, W Midlands, England.
+RP Chrobak, M (reprint author), Univ Calif Riverside, Dept Comp Sci, Riverside, CA 92521 USA.
+EM marek@cs.ucr.edu
+RI Young, Neal/N-3736-2019
+OI Young, Neal/0000-0001-8144-3345
+FU NSF [CCF-1217314, CCF-1117954, OISE-1157129]; EPSRC [EP/J021814/1,
+   EP/D063191/1]; FP7 Marie Curie Career Integration Grant; Royal Society;
+   Polish National Science Centre [DEC-2013/09/B/ST6/01538]; Engineering
+   and Physical Sciences Research Council [EP/D063191/1, EP/J021814/1]
+FX We would like to thank Lukasz Jez, Dorian Nogneng, Jiri Sgall, and
+   Grzegorz Stachowiak for stimulating discussions and useful comments. We
+   are also grateful to anonymous reviewers of earlier versions of this
+   manuscript for pointing out several mistakes and suggestions for
+   improving the presentation. A preliminary version of this work appeared
+   in the Proceedings of the 40th International Colloquium on Automata,
+   Languages and Programming (ICALP' 13). Research supported by NSF Grants
+   CCF-1217314, CCF-1117954, OISE-1157129; EPSRC grants EP/J021814/1 and
+   EP/D063191/1; FP7 Marie Curie Career Integration Grant; Royal Society
+   Wolfson Research Merit Award; and Polish National Science Centre Grant
+   DEC-2013/09/B/ST6/01538.
+NR 12
+TC 3
+Z9 4
+U1 2
+U2 12
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD DEC
+PY 2015
+VL 18
+IS 6
+BP 545
+EP 560
+DI 10.1007/s10951-014-0392-y
+PG 16
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CT6GL
+UT WOS:000362911200001
+DA 2019-08-04
+ER
+
+PT J
+AU Khandekar, R
+   Schieber, B
+   Shachnai, H
+   Tamir, T
+AF Khandekar, Rohit
+   Schieber, Baruch
+   Shachnai, Hadas
+   Tamir, Tami
+TI Real-time scheduling to minimize machine busy times
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Real-time scheduling; Power-aware; Minimum total busy time;
+   Approximation algorithms
+ID ALLOCATION
+AB Consider the following scheduling problem. We are given a set of jobs, each having a release time, a due date, a processing time, and demand for machine capacity. The goal is to schedule all jobs non-preemptively in their release-time deadline windows on machines that can process multiple jobs simultaneously, subject to machine capacity constraints, with the objective to minimize the total busy time of the machines. Our problem naturally arises in power-aware scheduling, optical network design, and customer service systems, among others. The problem is APX-hard by a simple reduction from the subset sum problem. A main result of this paper is a 5-approximation algorithm for general instances. While the algorithm is simple, its analysis involves a non-trivial charging scheme which bounds the total busy time in terms of work and span lower bounds on the optimum. This improves and extends the results of Flammini et al. (Theor Comput Sci 411(40-42):3553-3562, 2010). We extend this approximation to the case of moldable jobs, where the algorithm also needs to choose, for each job, one of several processing-time versus demand configurations. Better bounds and exact algorithms are derived for several special cases, including proper interval graphs, intervals forming a clique and laminar families of intervals.
+C1 [Khandekar, Rohit] Knight Capital Grp, Jersey City, NJ 07310 USA.
+   [Schieber, Baruch] IBM Corp, Thomas J Watson Res Ctr, Yorktown Hts, NY 10598 USA.
+   [Shachnai, Hadas] Technion Israel Inst Technol, Dept Comp Sci, IL-32000 Haifa, Israel.
+   [Tamir, Tami] Interdisciplinary Ctr, Sch Comp Sci, Herzliyya, Israel.
+RP Tamir, T (reprint author), Interdisciplinary Ctr, Sch Comp Sci, Herzliyya, Israel.
+EM rkhandekar@gmail.com; sbar@us.ibm.com; hadas@cs.technion.ac.il;
+   tami@idc.ac.il
+NR 26
+TC 6
+Z9 6
+U1 0
+U2 6
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD DEC
+PY 2015
+VL 18
+IS 6
+BP 561
+EP 573
+DI 10.1007/s10951-014-0411-z
+PG 13
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CT6GL
+UT WOS:000362911200002
+DA 2019-08-04
+ER
+
+PT J
+AU Tadayon, B
+   Smith, JC
+AF Tadayon, Bita
+   Smith, J. Cole
+TI Algorithms and Complexity Analysis for Robust Single-Machine Scheduling
+   Problems
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Robust optimization; Dynamic programming; Integer programming;
+   Complexity
+ID COMBINATORIAL OPTIMIZATION PROBLEMS; TOTAL FLOW TIME; INTERVAL DATA;
+   REGRET; UNCERTAINTY; CRITERION
+AB In this paper, we study a robust single-machine scheduling problem under four alternative optimization criteria: minimizing total completion time, minimizing total weighted completion time, minimizing maximum lateness, and minimizing the number of late jobs. We assume that job processing times are subject to uncertainty. Accordingly, we construct three alternative uncertainty sets, each of which defines job processing times that can simultaneously occur. The robust optimization framework assumes that, given a job schedule, a worst-case set of processing times will be realized from among those allowed by the uncertainty set under consideration. For each combination of objective function and uncertainty set, we first analyze the problem of identifying a set of worst-case processing times with respect to a fixed schedule, and then investigate the problem of selecting a schedule whose worst-case objective is minimal.
+C1 [Tadayon, Bita] Univ Florida, Dept Ind & Syst Engn, Gainesville, FL 32611 USA.
+   [Smith, J. Cole] Clemson Univ, Dept Ind Engn, Clemson, SC 29634 USA.
+RP Smith, JC (reprint author), Clemson Univ, Dept Ind Engn, Clemson, SC 29634 USA.
+EM bita.tadayon@gmail.com; jcsmith@clemson.edu
+FU National Science Foundation [CMMI-1100765]; Defense Threat Reduction
+   Agency [HDTRA-10-01-0050]; Air Force Office of Scientific Research
+   [FA9550-12-1-0353]; Office of Naval Research [N000141310036]
+FX The authors sincerely appreciate the comments made by two anonymous
+   referees. Dr. Smith gratefully acknowledges the support of the National
+   Science Foundation under Grant CMMI-1100765, the Defense Threat
+   Reduction Agency under Grant HDTRA-10-01-0050, the Air Force Office of
+   Scientific Research under Grant FA9550-12-1-0353, and the Office of
+   Naval Research under Grant N000141310036.
+NR 26
+TC 7
+Z9 7
+U1 3
+U2 8
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD DEC
+PY 2015
+VL 18
+IS 6
+BP 575
+EP 592
+DI 10.1007/s10951-015-0418-0
+PG 18
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CT6GL
+UT WOS:000362911200003
+DA 2019-08-04
+ER
+
+PT J
+AU Mensendiek, A
+AF Mensendiek, Arne
+TI Scheduling with returnable containers
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Returnable containers; Single machine scheduling; Earliness and
+   tardiness; Batching; Family setups; Heuristic algorithms
+ID SINGLE-MACHINE; SETUP CONSIDERATIONS; TARDINESS PENALTIES; FAMILY
+   SETUPS; JOB FAMILIES; EARLINESS; DATES
+AB Many supply chains use returnable packaging such as plastic and metal containers, folding boxes, racks, and trays to transport components from suppliers to buyers. This study investigates the scheduling problem of a supplier that produces jobs for several buyers where the jobs for each buyer have to be delivered in that buyer's returnable containers. Empty containers are provided by the buyers at certain release dates. The supplier can process a job when no adequate empty containers are available, but then incurs extra handling costs to pack the job into auxiliary packaging and repack it later. This study extends single machine scheduling with weighted earliness and tardiness penalties and batching by including returnable containers and repacking penalties. A mathematical programming formulation and a two-stage heuristic for this previously unstudied NP-hard scheduling problem are proposed and evaluated in a numerical study.
+C1 Univ Bielefeld, Dept Business Adm & Econ, D-33615 Bielefeld, Germany.
+RP Mensendiek, A (reprint author), Univ Bielefeld, Dept Business Adm & Econ, Univ Str 25, D-33615 Bielefeld, Germany.
+EM arne.mensendiek@googlemail.com
+NR 28
+TC 1
+Z9 1
+U1 0
+U2 12
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD DEC
+PY 2015
+VL 18
+IS 6
+BP 593
+EP 605
+DI 10.1007/s10951-015-0426-0
+PG 13
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CT6GL
+UT WOS:000362911200004
+DA 2019-08-04
+ER
+
+PT J
+AU Fu, N
+   Lau, HC
+   Varakantham, P
+AF Fu, Na
+   Lau, Hoong Chuin
+   Varakantham, Pradeep
+TI Robust execution strategies for project scheduling with unreliable
+   resources and stochastic durations
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Project scheduling; Risk management; Robustness and sensitivity
+   analysis; Uncertainty modeling
+ID OPTIMIZATION; UNCERTAINTY; POLICIES; SEARCH
+AB The resource-constrained project scheduling problem with minimum and maximum time lags (RCPSP/max) is a general model for resource scheduling in many real-world problems (such as manufacturing and construction engineering). We consider RCPSP/max problems where the durations of activities are stochastic and resources can have unforeseen breakdowns. Given a level of allowable risk, , our mechanisms aim to compute the minimum robust makespan execution strategy. Robust makespan for an execution strategy is any makespan value that has a risk less than . The risk for a makespan value, given an execution strategy, is the probability that a schedule instantiated from the execution strategy will not finish before given the uncertainty over durations and resources. We make three key contributions: (a) firstly, we provide an analytical evaluation of resource breakdowns and repairs on executions of activities; (b) we then incorporate such information into a local search framework and generate execution strategies that can absorb resource and durational uncertainties; and (c) finally, to improve robustness of resulting strategies, we propose resource breakdown aware chaining procedure with three different metrics. This chaining procedure computes resource allocations by predicting the effect of breakdowns on robustness of generated strategies. Experiments show effectiveness of our proposed methods in providing more robust execution strategies under uncertainty.
+C1 [Fu, Na; Lau, Hoong Chuin; Varakantham, Pradeep] Singapore Management Univ, Sch Informat Syst, Singapore 178902, Singapore.
+RP Varakantham, P (reprint author), Singapore Management Univ, Sch Informat Syst, 80 Stamford Rd, Singapore 178902, Singapore.
+EM nafu@smu.edu.sg; hclau@smu.edu.sg; pradeepv@smu.edu.sg
+RI LAU, Hoong Chuin/E-8556-2012; VARAKANTHAM, Pradeep Reddy/E-8576-2012
+OI LAU, Hoong Chuin/0000-0002-5326-411X; VARAKANTHAM, Pradeep
+   Reddy/0000-0001-7342-5745
+NR 37
+TC 11
+Z9 11
+U1 2
+U2 25
+PU SPRINGER
+PI NEW YORK
+PA 233 SPRING ST, NEW YORK, NY 10013 USA
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD DEC
+PY 2015
+VL 18
+IS 6
+BP 607
+EP 622
+DI 10.1007/s10951-015-0425-1
+PG 16
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CT6GL
+UT WOS:000362911200005
+DA 2019-08-04
+ER
+
+PT J
+AU Kellerer, H
+   Kotov, V
+   Gabay, M
+AF Kellerer, Hans
+   Kotov, Vladimir
+   Gabay, Michael
+TI An efficient algorithm for semi-online multiprocessor scheduling with
+   given total processing time
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Semi-online scheduling; Competitive analysis; Multiprocessor scheduling
+AB We consider a semi-online multiprocessor scheduling problem with a given a set of identical machines and a sequence of jobs, the sum of whose processing times is known in advance. The jobs are to be assigned online to one of the machines and the objective is to minimize the makespan. The best known algorithm for this problem achieves a competitive ratio 1.6 (Cheng et al. in Theor Comput Sci 337:134-146, 2005). The best known lower bound is approximately 1.585 (Albers and Hellwig in Theor Comput Sci 443:1-9, 2012) if the number of machines tends to infinity. We present an elementary algorithm with competitive ratio equal to this lower bound. Thus, the algorithm is best possible if the number of machines tends to infinity.
+C1 [Kellerer, Hans] Graz Univ, Inst Stat & Operat Res, A-8010 Graz, Austria.
+   [Kotov, Vladimir] Belarusian State Univ, Fac Appl Math & Comp Sci, Minsk 220030, BELARUS.
+   [Gabay, Michael] UJF Grenoble 1, Grenoble INP, CNRS, G SCOP UMR5272, F-38031 Grenoble, France.
+RP Kellerer, H (reprint author), Graz Univ, Inst Stat & Operat Res, Univ Str 15, A-8010 Graz, Austria.
+EM hans.kellerer@uni-graz.at; kotovVM@bsu.by;
+   michael.gabay@g-scop.grenoble-inp.fr
+OI Gabay, Michael/0000-0002-6349-5368
+FU Belarusian BRFFI Grant [F13K-078]; LabEx PERSYVAL-Lab
+   [ANR-11-LABX-0025]; BRFFR-PICS project [PICS 5379]
+FX The authors are grateful to two anonymous referees for their helpful
+   comments which helped to improve the presentation of the paper a lot.
+   The research of the second author has been partially supported by
+   Belarusian BRFFI Grant (Project F13K-078). The research of the third
+   author has been partially supported by the LabEx PERSYVAL-Lab
+   (ANR-11-LABX-0025) and by BRFFR-PICS project (PICS 5379).
+NR 14
+TC 4
+Z9 4
+U1 1
+U2 8
+PU SPRINGER
+PI NEW YORK
+PA 233 SPRING ST, NEW YORK, NY 10013 USA
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD DEC
+PY 2015
+VL 18
+IS 6
+BP 623
+EP 630
+DI 10.1007/s10951-015-0430-4
+PG 8
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CT6GL
+UT WOS:000362911200006
+DA 2019-08-04
+ER
+
+PT J
+AU Lehoux-Lebacque, V
+   Brauner, N
+   Finke, G
+AF Lehoux-Lebacque, Vassilissa
+   Brauner, Nadia
+   Finke, Gerd
+TI Identical coupled task scheduling: polynomial complexity of the cyclic
+   case
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE High-multiplicity; Polynomial complexity; Coupled task; Cyclic
+   scheduling
+ID PHASED-ARRAY RADAR; MULTIPLICITY; ALGORITHMS; SYSTEM
+AB Coupled tasks are two-operation tasks, where the two operations are separated by a time interval of fixed duration. Coupled task scheduling problems refer then to the scheduling of a set of coupled tasks on a single machine. Applications of these problems, reported in the literature, arise in connection with radar systems, robotic cells, and in manufacturing. Most of the complexity issues for scheduling coupled tasks have been settled. However, the complexity status has been unknown for the identical coupled task problem, where multiple copies of a single coupled task are to be processed. The purpose of the article is to solve this open problem in the cyclic case, for which we prove the polynomial complexity.
+C1 [Lehoux-Lebacque, Vassilissa; Brauner, Nadia; Finke, Gerd] Univ Grenoble Alpes, CNRS, G SCOP, F-38000 Grenoble, France.
+RP Finke, G (reprint author), Univ Grenoble Alpes, CNRS, G SCOP, F-38000 Grenoble, France.
+EM Gerd.Finke@g-scop.grenoble-inp.fr
+NR 21
+TC 3
+Z9 3
+U1 0
+U2 7
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD DEC
+PY 2015
+VL 18
+IS 6
+BP 631
+EP 644
+DI 10.1007/s10951-015-0438-9
+PG 14
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CT6GL
+UT WOS:000362911200007
+DA 2019-08-04
+ER
+
+PT J
+AU Furini, F
+   Kidd, MP
+   Persiani, CA
+   Toth, P
+AF Furini, Fabio
+   Kidd, Martin Philip
+   Persiani, Carlo Alfredo
+   Toth, Paolo
+TI Improved rolling horizon approaches to the aircraft sequencing problem
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Aircraft sequencing problem; MILP; Rolling horizon algorithms
+ID LONDON-HEATHROW-AIRPORT; LANDINGS; ALGORITHMS
+AB In a scenario characterized by a continuous growth of air transportation demand, the runways of large airports serve hundreds of aircraft every day. Aircraft sequencing is a challenging problem that aims to increase runway capacity in order to reduce delays as well as the workload of air traffic controllers. In many cases, the air traffic controllers solve the problem using the simple "first-come-first-serve" (FCFS) rule. In this paper, we present a rolling horizon approach which partitions a sequence of aircraft into chunks and solves the aircraft sequencing problem (ASP) individually for each of these chunks. Some rules for deciding how to partition a given aircraft sequence are proposed and their effects on solution quality investigated. Moreover, two mixed integer linear programming models for the ASP are reviewed in order to formalize the problem, and a tabu search heuristic is proposed for finding solutions to the ASP in a short computation time. Finally, we develop an IRHA which, using different chunking rules, is able to find solutions significantly improving on the FCFS rule for real-world air traffic instances from Milano Linate Airport.
+C1 [Furini, Fabio] Univ Paris 09, PSL, F-75775 Paris 16, France.
+   [Furini, Fabio] CNRS, LAMSADE UMR, F-7243 Paris, France.
+   [Kidd, Martin Philip; Toth, Paolo] Univ Bologna, DEI, I-40136 Bologna, Italy.
+   [Persiani, Carlo Alfredo] ENAV SpA, Italian Agcy Air Nav Serv, Rome, Italy.
+RP Persiani, CA (reprint author), ENAV SpA, Italian Agcy Air Nav Serv, Via Salaria 716, Rome, Italy.
+EM fabio.furini@dauphine.fr; martin.kidd@unibo.it; carlo.persiani@enav.it;
+   paolo.toth@unibo.it
+RI Kidd, Martin Philip/G-2647-2016
+OI Kidd, Martin Philip/0000-0002-3680-8576; Furini,
+   Fabio/0000-0002-1839-5827
+NR 22
+TC 19
+Z9 22
+U1 1
+U2 12
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD OCT
+PY 2015
+VL 18
+IS 5
+BP 435
+EP 447
+DI 10.1007/s10951-014-0415-8
+PG 13
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CQ9NX
+UT WOS:000360943000001
+DA 2019-08-04
+ER
+
+PT J
+AU van Bevern, R
+   Mnich, M
+   Niedermeier, R
+   Weller, M
+AF van Bevern, Rene
+   Mnich, Matthias
+   Niedermeier, Rolf
+   Weller, Mathias
+TI Interval scheduling and colorful independent sets
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Interval graphs; 2-union graphs; Strip graphs; Job interval selection;
+   Parameterized complexity
+ID LOWER BOUNDS; RECOGNITION; COMPLEXITY; GRAPHS
+AB Numerous applications in scheduling, such as resource allocation or steel manufacturing, can be modeled using the NP-hard Independent Set problem (given an undirected graph and an integer , find a set of at least pairwise non-adjacent vertices). Here, one encounters special graph classes like 2-union graphs (edge-wise unions of two interval graphs) and strip graphs (edge-wise unions of an interval graph and a cluster graph), on which Independent Set remains -hard but admits constant ratio approximations in polynomial time. We study the parameterized complexity of Independent Set on 2-union graphs and on subclasses like strip graphs. Our investigations significantly benefit from a new structural "compactness" parameter of interval graphs and novel problem formulations using vertex-colored interval graphs. Our main contributions are as follows:
+   1. We show a complexity dichotomy: restricted to graph classes closed under induced subgraphs and disjoint unions, Independent Set is polynomial-time solvable if both input interval graphs are cluster graphs, and is -hard otherwise.
+   2. We chart the possibilities and limits of effective polynomial-time preprocessing (also known as kernelization).
+   3. We extend Halldrsson and Karlsson (2006)'s fixed-parameter algorithm for Independent Set on strip graphs parameterized by the structural parameter "maximum number of live jobs" to show that the problem (also known as Job Interval Selection) is fixed-parameter tractable with respect to the parameter and generalize their algorithm from strip graphs to 2-union graphs. Preliminary experiments with random data indicate that Job Interval Selection with up to 15 jobs and intervals can be solved optimally in less than 5 min.
+C1 [van Bevern, Rene; Niedermeier, Rolf] TU Berlin, Inst Softwaretech & Theoret Informat, Berlin, Germany.
+   [Mnich, Matthias] Cluster Excellence Multimodal Comp & Interact, Saarbrucken, Germany.
+   [Weller, Mathias] Univ Montpellier 2, LIRMM, Montpellier, France.
+RP van Bevern, R (reprint author), TU Berlin, Inst Softwaretech & Theoret Informat, Berlin, Germany.
+EM rene.vanbevern@tu-berlin.de; mmnich@mmci.uni-saarland.de;
+   rolf.niedermeier@tu-berlin.de; mathias.weller@lirmm.fr
+RI van Bevern, Rene/L-1374-2016
+OI van Bevern, Rene/0000-0002-4805-218X; Mnich,
+   Matthias/0000-0002-4721-5354; Weller, Mathias/0000-0002-9653-3690
+FU Deutsche Forschungsgemeinschaft (DFG) [NI 369/12]; DFG [NI 369/11]
+FX We thank Michael Dom and Hannes Moser for discussions on coil coating,
+   which initiated our investigations on 2-Union Independent Set, as well
+   as Wiebke Hohn for providing details regarding the application of
+   2-Union Independent Set in steel manufacturing. Rene van Bevern was
+   supported by the Deutsche Forschungsgemeinschaft (DFG), project DAPA, NI
+   369/12. Part of the work was done while being supported by DFG project
+   AREG, NI 369/9. Mathias Weller was supported by the DFG, project DARE,
+   NI 369/11.
+NR 33
+TC 10
+Z9 10
+U1 0
+U2 6
+PU SPRINGER
+PI NEW YORK
+PA 233 SPRING ST, NEW YORK, NY 10013 USA
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD OCT
+PY 2015
+VL 18
+IS 5
+BP 449
+EP 469
+DI 10.1007/s10951-014-0398-5
+PG 21
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CQ9NX
+UT WOS:000360943000002
+DA 2019-08-04
+ER
+
+PT J
+AU Bajestani, MA
+   Beck, JC
+AF Bajestani, Maliheh Aramon
+   Beck, J. Christopher
+TI A two-stage coupled algorithm for an integrated maintenance planning and
+   flowshop scheduling problem with deteriorating machines
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Integrated decision making; Maintenance planning; Production scheduling;
+   Machine deterioration; Logic-based Benders decomposition
+ID SINGLE-MACHINE; PREVENTIVE MAINTENANCE; PERIODIC MAINTENANCE;
+   AVAILABILITY CONSTRAINTS; BENDERS DECOMPOSITION; MINIMIZE MAKESPAN;
+   SHOP; SUBJECT; MODELS; SYSTEM
+AB We address a novel integrated maintenance and production scheduling problem in a multi-machine and multi-period production system, considering maintenance as a long-term decision. Deterioration of machines over time decreases production capacity. Since maintenance activities not only improve machine conditions, increasing production capacity, but also take time that cannot be used for production, the challenge is to assign maintenance to periods and to schedule maintenance and production activities within each period to minimize the combined cost of maintenance and lost production over the planning horizon. Motivated by logic-based Benders decomposition, we design an integrated two-stage algorithm to solve the problem. The first stage assigns maintenance to machines and time periods, abstracting the scheduling problem, while the second stage creates a schedule for the current time period. The first stage is then re-solved using feedback from the schedule. This iteration between maintenance planning and scheduling continues until the solution costs in two stages converge. The integrated approach models the interdependencies between maintenance and scheduling decisions in highly coupled processes such as wafer fabrication in the semiconductor manufacturing. Our results demonstrate that the benefit of integrated decision making increases when maintenance is less expensive relative to lost production cost and that a longer horizon for maintenance planning is beneficial when maintenance cost increases.
+C1 [Bajestani, Maliheh Aramon; Beck, J. Christopher] Univ Toronto, Dept Mech & Ind Engn, Toronto, ON, Canada.
+RP Bajestani, MA (reprint author), Univ Toronto, Dept Mech & Ind Engn, Toronto, ON, Canada.
+EM maramon@mie.utoronto.ca; jcb@mie.utoronto.ca
+FU Discovery Grants Program of the Natural Sciences and Engineering
+   Research Council of Canada; Centre for Maintenance Optimization &
+   Reliability Engineering (C-MORE); Canadian Foundation for Innovation;
+   Ontario Research Fund; Ontario Ministry for Research and Innovation;
+   Microway Inc.; IBM ILOG; University of Toronto Doctoral Completion
+   Award; Department of Mechanical & Industrial Engineering at the
+   University of Toronto
+FX The authors would like to thank reviewers for their comments, which
+   helped improve the paper. This research was supported by the Discovery
+   Grants Program of the Natural Sciences and Engineering Research Council
+   of Canada, the consortium members of Centre for Maintenance Optimization
+   & Reliability Engineering (C-MORE), the Canadian Foundation for
+   Innovation, the Ontario Research Fund, the Ontario Ministry for Research
+   and Innovation, Microway Inc., IBM ILOG, the University of Toronto
+   Doctoral Completion Award, and the Department of Mechanical & Industrial
+   Engineering at the University of Toronto.
+NR 68
+TC 5
+Z9 5
+U1 1
+U2 25
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD OCT
+PY 2015
+VL 18
+IS 5
+BP 471
+EP 486
+DI 10.1007/s10951-015-0416-2
+PG 16
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CQ9NX
+UT WOS:000360943000003
+DA 2019-08-04
+ER
+
+PT J
+AU Bladek, I
+   Drozdowski, M
+   Guinand, F
+   Schepler, X
+AF Bladek, Iwo
+   Drozdowski, Maciej
+   Guinand, Frederic
+   Schepler, Xavier
+TI On contiguous and non-contiguous parallel task scheduling
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Parallel tasks; Contiguous scheduling; Non-contiguous scheduling
+ID PROCESSOR ALLOCATION; STRIP-PACKING; ALGORITHMS
+AB In this paper we study differences between contiguous and non-contiguous parallel task schedules. Parallel tasks can be executed on more than one processor simultaneously. In the contiguous schedules, indices of the processors assigned to a task must be a sequence of consecutive numbers. In the non-contiguous schedules, processor indices may be arbitrary. Optimum non-preemptive schedules are considered. Given a parallel task instance, the optimum contiguous and non-contiguous schedules can be of different lengths. We analyze minimal instances where such a difference may arise, provide bounds on the difference of the two schedules lengths, and prove that deciding whether the difference in schedule length exists is NP-complete.
+C1 [Bladek, Iwo; Drozdowski, Maciej] Poznan Univ Tech, Inst Comp Sci, PL-60965 Poznan, Poland.
+   [Guinand, Frederic; Schepler, Xavier] Univ Havre, LITIS, F-76058 Le Havre, France.
+RP Drozdowski, M (reprint author), Poznan Univ Tech, Inst Comp Sci, Piotrowo 2, PL-60965 Poznan, Poland.
+EM maciej.drozdowski@cs.put.poznan.pl
+RI Bladek, Iwo/O-4092-2015; Drozdowski, Maciej/F-7935-2014; Guinand,
+   Frederic V. G./F-2339-2017
+OI Bladek, Iwo/0000-0003-1991-8797; Drozdowski, Maciej/0000-0001-9314-529X;
+   Guinand, Frederic V. G./0000-0002-7915-2781
+FU Polish National Science Center; French National Research Ministry; PHC
+   Polonium project [28935RA]
+FX We are grateful for the constructive comments of the reviewers improving
+   quality of this paper. This research has been partially supported by a
+   grant of Polish National Science Center, a grant of French National
+   Research Ministry and PHC Polonium project number 28935RA.
+NR 24
+TC 4
+Z9 6
+U1 0
+U2 6
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD OCT
+PY 2015
+VL 18
+IS 5
+BP 487
+EP 495
+DI 10.1007/s10951-015-0427-z
+PG 9
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CQ9NX
+UT WOS:000360943000004
+DA 2019-08-04
+ER
+
+PT J
+AU Hezarkhani, B
+   Kubiak, W
+AF Hezarkhani, Behzad
+   Kubiak, Wieslaw
+TI Decentralized subcontractor scheduling with divisible jobs
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Scheduling; Divisible jobs; Subcontracting; Coordination; Mechanism
+   design
+ID COORDINATION; MECHANISMS; AUCTION; GAMES; OPERATIONS
+AB Subcontracting allows manufacturer agents to reduce completion times of their jobs and thus obtain savings. This paper addresses the coordination of decentralized scheduling systems with a single subcontractor and several agents having divisible jobs. Assuming complete information, we design parametric pricing schemes that strongly coordinate this decentralized system, i.e., the agents' choices of subcontracting intervals always result in efficient schedules. The subcontractor's revenue under the pricing schemes depends on a single parameter which can be chosen to make the revenue as close to the total savings as required. Also, we give a lower bound on the subcontractor's revenue for any coordinating pricing scheme. Allowing private information about processing times, we prove that the pivotal mechanism is coordinating, i.e., agents are better off by reporting their true processing times, and by participating in the subcontracting. We show that the subcontractor's maximum revenue with any coordinating mechanism under private information equals the lower bound of that with coordinating pricing schemes under complete information. Finally, we address the asymmetric case where agents obtain savings at different rates per unit reduction in completion times. We show that coordinating pricing schemes do not always exist in this case.
+C1 [Hezarkhani, Behzad] Tech Univ Eindhoven, Dept Ind Engn, NL-5600 MB Eindhoven, Netherlands.
+   [Hezarkhani, Behzad; Kubiak, Wieslaw] Mem Univ, Fac Business Adm, St John, NF, Canada.
+RP Hezarkhani, B (reprint author), Tech Univ Eindhoven, Dept Ind Engn, POB 513, NL-5600 MB Eindhoven, Netherlands.
+EM b.hezarkhani@tue.nl; wkubiak@mun.ca
+OI Hezarkhani, Behzad/0000-0003-3439-3474
+FU Natural Sciences and Engineering Research Council of Canada [OPG0105675]
+FX This research has been supported by the Natural Sciences and Engineering
+   Research Council of Canada Grant OPG0105675. The authors are grateful to
+   the associate editor and two anonymous referees whose suggestions
+   substantially improved the paper.
+NR 39
+TC 2
+Z9 2
+U1 0
+U2 1
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD OCT
+PY 2015
+VL 18
+IS 5
+BP 497
+EP 511
+DI 10.1007/s10951-015-0432-2
+PG 15
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CQ9NX
+UT WOS:000360943000005
+OA Other Gold, Green Accepted, Green Published
+DA 2019-08-04
+ER
+
+PT J
+AU Luzon, Y
+   Marmor, Y
+   Khmelnitsky, E
+AF Luzon, Yossef
+   Marmor, Yariv
+   Khmelnitsky, Eugene
+TI Optimal control of a two-server flow-shop network
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Flow-shop network; Scheduling policy; Tandem fluid network; Optimal
+   control; Fluid-based queueing discipline
+ID CONTINUOUS LINEAR-PROGRAMS; SEQUENCING SUBJECT; RELEASE DATES; SHOP;
+   ALGORITHM; MAKESPAN
+AB In this paper we suggest a new, intuitive, and simple method for scheduling jobs in a two-server flow-shop network (FSN) with the minimum makespan objective. Multiple types of jobs with corresponding constant service times arrive at the network at various times over a finite time interval. An analog fluid network is proposed and its optimal fluid control policy determined. We make use of this optimal control policy to suggest a new method for scheduling jobs in the original discrete FSN and prove its asymptotic optimality. The method is particularly attractive because it falls into the class of easy-to-implement and computationally inexpensive on-line algorithms. Numerical simulations are used to evaluate the performance of the suggested method and show that it performs optimally in almost all simulated instances. Some additional properties of the network are discussed and illustrated.
+C1 [Luzon, Yossef; Khmelnitsky, Eugene] Tel Aviv Univ, IL-69978 Tel Aviv, Israel.
+   [Marmor, Yariv] ORT Braude Coll, IL-2161002 Karmiel, Israel.
+RP Khmelnitsky, E (reprint author), Tel Aviv Univ, IL-69978 Tel Aviv, Israel.
+EM yossi.luzon@gmail.com; myariv@braude.ac.il; xmel@tau.ac.il
+RI Marmor, Yariv N/B-6217-2019; Marmor, Yariv N/K-9573-2019
+OI Marmor, Yariv N/0000-0001-9200-5041; 
+NR 38
+TC 1
+Z9 1
+U1 0
+U2 0
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD OCT
+PY 2015
+VL 18
+IS 5
+BP 513
+EP 524
+DI 10.1007/s10951-015-0439-8
+PG 12
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CQ9NX
+UT WOS:000360943000006
+DA 2019-08-04
+ER
+
+PT J
+AU Giglio, D
+AF Giglio, Davide
+TI Optimal control strategies for single-machine family scheduling with
+   sequence-dependent batch setup and controllable processing times
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Optimal control; Family scheduling problems; Sequence-dependent setup;
+   Controllable processing times; Dynamic programming
+ID TOTAL COMPLETION-TIME; MANUFACTURING SYSTEMS; PRODUCTION FACILITY;
+   MAXIMUM LATENESS; TOTAL TARDINESS; RELEASE TIMES; EARLINESS;
+   CONSTRAINTS; JOBS; AVAILABILITY
+AB The problem of scheduling jobs on an unreliable single machine is considered in this paper. The scheduling problem is characterized by the following features: jobs are grouped into classes of equivalent jobs; the generalized due date model is adopted for each class of jobs; it is possible to reduce the processing time of a job, at the price of the payment of an extra cost; a costly setup is required when switching between jobs of different classes. The scheduling problem is solved from a perspective which is different from the traditional determination of an optimal sequence of jobs; in fact, the objective of the paper is to determine optimal control strategies (functions of the system state) which allow generating the optimal decisions during the evolution of the system, taking into account the actual system state. In this way, optimal decisions can be promptly taken also in the presence of perturbations which affect the single machine (such as breakdowns and slowdowns). To this aim, a specific optimal control problem is stated and solved in the paper.
+C1 Univ Genoa, Dept Informat Bioengn Robot & Syst Engn, I-16145 Genoa, Italy.
+RP Giglio, D (reprint author), Univ Genoa, Dept Informat Bioengn Robot & Syst Engn, Via Opera Pia 13, I-16145 Genoa, Italy.
+EM davide.giglio@unige.it
+OI Giglio, Davide/0000-0002-5489-4412
+NR 70
+TC 8
+Z9 8
+U1 0
+U2 0
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD OCT
+PY 2015
+VL 18
+IS 5
+BP 525
+EP 543
+DI 10.1007/s10951-015-0440-2
+PG 19
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CQ9NX
+UT WOS:000360943000007
+DA 2019-08-04
+ER
+
+PT J
+AU Blazewicz, J
+   Pesch, E
+   Trystram, D
+   Zhang, GC
+AF Blazewicz, Jacek
+   Pesch, Erwin
+   Trystram, Denis
+   Zhang, Guochuan
+TI New perspectives in scheduling theory
+SO JOURNAL OF SCHEDULING
+LA English
+DT Editorial Material
+C1 [Blazewicz, Jacek] Poznan Univ Tech, Inst Comp Sci, Poznan, Poland.
+   [Blazewicz, Jacek] Polish Acad Sci, Inst Bioorgan Chem, Poznan, Poland.
+   [Pesch, Erwin] Univ Siegen, Fac 3, D-57068 Siegen, Germany.
+   [Trystram, Denis] Lab Informat Grenoble, Grenoble, France.
+   [Zhang, Guochuan] Zhejiang Univ, Hangzhou 310003, Zhejiang, Peoples R China.
+RP Pesch, E (reprint author), Univ Siegen, Fac 3, D-57068 Siegen, Germany.
+EM jblazewicz@cs.put.poznan.pl; erwin.pesch@uni-siegen.de;
+   denis.trystram@imag.fr; zgc@zju.edu.cn
+RI Pesch, Erwin/M-2308-2015; Blazewicz, Jacek/L-5597-2014
+OI Pesch, Erwin/0000-0003-0182-870X; Blazewicz, Jacek/0000-0001-8326-1094
+NR 3
+TC 2
+Z9 2
+U1 0
+U2 9
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD AUG
+PY 2015
+VL 18
+IS 4
+SI SI
+BP 333
+EP 334
+DI 10.1007/s10951-014-0377-x
+PG 2
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CL2ZS
+UT WOS:000356818400001
+OA Bronze
+DA 2019-08-04
+ER
+
+PT J
+AU Hendel, Y
+   Kubiak, W
+   Trystram, D
+AF Hendel, Yann
+   Kubiak, Wieslaw
+   Trystram, Denis
+TI Scheduling semi-malleable jobs to minimize mean flow time
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Scheduling; Mean flow time; Preemptable jobs
+ID TASKS
+AB This paper deals with the problem of scheduling malleable and non-malleable jobs to be executed together on two parallel identical machines to minimize mean flow time. We propose a set of dominant schedules for this problem, and a dynamic programming algorithm that finds an optimal schedule in this dominant set in time .
+C1 [Hendel, Yann; Kubiak, Wieslaw] Mem Univ Newfoundland, St John, NF, Canada.
+   [Trystram, Denis] Grenoble Inst Technol, Grenoble, France.
+   [Trystram, Denis] Inst Univ France, Grenoble, France.
+RP Trystram, D (reprint author), Grenoble Inst Technol, Grenoble, France.
+EM yann.hendel@gmail.com; wkubiak@mun.ca; denis.trystram@imag.fr
+FU Natural Sciences and Engineering Research Council of Canada (NSERC)
+   [OPG0105675]; University Joseph Fourier, Grenoble
+FX This research of Yann Hendel and Wieslaw Kubiak has been supported by
+   the Natural Sciences and Engineering Research Council of Canada (NSERC)
+   Grant OPG0105675. The research of Wieslaw Kubiak has also been supported
+   by the University Joseph Fourier, Grenoble.
+NR 14
+TC 1
+Z9 1
+U1 0
+U2 0
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD AUG
+PY 2015
+VL 18
+IS 4
+SI SI
+BP 335
+EP 343
+DI 10.1007/s10951-013-0341-1
+PG 9
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CL2ZS
+UT WOS:000356818400002
+DA 2019-08-04
+ER
+
+PT J
+AU Switalski, P
+   Seredynski, F
+AF Switalski, Piotr
+   Seredynski, Franciszek
+TI Scheduling parallel batch jobs in grids with evolutionary metaheuristics
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Grid computing; Two-stage scheduling; Generalized extremal optimization;
+   Genetic algorithm; Parallel job
+ID CRITICALITY; MODEL
+AB In this paper we propose an efficient offline job scheduling algorithm working in a grid environment that is based on a relatively new evolutionary metaheuristic called generalized extremal optimization (GEO). We compare our experimental results with those obtained using a very popular evolutionary metaheuristic, the genetic algorithm (GA). The scheduling algorithm implies two-stage scheduling. In the first stage, the algorithm allocates jobs to suitable machines of a grid; GEO/GA is used for this purpose. In the second stage, jobs are independently scheduled on each machine; this is performed with a variant of a list scheduling algorithm. Both GEO and GA belong to the class of evolutionary algorithms, but GEO is much simpler and requires the tuning of only one parameter, whereas GA requires the tuning of several parameters. The results of the experimental study show that GEO, despite its simplicity, outperforms the GA in a whole range of scheduling instances and is much easier to use.
+C1 [Switalski, Piotr] Siedlce Univ Nat Sci & Humanities, Dept Comp Sci, PL-08110 Siedlce, Poland.
+   [Seredynski, Franciszek] Cardinal Stefan Wyszynski Univ Warsaw, Dept Math & Nat Sci, PL-01938 Warsaw, Poland.
+RP Switalski, P (reprint author), Siedlce Univ Nat Sci & Humanities, Dept Comp Sci, 3 Maja 54, PL-08110 Siedlce, Poland.
+EM piotr.switalski@ii.uph.edu.pl; fseredynski@gmail.com
+RI Switalski, Piotr/S-3979-2017
+OI Switalski, Piotr/0000-0003-0747-9766; Seredynski,
+   Franciszek/0000-0003-0206-8183
+NR 26
+TC 3
+Z9 4
+U1 0
+U2 0
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD AUG
+PY 2015
+VL 18
+IS 4
+SI SI
+BP 345
+EP 357
+DI 10.1007/s10951-014-0382-0
+PG 13
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CL2ZS
+UT WOS:000356818400003
+OA Other Gold
+DA 2019-08-04
+ER
+
+PT J
+AU Zhang, XD
+   van de Velde, S
+AF Zhang, Xiandong
+   van de Velde, Steef
+TI Two-machine interval shop scheduling with time lags
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Interval scheduling; Fixed start and end times; Two-machine shop;
+   Dynamic programming; NP-hardness
+ID FLOW-SHOP; APPROXIMATION ALGORITHMS; NO-WAIT; JOBS; ROTTERDAM; PORT;
+   HARD
+AB We introduce and analyze the interval shop scheduling problem, where the objective is to maximize the weighted number of jobs that can be processed in a two-stage flow shop, job shop, or open shop, where each job has a fixed start and end time and requires a given transportation time, i.e., a time lag, for moving from one stage to the other. This problem is a natural extension of the parallel-machine scheduling problem with fixed start and end times, which is relatively well understood. We prove that the two-machine interval flow shop problem is -hard in the strong sense for general time lags, even in the case of equal processing times and equal weights. The problem is solvable in polynomial time if all time lags are equal. The two-machine interval job shop problem is solvable in time if the time lags are equal and relatively small. For the two-machine interval open shop problem, this is true as well.
+C1 [Zhang, Xiandong] Fudan Univ, Sch Management, Dept Management Sci, Shanghai 200433, Peoples R China.
+   [van de Velde, Steef] Erasmus Univ, Rotterdam Sch Management, NL-3000 DR Rotterdam, Netherlands.
+RP Zhang, XD (reprint author), Fudan Univ, Sch Management, Dept Management Sci, Shanghai 200433, Peoples R China.
+EM xiandongzhang@fudan.edu.cn; svelde@rsm.nl
+FU National Natural Science Foundation of China [71171058, 70832002,
+   70971100]
+FX The first author of the paper was supported in part by projects of
+   National Natural Science Foundation of China (No. 71171058, No.
+   70832002, and No. 70971100).
+NR 22
+TC 0
+Z9 0
+U1 0
+U2 20
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD AUG
+PY 2015
+VL 18
+IS 4
+SI SI
+BP 359
+EP 368
+DI 10.1007/s10951-013-0336-y
+PG 10
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CL2ZS
+UT WOS:000356818400004
+DA 2019-08-04
+ER
+
+PT J
+AU Muggy, L
+   Easton, T
+AF Muggy, Luke
+   Easton, Todd
+TI Generating class schedules within a complex modular environment with
+   application to secondary schools
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Scheduling theory; Timetabling; Modular high school schedules; Ejection
+   trees; Heuristics
+ID COURSE TIMETABLING PROBLEM; TABU-SEARCH; UNIVERSITY
+AB Westside High School (WHS) of Omaha, Nebraska utilizes a sophisticated scheduling environment called "modular scheduling." Modular scheduling empowers teachers with the ability to design the structure of their classes by adjusting the frequency, duration, and location of each of their lessons. This paper presents a novel heuristic methodology, implemented as a computer program called the sequential modular algorithmic routines for timetabling (SMART) Scheduler, which creates cohesive modular class schedules using effective techniques such as ejection trees and student sectioning. In experimentation, the SMART Scheduler is able to schedule over 2,800 distinct lessons in less than 4 s using data provided by WHS. This paper describes algorithms within the SMART Scheduler as well as computational results of its implementation.
+C1 [Muggy, Luke; Easton, Todd] Kansas State Univ, Ind & Mfg Syst Engn, Manhattan, KS 66506 USA.
+RP Muggy, L (reprint author), Kansas State Univ, Ind & Mfg Syst Engn, 2037 Durland Hall, Manhattan, KS 66506 USA.
+EM lmuggy@ksu.edu; teaston@ksu.edu
+OI Easton, Todd/0000-0001-9278-0259
+FU Principal and Head Scheduler at Westside High School
+FX The authors wish to thank the Principal and Head Scheduler at Westside
+   High School for both their financial support and prompt responses to
+   numerous questions. The authors would also like to thank three anonymous
+   reviewers for their valuable comments, which helped to strengthen this
+   paper.
+NR 19
+TC 1
+Z9 1
+U1 0
+U2 5
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD AUG
+PY 2015
+VL 18
+IS 4
+SI SI
+BP 369
+EP 376
+DI 10.1007/s10951-014-0403-z
+PG 8
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CL2ZS
+UT WOS:000356818400005
+DA 2019-08-04
+ER
+
+PT J
+AU Kristiansen, S
+   Sorensen, M
+   Stidsen, TR
+AF Kristiansen, Simon
+   Sorensen, Matias
+   Stidsen, Thomas R.
+TI Integer programming for the generalized high school timetabling problem
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE High school timetabling; XHSTT; Integer programming; International
+   Timetabling Competition 2011
+AB Recently, the XHSTT format for high school timetabling was introduced. It provides a uniform way of modeling problem instances and corresponding solutions. The format supports a wide variety of constraints, and currently 38 real-life instances from 11 different countries are available. Thereby, the XHSTT format serves as a common ground for researchers within this area. This paper describes the first exact method capable of handling an arbitrary instance of the XHSTT format. The method is based on a mixed-integer linear programming (MIP) model, which is solved in two steps with a commercial general-purpose MIP solver. Computational results show that our approach is able to find previously unknown optimal solutions for 2 instances of XHSTT and proves optimality of 4 known solutions. For the instances not solved to optimality, new non-trivial lower bounds were found in 11 cases, and new best known solutions were found in 9 cases. Furthermore, the approach is compared with the finalists of Round 2 of the International Timetabling Competition 2011 and is shown to be competitive with one of the finalists.
+C1 [Kristiansen, Simon; Sorensen, Matias; Stidsen, Thomas R.] Tech Univ Denmark, Dept Engn Management, Management Sci, DK-2800 Lyngby, Denmark.
+   [Kristiansen, Simon; Sorensen, Matias] MaCom AS, DK-1620 Copenhagen V, Denmark.
+RP Sorensen, M (reprint author), Tech Univ Denmark, Dept Engn Management, Management Sci, Bldg 426,Prod Torvet, DK-2800 Lyngby, Denmark.
+EM sk@macom.dk; sorensen.matias@gmail.com
+NR 23
+TC 6
+Z9 6
+U1 0
+U2 9
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD AUG
+PY 2015
+VL 18
+IS 4
+SI SI
+BP 377
+EP 392
+DI 10.1007/s10951-014-0405-x
+PG 16
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CL2ZS
+UT WOS:000356818400006
+DA 2019-08-04
+ER
+
+PT J
+AU Kell, N
+   Havill, J
+AF Kell, Nathaniel
+   Havill, Jessen
+TI Improved upper bounds for online malleable job scheduling
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Online algorithms; Scheduling; Parallel jobs; Identical machines;
+   Overhead time
+ID PARALLEL JOBS; STRIP PACKING; 2 DIMENSIONS; ALGORITHMS; TIMES
+AB In this paper, we study online algorithms that schedule malleable jobs, i.e., jobs that can be parallelized on any subset of the available identical machines. We study a model that accounts for the tradeoff between multiprocessor speedup and overhead time, namely, if job has processing requirement and is assigned to run on machines, then 's execution time becomes , where is a constant parameter to the problem. For , we present an online algorithm OCS that has a strong competitive ratio of 3/2, matching a previously established lower bound. We also present an online algorithm ASYM2 that is asymptotically -competitive when , where is a parameter to the algorithm, improving upon an existing asymptotically (3/2)-competitive algorithm. Finally, we present an online algorithm OTO that is strongly -competitive when , improving upon the previous best upper bound of .
+C1 [Kell, Nathaniel] Duke Univ, Dept Comp Sci, Durham, NC 27708 USA.
+   [Havill, Jessen] Denison Univ, Dept Math & Comp Sci, Granville, OH 43023 USA.
+RP Kell, N (reprint author), Duke Univ, Dept Comp Sci, Durham, NC 27708 USA.
+EM kell@cs.duke.edu; havill@denison.edu
+NR 27
+TC 2
+Z9 2
+U1 0
+U2 0
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD AUG
+PY 2015
+VL 18
+IS 4
+SI SI
+BP 393
+EP 410
+DI 10.1007/s10951-014-0406-9
+PG 18
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CL2ZS
+UT WOS:000356818400007
+DA 2019-08-04
+ER
+
+PT J
+AU Zhong, WY
+   Chen, ZL
+AF Zhong, Weiya
+   Chen, Zhi-Long
+TI Flowshop scheduling with interstage job transportation
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Flowshop scheduling; Transportation; Approximation algorithm
+ID 2-STAGE HYBRID FLOWSHOP; 2-MACHINE FLOWSHOP; PARALLEL MACHINES; NP-HARD;
+   STAGE; TIME; SHOP; PERFORMANCE; ALGORITHMS; MAKESPAN
+AB There are a variety of joint job production and transportation scheduling problems that arise in modern manufacturing systems. In this paper, we study two such problems that arise in a flowshop environment where there are two processing stages and a single transporter that is available to deliver the finished jobs from the first stage to the second. In the first problem, there is a single machine in each of the two flowshop stages and jobs have different sizes when loaded onto the transporter. In the second problem, there are two parallel machines in the first stage and a single machine in the second stage, and the transporter can carry only one job in each shipment. The objective of both problems is to minimize the makespan, i.e., the completion time of the last job in the second stage. The two problems are both strongly NP-hard. For each problem, we propose a fast heuristic and show that the heuristic has a tight worst-case bound of 2.
+C1 [Zhong, Weiya] Shanghai Univ, Sch Management, Dept Business Adm, Shanghai 200444, Peoples R China.
+   [Chen, Zhi-Long] Univ Maryland, Robert H Smith Sch Business, Dept Decis Operat & Informat Technol, College Pk, MD 20742 USA.
+RP Zhong, WY (reprint author), Shanghai Univ, Sch Management, Dept Business Adm, Shanghai 200444, Peoples R China.
+EM wyzhong@shu.edu.cn
+FU National Natural Science Foundation of China [11301327]
+FX The authors would like to thank three anonymous referees for their
+   constructive comments on the earlier version of the paper. The first
+   author was supported by the National Natural Science Foundation of China
+   Grants (No. 11301327).
+NR 28
+TC 4
+Z9 4
+U1 0
+U2 28
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD AUG
+PY 2015
+VL 18
+IS 4
+SI SI
+BP 411
+EP 422
+DI 10.1007/s10951-014-0409-6
+PG 12
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CL2ZS
+UT WOS:000356818400008
+DA 2019-08-04
+ER
+
+PT J
+AU Kovalyov, MY
+   Oulamara, A
+   Soukhal, A
+AF Kovalyov, Mikhail Y.
+   Oulamara, Ammar
+   Soukhal, Ameur
+TI Two-agent scheduling with agent specific batches on an unbounded serial
+   batching machine
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Scheduling; Serial batching machine; Multi-agent; Distribution center;
+   Dynamic programming
+ID 2 COMPETING AGENTS; SINGLE-MACHINE; WEIGHTED NUMBER; TARDY JOBS;
+   COMPLEXITY; FLOWSHOP; SYSTEMS; SHOP
+AB We study a scheduling problem, in which jobs of two agents are performed in agent specific batches on the same serial unbounded batching machine. On this machine, jobs of the same batch complete simultaneously, and the batch processing time is equal to the total processing time of its jobs plus a setup time. Each agent aims at minimizing a function which depends only on the completion times of its jobs. The problem is to find a schedule that minimizes the objective function of one agent, subject to the objective function of the other agent does not exceed a given threshold. The problem appears in optimizing product consolidation operations of a cross-docking distribution center. Polynomial and pseudo-polynomial dynamic programming algorithms are derived for settings with various combinations of the objective functions.
+C1 [Kovalyov, Mikhail Y.] Natl Acad Sci Belarus, United Inst Informat Problems, Minsk 220012, BELARUS.
+   [Oulamara, Ammar] Univ Lorraine, F-57045 Metz, France.
+   [Soukhal, Ameur] Univ Tours, Lab Comp Sci EA6300, Team Scheduling & Control, ERL CNRS 6305, F-37200 Tours, France.
+RP Oulamara, A (reprint author), Univ Lorraine, F-57045 Metz, France.
+EM oulamara@loria.fr
+RI Kovalyov, Mikhail/T-3457-2019
+OI Kovalyov, Mikhail/0000-0003-0832-0829
+NR 36
+TC 13
+Z9 13
+U1 0
+U2 6
+PU SPRINGER
+PI NEW YORK
+PA 233 SPRING ST, NEW YORK, NY 10013 USA
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD AUG
+PY 2015
+VL 18
+IS 4
+SI SI
+BP 423
+EP 434
+DI 10.1007/s10951-014-0410-0
+PG 12
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CL2ZS
+UT WOS:000356818400009
+DA 2019-08-04
+ER
+
+PT J
+AU Artigues, C
+   Lopez, P
+AF Artigues, Christian
+   Lopez, Pierre
+TI Energetic reasoning for energy-constrained scheduling with a continuous
+   resource
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Scheduling with continuous resources; Energy requirement; Energetic
+   reasoning satisfiability test; Complexity
+ID PROJECT; PROPAGATION; GENERATION
+AB This paper addresses a scheduling problem with continuous resources and energy constraints. Given a set of non-preemptive activities, each activity requires a continuously divisible resource whose instantaneous usage is limited in maximum and minimum, its processing satisfying a time window and a total energy (time resource-usage) requirement. The goal consists of getting a schedule satisfying all the constraints. The problem, which we refer to as the Energy-Constrained Scheduling Problem with Continuous Resources (CECSP), is a generalization of the well-known cumulative scheduling problem for which the "energetic reasoning" or "left-shift/right-shift" necessary feasibility condition yielded a popular polynomially computable satisfiability test. The paper presents a generalization of the energetic reasoning for the CECSP, defining precisely the activity minimum consumptions and exhibiting a polynomial number of relevant time intervals on which it is sufficient to apply the satisfiability tests. A strongly polynomial energetic reasoning satisfiability test can be derived for the considered generalization, which also yields a short proof for the complexity of the original algorithm. Some limits of the approach, as well as an approximation framework for more general resource consumption functions, are also addressed.
+C1 [Artigues, Christian; Lopez, Pierre] CNRS, LAAS, F-31400 Toulouse, France.
+   [Artigues, Christian; Lopez, Pierre] Univ Toulouse, LAAS, F-31400 Toulouse, France.
+RP Artigues, C (reprint author), Univ Toulouse, LAAS, F-31400 Toulouse, France.
+EM christian.artigues@laas.fr; pierre.lopez@laas.fr
+FU CNRS/INSIS (Centre National de la Recherche Scientifique/Institut des
+   Sciences de l'Ingenierie et des Systemes)
+FX This research was part of OCrE project supported by CNRS/INSIS (Centre
+   National de la Recherche Scientifique/Institut des Sciences de
+   l'Ingenierie et des Systemes). The authors are indebted to David Rivreau
+   for enlightening discussions. A preliminary version of this work was
+   presented as a "Late breaking abstract" at CPAIOR 2011, Berlin, and we
+   thank an anonymous referee for pointing out to us the interest of
+   studying the fixed start time case. Finally, the authors warmly thank
+   Margaux Nattaf for her help on improving the revised version of the
+   paper.
+NR 26
+TC 7
+Z9 7
+U1 0
+U2 8
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD JUN
+PY 2015
+VL 18
+IS 3
+BP 225
+EP 241
+DI 10.1007/s10951-014-0404-y
+PG 17
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CH1TA
+UT WOS:000353803200001
+DA 2019-08-04
+ER
+
+PT J
+AU Agnetis, A
+   Nicosia, G
+   Pacifici, A
+   Pferschy, U
+AF Agnetis, Alessandro
+   Nicosia, Gaia
+   Pacifici, Andrea
+   Pferschy, Ulrich
+TI Scheduling two agent task chains with a central selection mechanism
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Scheduling; Multi-agent optimization; Bicriteria optimization; Best
+   response; Computational complexity
+ID COMPETING AGENTS; MODEL
+AB In this paper, we address a deterministic scheduling problem in which two agents compete for the usage of a single machine. Each agent decides on a fixed order to submit its tasks to an external coordination subject, who sequences them according to a known priority rule. We consider the problem from different perspectives. First, we characterize the set of Pareto-optimal schedules in terms of size and computational complexity. We then address the problem from the single-agent point-of-view, that is, we consider the problem of deciding how to submit one agent's tasks only taking into account its own objective function against the other agent, the opponent. In this regard, we consider two different settings depending on the information available to the agents: In one setting, the considered agent knows in advance all information about the submission sequence of the opponent; and in the second setting (as in minimax strategies in game theory), the agent has no information on the opponent strategy and wants to devise a strategy that minimizes its solution cost in the worst possible case. Finally, we assess the performance of some classical single-agent sequencing rules in the two-agent setting.
+C1 [Agnetis, Alessandro] Univ Siena, Dipartimento Ingn Informaz & Sci Matemat, I-53100 Siena, Italy.
+   [Nicosia, Gaia] Univ Rome Tre, Dipartimento Ingn, I-00146 Rome, Italy.
+   [Pacifici, Andrea] Univ Roma Tor Vergata, Dipartimento Ingn Civile & Ingn Informat, Rome, Italy.
+   [Pferschy, Ulrich] Graz Univ, Dept Stat & Operat Res, Graz, Austria.
+RP Pacifici, A (reprint author), Univ Roma Tor Vergata, Dipartimento Ingn Civile & Ingn Informat, Rome, Italy.
+EM agnetis@dii.unisi.it; nicosia@dia.uniroma3.it;
+   pacifici@disp.uniroma2.it; pferschy@uni-graz.at
+RI Pferschy, Ulrich/D-2182-2012
+OI Pferschy, Ulrich/0000-0001-8881-1497; Pacifici,
+   Andrea/0000-0001-6144-0024; Agnetis, Alessandro/0000-0001-5803-0438;
+   Nicosia, Gaia/0000-0003-4043-2812
+FU Austrian Science Fund (FWF) [P 23829-N13]; Italian Ministry MIUR Project
+   PRIN [2009XN4ZRR_002]
+FX This work was supported by the Austrian Science Fund (FWF): [P
+   23829-N13] and by the Italian Ministry MIUR Project PRIN 2009XN4ZRR_002.
+NR 24
+TC 5
+Z9 5
+U1 1
+U2 10
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD JUN
+PY 2015
+VL 18
+IS 3
+BP 243
+EP 261
+DI 10.1007/s10951-014-0414-9
+PG 19
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CH1TA
+UT WOS:000353803200002
+DA 2019-08-04
+ER
+
+PT J
+AU Creemers, S
+AF Creemers, Stefan
+TI Minimizing the expected makespan of a project with stochastic activity
+   durations under resource constraints
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Project scheduling; Resource constraints; Makespan; Stochastic activity
+   durations; Dynamic programming; Computational experiment
+ID SCHEDULING PROBLEM; NETWORKS; UNCERTAINTY; SEARCH
+AB The resource-constrained project scheduling problem (RCPSP) has been widely studied. A fundamental assumption of the basic type of RCPSP is that activity durations are deterministic (i.e., they are known in advance). In reality, however, this is almost never the case. In this article, we illustrate why it is important to incorporate activity duration uncertainty, and develop an exact procedure to optimally solve the stochastic resource-constrained scheduling problem. A computational experiment shows that our approach works best when solving small- to medium-sized problem instances where activity durations have a moderate-to-high level of variability. For this setting, our model outperforms the existing state-of-the-art. In addition, we use our model to assess the optimality gap of existing heuristic approaches, and investigate the impact of making scheduling decisions also during the execution of an activity rather than only at the end of an activity.
+C1 [Creemers, Stefan] IESEG Sch Management, F-59000 Lille, France.
+   [Creemers, Stefan] Katholieke Univ Leuven, Fac Econ & Business, Res Ctr Operat Management, B-3000 Leuven, Belgium.
+RP Creemers, S (reprint author), IESEG Sch Management, Rue Digue 3, F-59000 Lille, France.
+EM s.creemers@ieseg.fr
+NR 23
+TC 20
+Z9 20
+U1 3
+U2 19
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD JUN
+PY 2015
+VL 18
+IS 3
+BP 263
+EP 273
+DI 10.1007/s10951-015-0421-5
+PG 11
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CH1TA
+UT WOS:000353803200003
+DA 2019-08-04
+ER
+
+PT J
+AU Hanzalek, Z
+   Hanen, C
+AF Hanzalek, Zdenek
+   Hanen, Claire
+TI The impact of core precedences in a cyclic RCPSP with precedence delays
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+AB In this paper, we introduce a new kind of constraint, called a core precedence constraint, in a cyclic resource-constrained project scheduling problem (RCPSP) with precedence delays. We show, by an example, which kind of industrial constraints might be modeled by such core precedences in a periodic production setting. We then establish that these constraints can be quite easily added to an integer linear programming formulation of the cyclic RCPSP. Although core precedences seem to be very similar to classical precedence, they can induce infeasibility even without resource constraints. Moreover, we show that the feasibility checking problem is NP-complete in the strong sense, even assuming unit processing times and no resource constraints.
+C1 [Hanzalek, Zdenek] Czech Tech Univ, Fac Elect Engn, CR-16635 Prague, Czech Republic.
+   [Hanen, Claire] Paris Sorbonnes Univ, UPMC, Paris, France.
+   [Hanen, Claire] CNRS, LIP6, UMR 7606, Paris, France.
+   [Hanen, Claire] Univ Paris Ouest Nanterre La Def, Nanterre, France.
+RP Hanen, C (reprint author), Paris Sorbonnes Univ, UPMC, Paris, France.
+EM hanzalek@fel.cvut.cz; claire.hanen@lip6.fr
+RI Hanzalek, Zdenek/O-9495-2019
+OI Hanzalek, Zdenek/0000-0002-8135-1296
+FU Grant Agency of the Czech Republic [GACR P103/12/1994]
+FX This work was supported by the Grant Agency of the Czech Republic under
+   Project GACR P103/12/1994.
+NR 29
+TC 1
+Z9 2
+U1 1
+U2 6
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD JUN
+PY 2015
+VL 18
+IS 3
+BP 275
+EP 284
+DI 10.1007/s10951-014-0399-4
+PG 10
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CH1TA
+UT WOS:000353803200004
+DA 2019-08-04
+ER
+
+PT J
+AU Qi, JJ
+   Liu, YJ
+   Jiang, P
+   Guo, B
+AF Qi, Jian-Jun
+   Liu, Ya-Jie
+   Jiang, Ping
+   Guo, Bo
+TI Schedule generation scheme for solving multi-mode resource availability
+   cost problem by modified particle swarm optimization
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Project scheduling; Multi-mode resource availability cost problem;
+   Schedule generation; Forward activity list; Modified particle swarm
+   optimization
+ID GENETIC ALGORITHM; SCATTER SEARCH; PROJECT; CONSTRAINTS; MODES; TIME
+AB The resource availability cost problem (RACP) (Mohring, Operations Research, 32:89-120, 1984) is commonly encountered in project scheduling. RACP aims to minimize the resource availability cost of a project by a given project deadline. In this study, RACP is extended from a single mode to a multi-mode called multi-mode RACP (MMRACP), which is more complicated than RACP but more convenient in practice. To solve MMRACP efficiently, forward activity list (FAL), a schedule generation scheme, is proposed. Heuristic algorithms are designed according to the characteristics of FAL to repair infeasible solutions and to improve the fitness of the solution. Modified particle swarm optimization (MPSO), which combines the advantages of particle swarm optimization and scatter search, is proposed to make the search for the best solution efficient. Computational experiments involving 180 instances are performed to validate the performance of the proposed algorithm. The results reveal that MPSO using FAL is a very effective method to solve MMRACP.
+C1 [Qi, Jian-Jun; Liu, Ya-Jie; Jiang, Ping; Guo, Bo] Natl Univ Def Technol, Coll Informat Syst & Management, Changsha 410073, Hunan, Peoples R China.
+RP Qi, JJ (reprint author), Natl Univ Def Technol, Coll Informat Syst & Management, Changsha 410073, Hunan, Peoples R China.
+EM hustqjj@126.com; liuyajie@nudt.edu.cn
+FU National Natural Science Foundation of China [71371181, 71201166,
+   71201170]
+FX The authors sincerely thank the associate editor and anonymous referees
+   for their valuable comments. This research was partially supported by
+   the National Natural Science Foundation of China under Grants 71371181,
+   71201166, and 71201170.
+NR 42
+TC 5
+Z9 6
+U1 1
+U2 10
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD JUN
+PY 2015
+VL 18
+IS 3
+BP 285
+EP 298
+DI 10.1007/s10951-014-0374-0
+PG 14
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CH1TA
+UT WOS:000353803200005
+DA 2019-08-04
+ER
+
+PT J
+AU Bellenguez-Morineau, O
+   Chrobak, M
+   Durr, C
+   Prot, D
+AF Bellenguez-Morineau, Odile
+   Chrobak, Marek
+   Duerr, Christoph
+   Prot, Damien
+TI A note on -hardness of preemptive mean flow-time scheduling for parallel
+   machines
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Scheduling; Complexity; Identical machines; Preemptive problems
+AB In the paper "The complexity of mean flow time scheduling problems with release times", by Baptiste, Brucker, Chrobak, Durr, Kravchenko and Sourd, the authors claimed to prove strong -hardness of the scheduling problem , namely multiprocessor preemptive scheduling where the objective is to minimize the mean flow time. We point out a serious error in their proof and give a new proof of strong -hardness for this problem.
+C1 [Bellenguez-Morineau, Odile; Prot, Damien] LUNAM Univ, Inst Rech Commun & Cybernet Nantes, Ecole Mines Nantes, IRCCyN,CNRS,UMR 6597, F-44307 Nantes 3, France.
+   [Chrobak, Marek] Univ Calif Riverside, Dept Comp Sci, Riverside, CA 92521 USA.
+   [Duerr, Christoph] Univ Paris 06, CNRS, LIP6, F-75252 Paris 05, France.
+RP Prot, D (reprint author), LUNAM Univ, Inst Rech Commun & Cybernet Nantes, Ecole Mines Nantes, IRCCyN,CNRS,UMR 6597, 4 Rue Alfred Kastler,BP 20722, F-44307 Nantes 3, France.
+EM odile.morineau@mines-nantes.fr; marek@cs.ucr.edu;
+   Christoph.Durr@lip6.fr; damien.prot@mines-nantes.fr
+FU National Science Foundation [CCF-1217314]
+FX M. Chrobak was partially supported by National Science Foundation Grant
+   CCF-1217314. The authors would like to thank anonymous reviewers for
+   many useful comments and suggestions.
+NR 5
+TC 0
+Z9 0
+U1 0
+U2 1
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD JUN
+PY 2015
+VL 18
+IS 3
+BP 299
+EP 304
+DI 10.1007/s10951-014-0380-2
+PG 6
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CH1TA
+UT WOS:000353803200006
+DA 2019-08-04
+ER
+
+PT J
+AU Baker, KR
+   Trietsch, D
+AF Baker, Kenneth R.
+   Trietsch, Dan
+TI Trading off due-date tightness and job tardiness in a basic scheduling
+   model
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Sequencing; Stochastic scheduling; Tardiness; Due-date assignment;
+   Single machine
+ID SINGLE-MACHINE; STOCHASTIC JOBS; EARLINESS; COSTS
+AB We consider a scheduling problem in which the criterion for assigning due dates is to make them as tight as possible, while the criterion for sequencing jobs is to minimize their tardiness. Because these two criteria conflict, we examine the trade-off between the tightness of the due dates and the tardiness of the jobs. We formulate a version of this trade-off in the case of a stochastic single-machine model with normally distributed processing times. Using lower bounds and dominance properties to curtail the enumeration, we develop a branch-and- bound procedure that is capable of solving large versions of the problem, and we report the results of computational experiments involving several hundred test problems.
+C1 [Baker, Kenneth R.] Dartmouth Coll, Tuck Sch, Hanover, NH 03755 USA.
+   [Trietsch, Dan] Amer Univ Armenia, Coll Engn, Yerevan, Armenia.
+RP Baker, KR (reprint author), Dartmouth Coll, Tuck Sch, Hanover, NH 03755 USA.
+EM ken.baker@dartmouth.edu; dan.trietsch@gmail.com
+RI Baker, Kenneth R/B-9784-2015
+NR 14
+TC 0
+Z9 0
+U1 0
+U2 10
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD JUN
+PY 2015
+VL 18
+IS 3
+BP 305
+EP 309
+DI 10.1007/s10951-014-0394-9
+PG 5
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CH1TA
+UT WOS:000353803200007
+DA 2019-08-04
+ER
+
+PT J
+AU Soper, AJ
+AF Soper, Alan J.
+TI A cyclical search for the two machine flow shop and open shop to
+   minimise finishing time
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Flow shop; Open shop; Minimum makespan
+AB This paper considers scheduling problems on two machines to minimise the makespan. It shows that a simple cyclical search can find a flow shop schedule with one job omitted with makespan less than or equal to the maximum of the total processing time of all jobs on either machine. This flow shop schedule is used as the basis for constructing a number of schedules with minimum makespan for the two machine open shop. The search may be applied unchanged to batches of jobs to provide more optimal schedules.
+C1 Univ Greenwich, Old Royal Naval Coll, Sch Comp & Math Sci, London SE10 9LS, England.
+RP Soper, AJ (reprint author), Univ Greenwich, Old Royal Naval Coll, Sch Comp & Math Sci, Pk Row, London SE10 9LS, England.
+EM A.J.Soper@greenwich.ac.uk
+NR 5
+TC 3
+Z9 3
+U1 0
+U2 7
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD JUN
+PY 2015
+VL 18
+IS 3
+BP 311
+EP 314
+DI 10.1007/s10951-013-0356-7
+PG 4
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CH1TA
+UT WOS:000353803200008
+DA 2019-08-04
+ER
+
+PT J
+AU Wan, L
+   Yuan, JJ
+   Geng, ZC
+AF Wan, Long
+   Yuan, Jinjiang
+   Geng, Zhichao
+TI A note on the preemptive scheduling to minimize total completion time
+   with release time and deadline constraints
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Preemptive scheduling; Release time; Deadline; NP-hard
+AB In this paper, we consider two problems about the preemptive scheduling of a set of jobs with release times on a single machine. In the first problem, each job has a deadline. The objective is to find a feasible schedule which minimizes the total completion time of the jobs. In the second problem (called two-agent scheduling problem), the set of jobs is partitioned into two subsets and . Each job in has a deadline. The objective is to find a feasible schedule which minimizes the total completion time of the jobs in . For the first problem, Du and Leung (Journal of Algorithms 14:45-68, 1993) showed that the problem is NP-hard. We show in this paper that there is a flaw in their NP-hardness proof. For the second problem, Leung et al. (Operations Research 58:458-469, 2010) showed that the problem can be solved in polynomial time. Yuan et al. (Private Communication) showed that their polynomial-time algorithm is invalid so the complexity of the second problem is still open. In this paper, by a modification of Du and Leung's NP-hardness proof, we show that the first problem is NP-hard even when the jobs have only two distinct deadlines. Using the same reduction, we also show that the second problem is NP-hard even when the jobs in has a common deadline and a common release time 0.
+C1 [Wan, Long] Jiangxi Univ Finance & Econ, Sch Informat Technol, Nanchang 330013, Jiangxi, Peoples R China.
+   [Yuan, Jinjiang; Geng, Zhichao] Zhengzhou Univ, Sch Math & Stat, Zhengzhou 450001, Henan, Peoples R China.
+RP Yuan, JJ (reprint author), Zhengzhou Univ, Sch Math & Stat, Zhengzhou 450001, Henan, Peoples R China.
+EM yuanjj@zzu.edu.cn
+FU NSFC [11271338, 11171313]; NSF Henan [132300410392]
+FX Research supported by NSFC (11271338), NSFC (11171313), and NSF Henan
+   (132300410392).
+NR 10
+TC 2
+Z9 2
+U1 1
+U2 9
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD JUN
+PY 2015
+VL 18
+IS 3
+BP 315
+EP 323
+DI 10.1007/s10951-014-0368-y
+PG 9
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CH1TA
+UT WOS:000353803200009
+DA 2019-08-04
+ER
+
+PT J
+AU Blocher, JD
+   Sevastyanov, S
+AF Blocher, James D.
+   Sevastyanov, Sergey
+TI A note on the Coffman-Sethi bound for LPT scheduling
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Identical parallel machines; Makespan minimization; LPT algorithm;
+   Coffman-Sethi; Scheduling
+AB Makespan minimization on a set of parallel machines is one of the most widely studied problems in scheduling theory. A new result is presented which improves on the classical Coffman-Sethi a posteriori bound on the relative error of the LPT algorithm. It is shown that the ratio of these two bounds (the old one to the new one) can be arbitrarily large.
+C1 [Blocher, James D.] Indiana Univ, Kelley Sch Business, Bloomington, IN 47405 USA.
+   [Sevastyanov, Sergey] Novosibirsk State Univ, Sobolev Inst Math, Novosibirsk 630090, Russia.
+RP Blocher, JD (reprint author), Indiana Univ, Kelley Sch Business, Bloomington, IN 47405 USA.
+EM dblocher@indiana.edu; seva@math.nsc.ru
+OI Sevastyanov, Sergey/0000-0003-0347-1396
+FU Russian Foundation for Humanities [13-22-10002]
+FX Research by the second author was supported by the Russian Foundation
+   for Humanities (Grant No. 13-22-10002).
+NR 5
+TC 3
+Z9 3
+U1 0
+U2 1
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD JUN
+PY 2015
+VL 18
+IS 3
+BP 325
+EP 327
+DI 10.1007/s10951-015-0419-z
+PG 3
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CH1TA
+UT WOS:000353803200010
+DA 2019-08-04
+ER
+
+PT J
+AU Shabtay, D
+   Gaspar, N
+   Kaspi, M
+AF Shabtay, Dvir
+   Gaspar, Nufar
+   Kaspi, Moshe
+TI A survey on offline scheduling with rejection (vol 16, pg 3, 2013)
+SO JOURNAL OF SCHEDULING
+LA English
+DT Correction
+C1 [Shabtay, Dvir; Gaspar, Nufar; Kaspi, Moshe] Ben Gurion Univ Negev, Dept Ind Engn & Management, IL-84105 Beer Sheva, Israel.
+RP Shabtay, D (reprint author), Ben Gurion Univ Negev, Dept Ind Engn & Management, IL-84105 Beer Sheva, Israel.
+EM dvirs@bgu.ac.il; nufarg@bgu.ac.il; moshe@bgu.ac.il
+OI Shabtay, Dvir/0000-0002-2709-599X
+NR 3
+TC 0
+Z9 0
+U1 0
+U2 0
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD JUN
+PY 2015
+VL 18
+IS 3
+BP 329
+EP 329
+DI 10.1007/s10951-015-0417-1
+PG 1
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CH1TA
+UT WOS:000353803200011
+OA Bronze
+DA 2019-08-04
+ER
+
+PT J
+AU Yang, J
+   Posner, ME
+AF Yang, Jaehwan
+   Posner, Marc E.
+TI Flow shops with WIP and value added costs (vol 13, pg 3, 2010)
+SO JOURNAL OF SCHEDULING
+LA English
+DT Correction
+C1 [Yang, Jaehwan] Univ Seoul, Sch Business Adm, Seoul 130743, South Korea.
+   [Posner, Marc E.] Ohio State Univ, Dept Integrated Syst Engn, Columbus, OH 43210 USA.
+RP Posner, ME (reprint author), Ohio State Univ, Dept Integrated Syst Engn, Columbus, OH 43210 USA.
+EM posner.1@osu.edu
+NR 1
+TC 2
+Z9 2
+U1 0
+U2 0
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD JUN
+PY 2015
+VL 18
+IS 3
+BP 331
+EP 331
+DI 10.1007/s10951-015-0420-6
+PG 1
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CH1TA
+UT WOS:000353803200012
+OA Bronze
+DA 2019-08-04
+ER
+
+PT J
+AU Schalekamp, F
+   Sitters, R
+   van der Ster, S
+   Stougie, L
+   Verdugo, V
+   van Zuylen, A
+AF Schalekamp, Frans
+   Sitters, Rene
+   van der Ster, Suzanne
+   Stougie, Leen
+   Verdugo, Victor
+   van Zuylen, Anke
+TI Split scheduling with uniform setup times
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Scheduling; Job splitting; Setup times; Complexity theory; Approximation
+   algorithms
+AB We study a scheduling problem in which jobs may be split into parts, where the parts of a split job may be processed simultaneously on more than one machine. Each part of a job requires a setup time, however, on the machine where the job part is processed. During setup, a machine cannot process or set up any other job. We concentrate on the basic case in which setup times are job-, machine- and sequence-independent. Problems of this kind were encountered when modelling practical problems in planning disaster relief operations. Our main algorithmic result is a polynomial-time algorithm for minimising total completion time on two parallel identical machines. We argue, why the same problem with three machines is not an easy extension of the two-machine case, leaving the complexity of this case as a tantalising open problem. We give a constant-factor approximation algorithm for the general case with any number of machines and a polynomial-time approximation scheme for a fixed number of machines. For the version with the objective to minimise total weighted completion time, we prove NP-hardness. Finally, we conclude with an overview of the state of the art for other split scheduling problems with job-, machine- and sequence-independent setup times.
+C1 [Schalekamp, Frans; van Zuylen, Anke] Coll William & Mary, Dept Math, Williamsburg, VA 23185 USA.
+   [Sitters, Rene; van der Ster, Suzanne; Stougie, Leen] Vrije Univ Amsterdam, Dept Operat Res, Amsterdam, Netherlands.
+   [Sitters, Rene; Stougie, Leen] CWI, NL-1009 AB Amsterdam, Netherlands.
+   [Verdugo, Victor] Univ Chile, Dept Ind Engn, Santiago, Chile.
+RP Stougie, L (reprint author), CWI, NL-1009 AB Amsterdam, Netherlands.
+EM frans@wm.edu; r.a.sitters@vu.nl; suzanne.vander.ster@vu.nl;
+   l.stougie@vu.nl; vverdugo@dim.uchile.cl; anke@wm.edu
+FU Tinbergen Institute; EU-IRSES grant EUSACOU
+FX R. Sitters, S. van der Ster, L. Stougie, Research partially supported by
+   the Tinbergen Institute.; V. Verdugo, Research supported by EU-IRSES
+   grant EUSACOU.
+NR 12
+TC 4
+Z9 5
+U1 1
+U2 8
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD APR
+PY 2015
+VL 18
+IS 2
+BP 119
+EP 129
+DI 10.1007/s10951-014-0370-4
+PG 11
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CC3DI
+UT WOS:000350224700001
+DA 2019-08-04
+ER
+
+PT J
+AU Burger, AP
+   Jacobs, CG
+   van Vuuren, JH
+   Visagie, SE
+AF Burger, A. P.
+   Jacobs, C. G.
+   van Vuuren, J. H.
+   Visagie, S. E.
+TI Scheduling multi-colour print jobs with sequence-dependent setup times
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Job grouping; Job scheduling; Job sequencing; Tool switching
+ID FLEXIBLE MANUFACTURING SYSTEMS; TOOL SWITCHING PROBLEM; MACHINE; MODELS;
+   MANAGEMENT; ALGORITHMS; NUMBER
+AB In this paper, a scheduling problem is considered which arises in the packaging industry. Plastic and foil wrappers used for packaging candy bars, crisps and other snacks typically require overlay printing with multiple colours. Printing machines used for this purpose usually accommodate a small number of colours which are loaded into a magazine simultaneously. If two consecutively scheduled print jobs require significantly different colour overlays, then substantial down times are incurred during the transition from the former magazine colour configuration to the latter, because ink cartridges corresponding to colours not required for the latter job have to be cleaned after completion of the former job. The durations of these down times are therefore sequence dependent (the washing and refilling time is a function of the number of colours in which two consecutive printing jobs differ). It is consequently desirable to schedule print jobs so that the accumulated down times associated with all magazine colour transitions are as short as possible for each printing machine. We show that an instance of this scheduling problem can be modelled as the well-known tool switching problem, which is tractable for small instances only. The problem can, however, be solved rather effectively in heuristic fashion by decomposing it into two subproblems: a job grouping problem (which can be modelled as a unicost set covering problem) and a group sequencing problem (which is a generalisation of the celebrated travelling salesman problem). We solve the colour print scheduling problem both exactly and heuristically for small, randomly generated test problem instances, studying the trade-off between the time efficiency and solution quality of the two approaches. Finally, we apply both solution approaches to real problem data obtained from a printing company in the South African Western Cape as a special case study.
+C1 [Burger, A. P.; Jacobs, C. G.; Visagie, S. E.] Univ Stellenbosch, Dept Logist, ZA-7602 Matieland, South Africa.
+   [van Vuuren, J. H.] Univ Stellenbosch, Dept Ind Engn, ZA-7602 Matieland, South Africa.
+RP van Vuuren, JH (reprint author), Univ Stellenbosch, Dept Ind Engn, Private Bag X1, ZA-7602 Matieland, South Africa.
+EM apburger@sun.ac.za; neil@sun.ac.za; vuuren@sun.ac.za; svisagie@sun.ac.za
+RI Visagie, Stephan/H-9439-2013
+OI Visagie, Stephan/0000-0002-0689-5736
+FU South African National Research Foundation [GUN 2072999]
+FX Work towards this paper was supported financially by the South African
+   National Research Foundation under Grant GUN 2072999.
+NR 37
+TC 1
+Z9 2
+U1 0
+U2 0
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD APR
+PY 2015
+VL 18
+IS 2
+BP 131
+EP 145
+DI 10.1007/s10951-014-0400-2
+PG 15
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CC3DI
+UT WOS:000350224700002
+DA 2019-08-04
+ER
+
+PT J
+AU Range, TM
+   Lusby, RM
+   Larsen, J
+AF Range, Troels Martin
+   Lusby, Richard Martin
+   Larsen, Jesper
+TI Solving the selective multi-category parallel-servicing problem
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Machine scheduling; Dynamic programming; Node-disjoint shortest path
+   problem; preprocessing
+ID ROUTING PROBLEM; DISJOINT PATHS
+AB In this paper, we present a new scheduling problem and describe a shortest path-based heuristic as well as a dynamic programming-based exact optimization algorithm to solve it. The selective multi-category parallel-servicing problem arises when a set of jobs has to be scheduled on a server (machine) with limited capacity. Each job requests service in a prespecified time window and belongs to a certain category. Jobs may be serviced partially, incurring a penalty; however, only jobs of the same category can be processed simultaneously. One must identify the best subset of jobs to process in each time interval of a given planning horizon, while respecting the server capacity and scheduling requirements. We compare the proposed solution methods with a Mixed Integer Linear Programming (MILP) formulation and show that the dynamic programming approach is faster when the number of categories is large, whereas the MILP can be solved faster when the number of categories is small.
+C1 [Range, Troels Martin] Univ Southern Denmark, Dept Econ & Business, COHERE, DK-5230 Odense M, Denmark.
+   [Lusby, Richard Martin; Larsen, Jesper] Tech Univ Denmark, Dept Engn Management, Prod Storvet, DK-2800 Lyngby, Denmark.
+RP Range, TM (reprint author), Univ Southern Denmark, Dept Econ & Business, COHERE, Campusvej 55, DK-5230 Odense M, Denmark.
+EM tra@sam.sdu.dk; rmlu@dtu.dk; jesla@dtu.dk
+RI Larsen, Jesper/L-4999-2016
+OI Larsen, Jesper/0000-0002-9119-3586; Range, Troels/0000-0002-5183-6778;
+   Lusby, Richard Martin/0000-0002-8652-6219
+NR 22
+TC 0
+Z9 0
+U1 0
+U2 2
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD APR
+PY 2015
+VL 18
+IS 2
+BP 165
+EP 184
+DI 10.1007/s10951-013-0353-x
+PG 20
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CC3DI
+UT WOS:000350224700005
+DA 2019-08-04
+ER
+
+PT J
+AU Shuai, TP
+   Du, DL
+   Jiang, XY
+AF Shuai, Tianping
+   Du, Donglei
+   Jiang, Xiaoyue
+TI On-line preemptive machine scheduling with l(p) norm on two uniform
+   machines
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE On-line algorithm; Scheduling; Preemption; l(p) norm
+ID APPROXIMATION; ALGORITHMS; ALLOCATION; FAIRNESS
+AB One of the basic and fundamental scheduling problems is to minimize the machine completion time vector in the norm, a direct extension of the well-studied objective makespan ( norm), on parallel machines. We concentrate on the on-line and preemptive version of this problem where jobs arrive one by one over a list to be allocated to two uniform machines with job preemption permitted. We present a best possible deterministic on-line scheduling algorithm for this problem along with a matching lower bound, generalizing existing results for the identical machines scheduling problem in the literature. One notable feature of this work is the highly involved technicality compared to similar analysis in the existing literature, mainly due to the intrinsic unavailability of a closed-form formula for the competitive ratio.
+C1 [Shuai, Tianping] Beijing Univ Posts & Telecommun, Sch Sci, Beijing 100876, Peoples R China.
+   [Du, Donglei] Univ New Brunswick, Fac Business Adm, Fredericton, NB E3B 5A3, Canada.
+   [Jiang, Xiaoyue] Louisiana State Univ, Coll Engn, Baton Rouge, LA 70803 USA.
+RP Du, DL (reprint author), Univ New Brunswick, Fac Business Adm, 7 Macaulay Lane, Fredericton, NB E3B 5A3, Canada.
+EM stpmath@sohu.com; ddu@unb.ca; jiang@lsu.edu
+FU National Natural Science Foundation of China (NSFC) [11001030];
+   Fundamental Research Funds for the Central Universities
+   [BUPT2012RC0709]; National Science and Engineering Council of Canada
+   (NSERC) [283106]
+FX Research of the first author is supported in part by the National
+   Natural Science Foundation of China (NSFC) Grant 11001030; the
+   Fundamental Research Funds for the Central Universities
+   (BUPT2012RC0709). This work was done while the first author visits
+   Faculty of Business Administration, University of New Brunswick.
+   Research of the second author is supported by the National Science and
+   Engineering Council of Canada (NSERC) Grant 283106.
+NR 26
+TC 2
+Z9 3
+U1 1
+U2 3
+PU SPRINGER
+PI NEW YORK
+PA 233 SPRING ST, NEW YORK, NY 10013 USA
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD APR
+PY 2015
+VL 18
+IS 2
+BP 185
+EP 194
+DI 10.1007/s10951-014-0387-8
+PG 10
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CC3DI
+UT WOS:000350224700006
+DA 2019-08-04
+ER
+
+PT J
+AU Dahmen, S
+   Rekik, M
+AF Dahmen, Sana
+   Rekik, Monia
+TI Solving multi-activity multi-day shift scheduling problems with a hybrid
+   heuristic
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Shift scheduling; Multi-activity context; Multi-day planning horizon;
+   Heterogeneous workforce; Hybrid heuristic; Tabu search; Integer
+   programming
+AB This paper addresses a multi-activity multi-day shift scheduling problem in a continuous and flexible environment including a heterogeneous workforce. Given days-off schedules associated with each employee, our objective is to construct and assign admissible multi-activity shifts to employees on their work days in a way that minimizes under-staffing and over-staffing with a restricted budget on workforce cost. A hybrid heuristic which combines tabu search with a branch-and-bound procedure is proposed to solve the problem. The computational experiments prove that our method provides good schedules in relatively short computing times.
+C1 [Dahmen, Sana; Rekik, Monia] Interuniv Res Ctr Enterprise Networks Logist & Tr, Quebec City, PQ, Canada.
+   [Dahmen, Sana; Rekik, Monia] Univ Laval, Dept Operat & Decis Syst, Quebec City, PQ G1V0A6, Canada.
+RP Rekik, M (reprint author), Interuniv Res Ctr Enterprise Networks Logist & Tr, 2325 rue Terrasse, Quebec City, PQ, Canada.
+EM monia.rekik@cirrelt.ca
+FU Fonds de recherche du Quebec Nature et Technologie (FRQNT)
+FX This work was supported by the Fonds de recherche du Quebec Nature et
+   Technologie (FRQNT) through its new researchers start-up grant. This
+   support is gratefully acknowledged. We are grateful to two anonymous
+   referees for their valuable comments.
+NR 20
+TC 8
+Z9 8
+U1 0
+U2 0
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD APR
+PY 2015
+VL 18
+IS 2
+BP 207
+EP 223
+DI 10.1007/s10951-014-0383-z
+PG 17
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CC3DI
+UT WOS:000350224700008
+DA 2019-08-04
+ER
+
+PT J
+AU Yuan, JJ
+   Ng, CT
+   Cheng, TCE
+AF Yuan, J. J.
+   Ng, C. T.
+   Cheng, T. C. E.
+TI Two-agent single-machine scheduling with release dates and preemption to
+   minimize the maximum lateness
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Two-agent scheduling; Pareto optimization; Single machine
+ID CRITERIA
+AB We consider two-agent scheduling on a single machine with release dates and preemption to minimize the maximum lateness. In this scheduling model, there are two agents each having his own job set , respectively. Each job has a release date and the jobs need to be preemptively scheduled on a single machine. Leung et al. (Oper Res 58:458-469, 2010) present a comprehensive study of two-agent scheduling in various machine environments. They show that problem can be solved in time. They use the strategy that schedules the jobs of agent without preemption as late as possible under the restriction . We show that the strategy fails to work even when , invalidating their result. We then study the minimization problem and the Pareto optimization problem . We show that the two problems can be solved in time, respectively.
+C1 [Yuan, J. J.] Zhengzhou Univ, Sch Math & Stat, Zhengzhou 450001, Henan, Peoples R China.
+   [Ng, C. T.; Cheng, T. C. E.] Hong Kong Polytech Univ, Dept Logist & Maritime Studies, Kowloon, Hong Kong, Peoples R China.
+RP Ng, CT (reprint author), Hong Kong Polytech Univ, Dept Logist & Maritime Studies, Kowloon, Hong Kong, Peoples R China.
+EM lgtctng@polyu.edu.hk
+RI Ng, C.T./N-6152-2014; Cheng, Edwin/K-5403-2019; Cheng, T. C.
+   E./D-5688-2015
+OI Ng, C.T./0000-0003-0020-8234; Cheng, Edwin/0000-0001-5127-6419; Cheng,
+   T. C. E./0000-0001-5127-6419
+FU Hong Kong Polytechnic University [G-YL36]; National Natural Science
+   Foundation of China [11271338, 11171313]
+FX The authors would like to thank the associate editor and two anonymous
+   referees for their constructive comments and kind suggestions. This
+   research was supported in part by The Hong Kong Polytechnic University
+   under Grant no G-YL36 and The National Natural Science Foundation of
+   China under Grant nos 11271338 and 11171313.
+NR 8
+TC 7
+Z9 7
+U1 0
+U2 0
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD APR
+PY 2015
+VL 18
+IS 2
+BP 147
+EP 153
+DI 10.1007/s10951-013-0360-y
+PG 7
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CC3DI
+UT WOS:000350224700003
+DA 2019-08-04
+ER
+
+PT J
+AU Coffman, EG
+   Ng, CT
+   Timkovsky, VG
+AF Coffman, E. G., Jr.
+   Ng, C. T.
+   Timkovsky, V. G.
+TI How small are shifts required in optimal preemptive schedules?
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Preemptive scheduling; Identical parallel machines; Release dates; Due
+   dates
+ID TIME JOBS; MAKESPAN; TASKS
+AB An event in a schedule is a job start, interruption, resumption or completion time. A shift in a schedule is an non-idling interval between two events that does not contain other events. If a scheduling problem with a regular criterion has only integer data (and we consider here only such problems), then the length of smallest shifts required in optimal nonpreemptive schedules is obviously 1. The length of smallest shifts required in optimal preemptive schedules, however, can be infinitely small. As Sauer and Stone (Order 4:195-206, 1987) showed more than 25 years ago, shifts of length less than are not required in shortest preemptive schedules of unit-length jobs with precedence constraints on identical parallel machines. They showed, on the other hand, that there are instances for infinitely many such that shifts of length less than can be required if . In this paper, we continue research in the same direction and strengthen their results, finding the respective tighter bounds, and . We also obtain similar results for other preemptive scheduling problems on identical parallel machines. A useful consequence of certain of these results is that preemptive scheduling problems with unequal release dates and/or unequal due dates can require even smaller shifts for optimality. We also identify problems whose optimal preemptive schedules do not require shifts of length less than 1/m.
+C1 [Coffman, E. G., Jr.] Columbia Univ, New York, NY USA.
+   [Ng, C. T.] Hong Kong Polytech Univ, Kowloon, Hong Kong, Peoples R China.
+   [Timkovsky, V. G.] Keiser Univ, Ft Lauderdale, FL 33309 USA.
+RP Timkovsky, VG (reprint author), Keiser Univ, Ft Lauderdale, FL 33309 USA.
+EM coffman@cs.columbia.edu; lgtctng@polyu.edu.hk; vageti@hotmail.com
+RI Ng, C.T./N-6152-2014
+OI Ng, C.T./0000-0003-0020-8234
+NR 24
+TC 1
+Z9 1
+U1 0
+U2 1
+PU SPRINGER
+PI NEW YORK
+PA 233 SPRING ST, NEW YORK, NY 10013 USA
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD APR
+PY 2015
+VL 18
+IS 2
+BP 155
+EP 163
+DI 10.1007/s10951-013-0355-8
+PG 9
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CC3DI
+UT WOS:000350224700004
+DA 2019-08-04
+ER
+
+PT J
+AU Yugma, C
+   Blue, J
+   Dauzere-Peres, S
+   Obeid, A
+AF Yugma, Claude
+   Blue, Jakey
+   Dauzere-Peres, Stephane
+   Obeid, Ali
+TI Integration of scheduling and advanced process control in semiconductor
+   manufacturing: review and outlook
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Scheduling; Dispatching; Advanced Process Control (APC); Semiconductor
+   manufacturing
+ID MANAGEMENT; APC
+AB Scheduling in semiconductor manufacturing is of vital importance due to the impact on production performance indicators such as equipment utilization, cycle time, and delivery times. With the increasing complexity of semiconductor manufacturing, ever-new products and demanding customers, scheduling plans for efficient production control become crucial. Scheduling and control are mutually dependent as control requires information from scheduling, for example, where jobs are processed, and scheduling requires control information, for example, on which equipment operations can be processed. Based on a survey of the literature, this article proposes a review and an outlook for the potential improvements by binding scheduling decisions and information coming from advanced process control systems in semiconductor manufacturing.
+C1 [Yugma, Claude; Blue, Jakey; Dauzere-Peres, Stephane; Obeid, Ali] Ecole Natl Super Mines, Dept Mfg Sci & Logist, Ctr Microelect Provence, F-13541 Gardanne, France.
+RP Yugma, C (reprint author), Ecole Natl Super Mines, Dept Mfg Sci & Logist, Ctr Microelect Provence, Site Georges Charpak,880 Route Mimet, F-13541 Gardanne, France.
+EM Yugma@emse.fr; Lan@emse.fr; Dauzere-Peres@emse.fr; Obeid@emse.fr
+RI Dauzere-Peres, Stephane/O-1326-2019; Dauzere-Peres, Stephane/H-9328-2012
+OI Dauzere-Peres, Stephane/0000-0002-3566-3248; Dauzere-Peres,
+   Stephane/0000-0002-3566-3248
+NR 49
+TC 15
+Z9 15
+U1 2
+U2 37
+PU SPRINGER
+PI NEW YORK
+PA 233 SPRING ST, NEW YORK, NY 10013 USA
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD APR
+PY 2015
+VL 18
+IS 2
+BP 195
+EP 205
+DI 10.1007/s10951-014-0381-1
+PG 11
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA CC3DI
+UT WOS:000350224700007
+DA 2019-08-04
+ER
+
+PT J
+AU Burke, EK
+   Pinedo, M
+AF Burke, Edmund K.
+   Pinedo, Michael
+TI Journal of Scheduling (2015)
+SO JOURNAL OF SCHEDULING
+LA English
+DT Editorial Material
+C1 [Burke, Edmund K.] Univ Stirling, Stirling FK9 4LA, Scotland.
+   [Pinedo, Michael] NYU, Stern Sch Business, Dept Operat Res, New York, NY USA.
+RP Burke, EK (reprint author), Univ Stirling, Stirling FK9 4LA, Scotland.
+EM e.k.burke@stir.ac.uk; mpinedo@stern.nyu.edu
+FU Engineering and Physical Sciences Research Council [EP/J017515/1]
+NR 0
+TC 0
+Z9 0
+U1 0
+U2 2
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD FEB
+PY 2015
+VL 18
+IS 1
+BP 1
+EP 1
+DI 10.1007/s10951-014-0412-y
+PG 1
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA AY9UQ
+UT WOS:000347896300001
+OA Bronze
+DA 2019-08-04
+ER
+
+PT J
+AU Dumitrescu, S
+   Steiner, G
+   Zhang, R
+AF Dumitrescu, Sorina
+   Steiner, George
+   Zhang, Rui
+TI Optimal delivery time quotation in supply chains to minimize tardiness
+   and delivery costs
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Scheduling; Tardiness; Delivery times; Approximation algorithm
+ID DUE-DATE ASSIGNMENT; ALGORITHMS; MACHINE; NUMBER; JOBS
+AB There are many situations when, due to unexpected delays, the supplier may not be able to deliver some orders by the promised due dates. We present a model for quoting attainable delivery times to minimize tardiness penalties and delivery costs, when deliveries take place in batches. We show that the general problem is strongly -hard, but when all orders have the same per-unit due-date-assignment cost, it is -hard only in the ordinary sense. For the latter case, we present a pseudo-polynomial algorithm, which is converted into a fully polynomial-time approximation scheme. If the tardiness penalties are also identical, we show that the problem can be solved in polynomial time.
+C1 [Dumitrescu, Sorina] McMaster Univ, Dept Elect & Comp Engn, Hamilton, ON, Canada.
+   [Steiner, George; Zhang, Rui] McMaster Univ, DeGroote Sch Business, Operat Management Area, Hamilton, ON, Canada.
+RP Steiner, G (reprint author), McMaster Univ, DeGroote Sch Business, Operat Management Area, Hamilton, ON, Canada.
+EM sorina@mail.ece.mcmaster.ca; george.steiner4@gmail.com;
+   zhangr6@mcmaster.ca
+FU NSERC [1708-09]
+FX This research was supported in part by NSERC Discovery Grant 1708-09.
+NR 21
+TC 0
+Z9 0
+U1 0
+U2 0
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD FEB
+PY 2015
+VL 18
+IS 1
+BP 3
+EP 13
+DI 10.1007/s10951-014-0396-7
+PG 11
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA AY9UQ
+UT WOS:000347896300002
+DA 2019-08-04
+ER
+
+PT J
+AU van der Veen, E
+   Hans, EW
+   Post, GF
+   Veltman, B
+AF van der Veen, Egbert
+   Hans, Erwin W.
+   Post, Gerhard F.
+   Veltman, Bart
+TI Shift rostering using decomposition: assign weekend shifts first
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Shift rostering; Decomposition; Heuristics; Local search
+ID NURSE-SCHEDULING PROBLEM; PROGRAMMING-MODEL; OFF-DAY; MULTIOBJECTIVE
+   APPROACH; HIERARCHICAL WORKFORCE; COVERAGE CONSTRAINTS; NEIGHBORHOOD
+   SEARCH; LABOR REQUIREMENTS; COLUMN GENERATION; VARIABLE DEMANDS
+AB This paper introduces a shift rostering problem that surprisingly has not been studied in the literature: the weekend shift rostering problem. It is motivated by our experience that employees' shift preferences predominantly focus on the weekends, since many social activities happen during weekends. The weekend rostering problem (WRP) addresses the rostering of weekend shifts, for which we design a problem-specific heuristic. We consider the WRP as the first phase of the shift rostering problem. To complete the shift roster, the second phase assigns the weekday shifts. This decomposition reflects how shift rosters are often created manually in practice, which makes the decomposition method proposed in this paper a more intuitive approach for business users compared to approaches without this decomposition. We believe that such approaches enable business users to effectively analyze and steer the outcomes of algorithms for shift rostering especially on criteria that are relevant to them such as those concerning weekends. We analyze and discuss effects of this two-phase approach both on the weekend shift roster and on the roster as a whole. We demonstrate that our first-phase weekend rostering heuristic is effective both on generated instances and real-life instances. For situations where the weekend shift roster is one of the key determinants of the quality of the complete roster, our two-phase approach is shown to be effective.
+C1 [van der Veen, Egbert; Post, Gerhard F.; Veltman, Bart] ORTEC, NL-2719 EA Zoetermeer, Netherlands.
+   [van der Veen, Egbert; Hans, Erwin W.; Post, Gerhard F.; Veltman, Bart] Univ Twente, CHOIR, NL-7522 NB Enschede, Netherlands.
+RP van der Veen, E (reprint author), ORTEC, Houtsingel 5, NL-2719 EA Zoetermeer, Netherlands.
+EM egbert.vanderveen@ortec.com
+OI Hans, Erwin W./0000-0002-6618-4661
+FU Dutch Technology Foundation STW, applied science division of NWO;
+   Technology Program of the Ministry of Economic Affairs
+FX The authors would like to thank Frederique Versteegh for initiating and
+   taking the first steps in this research, and Monique Hoogstrate for
+   helpful discussions. This research is supported by the Dutch Technology
+   Foundation STW, applied science division of NWO and the Technology
+   Program of the Ministry of Economic Affairs.
+NR 88
+TC 5
+Z9 5
+U1 1
+U2 21
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD FEB
+PY 2015
+VL 18
+IS 1
+BP 29
+EP 43
+DI 10.1007/s10951-014-0385-x
+PG 15
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA AY9UQ
+UT WOS:000347896300004
+DA 2019-08-04
+ER
+
+PT J
+AU Duives, J
+   Heydenreich, B
+   Mishra, D
+   Muller, R
+   Uetz, M
+AF Duives, Jelle
+   Heydenreich, Birgit
+   Mishra, Debasis
+   Mueller, Rudolf
+   Uetz, Marc
+TI On optimal mechanism design for a sequencing problem
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Auction; Mechanism; Scheduling; Economics; Combinatorial optimization
+ID DOMINANT-STRATEGY IMPLEMENTATION; OPTIMAL AUCTION; MONOTONICITY;
+   EQUIVALENCE; GAMES
+AB We study mechanism design for a single-server setting where jobs require compensation for waiting, while waiting cost is private information to the jobs. With given priors on the private information of jobs, we aim to find a Bayes-Nash incentive compatible mechanism that minimizes the total expected payments to the jobs. Following earlier work in the auction literature, we show that this problem is solved, in polynomial time, by a version of Smith's rule. When both waiting cost and processing times are private, we show that optimal mechanisms generally do not satisfy an independence condition known as IIA, and conclude that a closed form for optimal mechanisms is generally not conceivable.
+C1 [Duives, Jelle; Uetz, Marc] Univ Twente, Dept Appl Math, NL-7500 AE Enschede, Netherlands.
+   [Heydenreich, Birgit; Mueller, Rudolf] Maastricht Univ, NL-6200 MD Maastricht, Netherlands.
+   [Mishra, Debasis] Indian Stat Inst, Planning Unit, New Delhi 110016, India.
+RP Uetz, M (reprint author), Univ Twente, Dept Appl Math, POB 217, NL-7500 AE Enschede, Netherlands.
+EM jelleduives@gmail.com; birgit.heydenreich@gmail.com; dmishra@isid.ac.in;
+   r.muller@maastrichtuniversity.nl; m.uetz@utwente.nl
+FU Dutch research foundation through NWO [2004/03545/MaGW]
+FX Thanks to Rakesh Vohra, Jason Hartline and Ruben Hoeksma for helpful
+   discussions, and thanks to the anonymous referees for thoughtful and
+   constructive remarks. Birgit Heydenreich and Marc Uetz acknowledge
+   support by the Dutch research foundation through NWO grant
+   2004/03545/MaGW "Local Decisions in Decentralised Planning
+   Environments". An extended abstract of this paper appeared in the
+   proceedings of the 4th International Workshop on Internet and Network
+   Economics (Heydenreich et al. 2008)
+NR 29
+TC 4
+Z9 4
+U1 0
+U2 11
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD FEB
+PY 2015
+VL 18
+IS 1
+BP 45
+EP 59
+DI 10.1007/s10951-014-0378-9
+PG 15
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA AY9UQ
+UT WOS:000347896300005
+DA 2019-08-04
+ER
+
+PT J
+AU Wauters, T
+   Verbeeck, K
+   De Causmaecker, P
+   Vanden Berghe, G
+AF Wauters, Tony
+   Verbeeck, Katja
+   De Causmaecker, Patrick
+   Vanden Berghe, Greet
+TI A learning-based optimization approach to multi-project scheduling
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Multi-project scheduling; Learning automata; Dispersion games
+ID HEURISTIC RULES PERFORMANCE; DECOMPOSITION APPROACH; SYSTEM; MODEL
+AB The present paper introduces a learning-based optimization approach to the resource-constrained multi-project scheduling problem. Multiple projects, each with their own set of activities, need to be scheduled. The objectives dealt with here include minimization of the average project delay and total makespan. The availability of local and global resources, precedence relations between activities, and non-equal project start times have to be considered. The proposed approach relies on a simple sequence learning game played by a group of project managers. The project managers each learn their activity list locally using reinforcement learning, more specifically learning automata. Meanwhile, they learn how to choose a suitable place in the overall sequence of all activity lists. All the projects need to arrive at a unique place in this sequence. A mediator, who usually has to solve a complex optimization problem, now manages a simple dispersion game. Through the mediator, a sequence of feasible activity lists is eventually scheduled by using a serial schedule generation scheme, which is adopted from single project scheduling. It is shown that the sequence learning approach has a large positive effect on minimizing the average project delay. In fact, the combination of local reinforcement learning, the sequence learning game and a forward-backward implementation of the serial scheduler significantly improves the best known results for all the MPSPLIB datasets. In addition, several new best results were obtained for both considered objectives: minimizing the average project delay and minimizing the total makespan.
+C1 [Wauters, Tony; Verbeeck, Katja; De Causmaecker, Patrick; Vanden Berghe, Greet] Katholieke Univ Leuven, CODeS, Dept Comp Sci, B-9000 Ghent, Belgium.
+RP Wauters, T (reprint author), Katholieke Univ Leuven, CODeS, Dept Comp Sci, Gebroeders Desmetstr 1, B-9000 Ghent, Belgium.
+EM tony.wauters@cs.kuleuven.be
+RI Vanden Berghe, Greet/A-3914-2015; De Causmaecker, Patrick/E-5635-2017;
+   Wauters, Tony/H-4656-2015
+OI Vanden Berghe, Greet/0000-0002-0275-5568; De Causmaecker,
+   Patrick/0000-0002-6763-1945; Wauters, Tony/0000-0002-1014-6340
+NR 26
+TC 6
+Z9 7
+U1 4
+U2 44
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD FEB
+PY 2015
+VL 18
+IS 1
+BP 61
+EP 74
+DI 10.1007/s10951-014-0401-1
+PG 14
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA AY9UQ
+UT WOS:000347896300006
+DA 2019-08-04
+ER
+
+PT J
+AU Shabtay, D
+   Karhi, S
+   Oron, D
+AF Shabtay, Dvir
+   Karhi, Shlomo
+   Oron, Daniel
+TI Multipurpose machine scheduling with rejection and identical job
+   processing times
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Scheduling on multipurpose machines; Job rejection; Optimization and
+   complexity
+ID CONSTRAINED ASSIGNMENT PROBLEM; UNRELATED PARALLEL MACHINES; UNIT-LENGTH
+   JOBS; APPROXIMATION SCHEMES; SET RESTRICTIONS; ELIGIBILITY RESTRICTIONS;
+   INDEPENDENT MEMORIES; ALGORITHMS; MINIMIZE; MAKESPAN
+AB We study a set of scheduling problems on a uniform machine setting. We focus on the case of equal processing time jobs with the additional feature of job rejection. Jobs can either be processed on a predefined set of machines or rejected. Rejected jobs incur a rejection penalty and have no effect on the scheduling criterion under consideration. A solution to our problems consists of partitioning the jobs into two subsets, and , which are the set of accepted and the set of rejected jobs, respectively. In addition, jobs in set have to be scheduled on the machines. We evaluate the quality of a solution by two criteria. The first, , can be any regular scheduling criterion, while the latter, , is the total rejection cost. We consider two possible types of regular scheduling criteria; the former is a maximization criterion, while the latter is a summation criterion. For each criterion type we consider four different problem variations. We prove that all four variations are solvable in polynomial time for maximization type of a regular scheduling criterion. When the scheduling criterion is of summation type, we show that only one of the four problem variations is solvable in polynomial time. We provide a pseudo-polynomial time algorithms to solve interesting variants of the -hard problems, as well as a polynomial time algorithm that solves various other special cases.
+C1 [Shabtay, Dvir; Karhi, Shlomo] Ben Gurion Univ Negev, Dept Ind Engn & Management, IL-84105 Beer Sheva, Israel.
+   [Oron, Daniel] Univ Sydney, Sch Business, Sydney, NSW 2006, Australia.
+RP Shabtay, D (reprint author), Ben Gurion Univ Negev, Dept Ind Engn & Management, IL-84105 Beer Sheva, Israel.
+EM dvirs@bgu.ac.il; shlomok@post.bgu.ac.il; D.Oron@econ.usyd.edu.au
+OI Shabtay, Dvir/0000-0002-2709-599X
+NR 45
+TC 5
+Z9 5
+U1 1
+U2 15
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD FEB
+PY 2015
+VL 18
+IS 1
+BP 75
+EP 88
+DI 10.1007/s10951-014-0386-9
+PG 14
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA AY9UQ
+UT WOS:000347896300007
+DA 2019-08-04
+ER
+
+PT J
+AU Thevenin, S
+   Zufferey, N
+   Widmer, M
+AF Thevenin, Simon
+   Zufferey, Nicolas
+   Widmer, Marino
+TI Metaheuristics for a scheduling problem with rejection and tardiness
+   penalties
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Scheduling; Metaheuristics; Order acceptance; Setups
+ID TOTAL WEIGHTED TARDINESS; SEQUENCE-DEPENDENT SETUPS; TABU SEARCH
+   ALGORITHM; ORDER ACCEPTANCE; SINGLE-MACHINE; RELEASE DATES; TIMES;
+   MINIMIZE; COSTS
+AB In this paper, we consider a single-machine scheduling problem (P) inspired from manufacturing instances. A release date, a deadline, and a regular (i.e., non-decreasing) cost function are associated with each job. The problem takes into account sequence-dependent setup times and setup costs between jobs of different families. Moreover, the company has the possibility to reject some jobs/orders, in which case a penalty (abandon cost) is incurred. Therefore, the problem at hand can be viewed as an order acceptance and scheduling problem. Order acceptance problems have gained interest among the research community over the last decades, particularly in a make-to-order environment. We propose and compare a constructive heuristic, local search methods, and population-based algorithms. Tests are performed on realistic instances and show that the developed metaheuristics significantly outperform the currently available resolution methods for the same problem.
+C1 [Thevenin, Simon; Zufferey, Nicolas] Univ Geneva, GSEM, Geneva, Switzerland.
+   [Widmer, Marino] Univ Fribourg, DIUF Decis Support & Operat Res, CH-1700 Fribourg, Switzerland.
+RP Zufferey, N (reprint author), Univ Geneva, GSEM, Geneva, Switzerland.
+EM simon.thevenin@unige.ch; n.zufferey@unige.ch; marino.widmer@unifr.ch
+NR 48
+TC 15
+Z9 15
+U1 2
+U2 20
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD FEB
+PY 2015
+VL 18
+IS 1
+BP 89
+EP 105
+DI 10.1007/s10951-014-0395-8
+PG 17
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA AY9UQ
+UT WOS:000347896300008
+DA 2019-08-04
+ER
+
+PT J
+AU Moseley, B
+AF Moseley, Benjamin
+TI Scheduling to minimize energy and flow time in broadcast scheduling
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Scheduling; Broadcast; Online; Resource augmentation; Energy; Speed
+   scalable
+ID SPEED
+AB In this paper, we initiate the study of minimizing power consumption in the broadcast scheduling model. In this setting, there is a wireless transmitter. Over time requests arrive at the transmitter for pages of information. Multiple requests may be for the same page. When a page is transmitted, all requests for that page receive the transmission simultaneously. The speed the transmitter sends data at can be dynamically scaled to conserve energy. We consider the problem of minimizing flow time plus energy, the most popular scheduling metric considered in the standard online scheduling model when the scheduler is energy aware. We will assume that the power consumed is modeled by an arbitrary convex function. For this problem, there is an lower bound on the competitive ratio. Due to the lower bound, we consider using resource augmentation and give a scalable algorithm.
+C1 Toyota Technol Inst, Chicago, IL 60637 USA.
+RP Moseley, B (reprint author), Toyota Technol Inst, Chicago, IL 60637 USA.
+EM moseley@ttic.edu
+FU NSF [CNS-0721899, CCF-0728782]
+FX This work was partially done while the author was at the University of
+   Illinois. Partially supported by NSF Grants CNS-0721899 and CCF-0728782
+NR 38
+TC 1
+Z9 1
+U1 0
+U2 0
+PU SPRINGER
+PI NEW YORK
+PA 233 SPRING ST, NEW YORK, NY 10013 USA
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD FEB
+PY 2015
+VL 18
+IS 1
+BP 107
+EP 118
+DI 10.1007/s10951-014-0371-3
+PG 12
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA AY9UQ
+UT WOS:000347896300009
+DA 2019-08-04
+ER
+
+PT J
+AU Agnetis, A
+   Briand, C
+   Billaut, JC
+   Sucha, P
+AF Agnetis, Alessandro
+   Briand, Cyril
+   Billaut, Jean-Charles
+   Sucha, Premysl
+TI Nash equilibria for the multi-agent project scheduling problem with
+   controllable processing times
+SO JOURNAL OF SCHEDULING
+LA English
+DT Article
+DE Multi-agent project scheduling; Nash equilibria; Flow networks
+ID SUPPLY CHAINS; SYSTEM; MODEL
+AB This paper considers a project scheduling environment in which the activities of the project network are partitioned among a set of agents. Activity durations are controllable, i.e., every agent is allowed to shorten the duration of its activities, incurring a crashing cost. If the project makespan is reduced with respect to its normal value, a reward is offered to the agents and each agent receives a given ratio of the total reward. Agents want to maximize their profit. Assuming a complete knowledge of the agents' parameters and of the activity network, this problem is modeled as a non-cooperative game and Nash equilibria are analyzed. We characterize Nash equilibria in terms of the existence of certain types of cuts on the project network. We show that finding one Nash equilibrium is easy, while finding a Nash strategy that minimizes the project makespan is NP-hard in the strong sense. The particular case where each activity belongs to a different agent is also studied and some polynomial-time algorithms are proposed for this case.
+C1 [Agnetis, Alessandro] Univ Siena, I-53100 Siena, Italy.
+   [Briand, Cyril; Sucha, Premysl] CNRS, LAAS, F-31400 Toulouse, France.
+   [Briand, Cyril] Univ Toulouse, UPS, LAAS, F-31400 Toulouse, France.
+   [Billaut, Jean-Charles] Univ Tours, Lab Informat, F-37200 Tours, France.
+   [Sucha, Premysl] Czech Tech Univ, Fac Elect Engn, Prague 12135 2, Czech Republic.
+RP Briand, C (reprint author), CNRS, LAAS, 7 Ave Colonel Roche, F-31400 Toulouse, France.
+EM briand@laas.fr
+RI Sucha, Premysl/F-3171-2013
+OI Sucha, Premysl/0000-0003-4895-157X; Agnetis,
+   Alessandro/0000-0001-5803-0438
+FU ANR [08-BLAN-0331-02]
+FX This work was supported by the ANR Project No. 08-BLAN-0331-02 named
+   "ROBOCOOP." The authors wish to acknowledge two anonymous reviewers for
+   their remarks that significantly helped improving the paper.
+NR 20
+TC 9
+Z9 10
+U1 0
+U2 26
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1094-6136
+EI 1099-1425
+J9 J SCHEDULING
+JI J. Sched.
+PD FEB
+PY 2015
+VL 18
+IS 1
+BP 15
+EP 27
+DI 10.1007/s10951-014-0393-x
+PG 13
+WC Engineering, Manufacturing; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA AY9UQ
+UT WOS:000347896300003
+DA 2019-08-04
+ER
+
+EF
