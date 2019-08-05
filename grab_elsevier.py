@@ -61,20 +61,23 @@ def grab_mendeley_views(file_url, dst_url, eid_column, end_year=30000, end_month
                                                            'sec-fetch-site': 'cross-site',
                                                            'upgrade-insecure-requests': '1',
                                                            'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.10 Safari/537.36'})
-                    print res
                     for item in res:
                         if item['year'] > end_year or (item['year'] == end_year and item['month'] > end_month):
                             continue
+
+                        print item
                         views += item['views']
                         citations += item['citations']
 
                 views_list.append(views)
                 citations_list.append(citations)
 
+            print views_list
+            print citations_list
             df['views'] = views_list
             df['citations'] = citations_list
 
             df.to_excel(writer, sheet_name=sheet, index=False)
     return
 
-grab_mendeley_views('data/outputs/or64_elsevier.xlsx', 'data/outputs/or64_elsevier_x.xlsx', 'eid', end_year=2018)
+# grab_mendeley_views('data/outputs/or64_elsevier.xlsx', 'data/outputs/or64_elsevier_x.xlsx', 'eid', end_year=2018)
