@@ -1,9 +1,8 @@
 # coding:utf-8
 
 import pandas as pd
-import math
 
-from grab_util import grab_from_url_content, grab_from_url_json
+from grab_util import grab_from_url_json
 
 
 def grab_detail_plumx(file_url, dst_url, doi_column):
