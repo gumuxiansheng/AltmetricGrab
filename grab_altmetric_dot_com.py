@@ -56,8 +56,10 @@ def grab_detail_altmetric(file_url, dst_url, citation_id_column):
             mendeley = list()
             citeulike = list()
 
-            a_list = [news, blogs, policy, twitter, weibo, facebook, wikipedia, redditors, f1000, video, dimensions_citation, mendeley, citeulike]
-            b_list = ['news', 'blogs', 'policy', 'twitter', 'weibo', 'facebook', 'wikipedia', 'redditors', 'f1000', 'video', 'dimensions_citation', 'mendeley', 'citeulike']
+            a_list = [news, blogs, policy, twitter, weibo, facebook, wikipedia, redditors, f1000, video,
+                      dimensions_citation, mendeley, citeulike]
+            b_list = ['news', 'blogs', 'policy', 'twitter', 'weibo', 'facebook', 'wikipedia', 'redditors', 'f1000',
+                      'video', 'dimensions_citation', 'mendeley', 'citeulike']
 
             for citation_id in df[citation_id_column]:
 
@@ -65,16 +67,20 @@ def grab_detail_altmetric(file_url, dst_url, citation_id_column):
                     citation_id = int(citation_id)
                     news_anchor = 'news</dt><dd><a href="/details/' + str(citation_id) + '/news"><strong>'
                     blogs_anchor = 'blogs</dt><dd><a href="/details/' + str(citation_id) + '/blogs"><strong>'
-                    policy_anchor = 'policy</dt><dd><a href="/details/' + str(citation_id) + '/policy-documents"><strong>'
+                    policy_anchor = 'policy</dt><dd><a href="/details/' + str(
+                        citation_id) + '/policy-documents"><strong>'
                     twitter_anchor = 'twitter</dt><dd><a href="/details/' + str(citation_id) + '/twitter"><strong>'
                     weibo_anchor = 'weibo</dt><dd><a href="/details/' + str(citation_id) + '/weibo"><strong>'
                     facebook_anchor = 'facebook</dt><dd><a href="/details/' + str(citation_id) + '/facebook"><strong>'
-                    wikipedia_anchor = 'wikipedia</dt><dd><a href="/details/' + str(citation_id) + '/wikipedia"><strong>'
+                    wikipedia_anchor = 'wikipedia</dt><dd><a href="/details/' + str(
+                        citation_id) + '/wikipedia"><strong>'
                     redditors_anchor = 'reddit</dt><dd><a href="/details/' + str(citation_id) + '/reddit"><strong>'
                     f1000_anchor = 'f1000</dt><dd><a href="/details/' + str(citation_id) + '/f1000"><strong>'
                     video_anchor = 'video</dt><dd><a href="/details/' + str(citation_id) + '/video"><strong>'
-                    dimensions_citation_anchor = 'dimensions_citation</dt><dd><a href="/details/' + str(citation_id) + '/citations"><strong>'
-                    mendeley_anchor = 'mendeley</dt><dd><a href="/details/' + str(citation_id) + '#mendeley-demographics"><strong>'
+                    dimensions_citation_anchor = 'dimensions_citation</dt><dd><a href="/details/' + str(
+                        citation_id) + '/citations"><strong>'
+                    mendeley_anchor = 'mendeley</dt><dd><a href="/details/' + str(
+                        citation_id) + '#mendeley-demographics"><strong>'
                     citeulike_anchor = 'citeulike</dt><dd><strong>'
                     c_list = [news_anchor, blogs_anchor, policy_anchor, twitter_anchor, weibo_anchor, facebook_anchor,
                               wikipedia_anchor, redditors_anchor, f1000_anchor, video_anchor,
