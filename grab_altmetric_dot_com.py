@@ -118,7 +118,7 @@ def grab_detail_id_altmetric_all(folder, dst_folder, doi_column):
     for file_ in file_list:
         print file_
         file_url = (folder if str(folder).endswith(os.path.sep) else (folder + os.path.sep)) + file_
-        dst_url = (folder if str(dst_folder).endswith(os.path.sep) else (dst_folder + os.path.sep)) + file_
+        dst_url = (dst_folder if str(dst_folder).endswith(os.path.sep) else (dst_folder + os.path.sep)) + file_
         grab_detail_id_altmetric(file_url, dst_url, doi_column)
 
     return
@@ -130,7 +130,7 @@ def grab_detail_altmetric_all(folder, dst_folder, citation_id_column):
     for file_ in file_list:
         print file_
         file_url = (folder if str(folder).endswith(os.path.sep) else (folder + os.path.sep)) + file_
-        dst_url = (folder if str(dst_folder).endswith(os.path.sep) else (dst_folder + os.path.sep)) + file_
+        dst_url = (dst_folder if str(dst_folder).endswith(os.path.sep) else (dst_folder + os.path.sep)) + file_
         grab_detail_altmetric(file_url, dst_url, citation_id_column)
 
     return
