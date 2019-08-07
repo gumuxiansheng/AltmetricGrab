@@ -47,7 +47,7 @@ def correct_csv_tab(url, dst_url):
 
     df = pd.read_csv(url, sep='\t')
     print df.head()
-    df.to_excel(str(dst_url).replace('.csv', '.xlsx'), encoding='utf-8', index=False, engine='openpyxl')
+    df.to_excel(str(dst_url).replace('.csv', '.xlsx').replace('.CSV', '.xlsx'), encoding='utf-8', index=False, engine='openpyxl')
 
 
 def correct_all_files(folder, dst_folder):

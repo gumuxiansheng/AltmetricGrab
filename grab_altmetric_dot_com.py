@@ -3,7 +3,9 @@
 import pandas as pd
 import urlparse
 import math
+import os
 
+from file_normalization import check_file_url
 from grab_util import grab_from_url_content, grab_from_url_json
 
 
@@ -107,4 +109,28 @@ def grab_detail_altmetric(file_url, dst_url, citation_id_column):
                 df[b_list[i]] = a_list[i]
 
             df.to_excel(writer, sheet_name=sheet, index=False)
+    return
+
+
+def grab_detail_id_altmetric_all(folder, dst_folder, doi_column):
+    check_file_url(dst_folder)
+    file_list = os.listdir(folder)
+    for file_ in file_list:
+        print file_
+        file_url = (folder if str(folder).endswith(os.path.sep) else (folder + os.path.sep)) + file_
+        dst_url = (folder if str(dst_folder).endswith(os.path.sep) else (dst_folder + os.path.sep)) + file_
+        grab_detail_id_altmetric(file_url, dst_url, doi_column)
+
+    return
+
+
+def grab_detail_altmetric_all(folder, dst_folder, citation_id_column):
+    check_file_url(dst_folder)
+    file_list = os.listdir(folder)
+    for file_ in file_list:
+        print file_
+        file_url = (folder if str(folder).endswith(os.path.sep) else (folder + os.path.sep)) + file_
+        dst_url = (folder if str(dst_folder).endswith(os.path.sep) else (dst_folder + os.path.sep)) + file_
+        grab_detail_altmetric(file_url, dst_url, citation_id_column)
+
     return
