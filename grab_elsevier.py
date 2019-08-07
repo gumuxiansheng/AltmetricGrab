@@ -1,7 +1,9 @@
 # coding:utf-8
+import os
 
 import pandas as pd
 
+from file_normalization import check_file_url
 from grab_util import grab_from_url_json
 
 apiKey = '7f59af901d2d86f78a1fd60c1bf9426a'
@@ -80,4 +82,27 @@ def grab_mendeley_views(file_url, dst_url, eid_column, end_year=30000, end_month
             df.to_excel(writer, sheet_name=sheet, index=False)
     return
 
+
+def grab_scopus_eid_all(folder, dst_folder, doi_column):
+    check_file_url(dst_folder)
+    file_list = os.listdir(folder)
+    for file_ in file_list:
+        print file_
+        file_url = (folder if str(folder).endswith(os.path.sep) else (folder + os.path.sep)) + file_
+        dst_url = (dst_folder if str(dst_folder).endswith(os.path.sep) else (dst_folder + os.path.sep)) + file_
+        grab_scopus_eid(file_url, dst_url, doi_column)
+
+    return
+
+
+def grab_mendeley_views_all(folder, dst_folder, eid_column):
+    check_file_url(dst_folder)
+    file_list = os.listdir(folder)
+    for file_ in file_list:
+        print file_
+        file_url = (folder if str(folder).endswith(os.path.sep) else (folder + os.path.sep)) + file_
+        dst_url = (dst_folder if str(dst_folder).endswith(os.path.sep) else (dst_folder + os.path.sep)) + file_
+        grab_mendeley_views(file_url, dst_url, eid_column)
+
+    return
 # grab_mendeley_views('data/outputs/or64_elsevier.xlsx', 'data/outputs/or64_elsevier_x.xlsx', 'eid', end_year=2018)
