@@ -1,7 +1,9 @@
 # coding:utf-8
+import os
 
 import pandas as pd
 
+from file_normalization import check_file_url
 from grab_util import grab_from_url_json
 
 
@@ -157,4 +159,14 @@ def grab_detail_plumx(file_url, dst_url, doi_column):
     return
 
 
+def grab_detail_plumx_all(folder, dst_folder, doi_column):
+    check_file_url(dst_folder)
+    file_list = os.listdir(folder)
+    for file_ in file_list:
+        print file_
+        file_url = (folder if str(folder).endswith(os.path.sep) else (folder + os.path.sep)) + file_
+        dst_url = (dst_folder if str(dst_folder).endswith(os.path.sep) else (dst_folder + os.path.sep)) + file_
+        grab_detail_plumx(file_url, dst_url, doi_column)
+
+    return
 # grab_detail_plumx('data/source/or64_1.xls', 'data/outputs/or64_plumx.xlsx', 'DOI')
