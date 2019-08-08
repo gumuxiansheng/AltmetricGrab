@@ -16,19 +16,20 @@ def grab_detail_id_altmetric(file_url, dst_url, doi_column):
         for sheet in df.sheet_names:
             print sheet
             df = pd.read_excel(file_url, sheet_name=sheet)
-            detail_ids = list()
+            if 'citation_id' not in df.columns:
+                detail_ids = list()
 
-            for doi in df[doi_column]:
-                detail_id = ''
-                if isinstance(doi, unicode):
-                    res = grab_from_url_json('https://api.altmetric.com/v1/doi/' + doi)
-                    if res is not None:
-                        details_url = res['details_url']
-                        if details_url is not '':
-                            detail_id = urlparse.parse_qs(urlparse.urlparse(details_url).query).get('citation_id')[0]
+                for doi in df[doi_column]:
+                    detail_id = ''
+                    if isinstance(doi, unicode):
+                        res = grab_from_url_json('https://api.altmetric.com/v1/doi/' + doi)
+                        if res is not None:
+                            details_url = res['details_url']
+                            if details_url is not '':
+                                detail_id = urlparse.parse_qs(urlparse.urlparse(details_url).query).get('citation_id')[0]
 
-                detail_ids.append(detail_id)
-            df['citation_id'] = detail_ids
+                    detail_ids.append(detail_id)
+                df['citation_id'] = detail_ids
 
             df.to_excel(writer, sheet_name=sheet, index=False)
     return
@@ -157,7 +158,52 @@ def grab_detail_id_altmetric_all(folder, dst_folder, doi_column):
                  '47(18).xlsx',
                  '44(2)RENEWABLE ENERGY.xlsx',
                  '27（2）GREEN CHEMISTRY.xlsx',
-                 '9（3）BIORESOURCE TECHNOLOGY.xlsx']:
+                 '9（3）BIORESOURCE TECHNOLOGY.xlsx',
+                 '47(15).xlsx',
+                 '47(3).xlsx',
+                 '14（1）CHEMICAL ENGINEERING JOURNAL.xlsx',
+                 '35(1)JOURNAL OF POWER SOURCES.xlsx',
+                 '9（4）BIORESOURCE TECHNOLOGY.xlsx',
+                 '40(2)MATERIALS CHEMISTRY AND PHYSICS.xlsx',
+                 '38(1)JOURNAL OF THE AMERICAN CHEMICAL SOCIETY.xlsx',
+                 '29(1)INTERNATIONAL JOURNAL OF HYDROGEN ENERGY.xlsx',
+                 '15（2)CHEMISTRY LETTERS.xlsx',
+                 '44(1)RENEWABLE ENERGY.xlsx',
+                 '25（3）FUEL.xlsx',
+                 '47(17).xlsx',
+                 '26FUEL PROCESSING TECHNOLOGY.xlsx',
+                 '15(1)CHEMISTRY LETTERS.xlsx',
+                 '47.1.xlsx',
+                 '45SEPARATION SCIENCE AND TECHNOLOGY.xlsx',
+                 '11（1）BULLETIN OF THE KOREAN CHEMICAL SOCIETy.xlsx',
+                 '47(13).xlsx',
+                 '47(5).xlsx',
+                 '4（2）APPLIED CATALYSIS A-GENERAL.xlsx',
+                 '28（2）INDUSTRIAL & ENGINEERING CHEMISTRY RESEARCH.xlsx',
+                 '21Energy & Environmental Science.xlsx',
+                 '7Biofuels Bioproducts & Biorefining-Biofpr.xlsx',
+                 '14（3）CHEMICAL ENGINEERING JOURNAL.xlsx',
+                 '32JOURNAL OF CATALYSIS.xlsx',
+                 '47(11).xlsx',
+                 '47(7).xlsx',
+                 '4（1）APPLIED CATALYSIS A-GENERAL.xlsx',
+                 '19（1）Desalination and Water Treatment.xlsx',
+                 '34(1)JOURNAL OF HAZARDOUS MATERIALS.xlsx',
+                 '5（2）APPLIED ENERGY.xlsx',
+                 '43PROGRESS IN CHEMISTRY.xlsx',
+                 '29(3)INTERNATIONAL JOURNAL OF HYDROGEN ENERGY.xlsx',
+                 '38(3)JOURNAL OF THE AMERICAN CHEMICAL SOCIETY.xlsx',
+                 '19（3）Desalination and Water Treatment.xlsx',
+                 '27（1）GREEN CHEMISTRY.xlsx',
+                 '5（3）APPLIED ENERGY.xlsx',
+                 '47(16).xlsx',
+                 '19（2）Desalination and Water Treatment.xlsx',
+                 '19（4）Desalination and Water Treatment.xlsx',
+                 '47(14).xlsx',
+                 '25（2）FUEL.xlsx',
+                 '1（2）ADVANCED FUNCTIONAL MATERIALS.xlsx'
+                 ]:
+        print item
         file_list.remove(item)
     for file_ in file_list:
         print file_
@@ -181,3 +227,6 @@ def grab_detail_altmetric_all(folder, dst_folder, citation_id_column):
         grab_detail_altmetric(file_url, dst_url, citation_id_column)
 
     return
+
+# gadc.grab_detail_id_altmetric_all(u'data/outputs/数学期刊(下)/'.encode('utf-8'), u'data/outputs/数学期刊(下)/'.encode('utf-8'), 'DI')
+# gadc.grab_detail_altmetric_all(u'data/outputs/数学期刊(下)/'.encode('utf-8'), u'data/outputs/数学期刊(下)_altmetric/'.encode('utf-8'), 'citation_id')
