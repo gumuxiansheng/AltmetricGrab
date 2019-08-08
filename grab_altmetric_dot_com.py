@@ -121,6 +121,44 @@ def grab_detail_altmetric(file_url, dst_url, citation_id_column):
 def grab_detail_id_altmetric_all(folder, dst_folder, doi_column):
     check_file_url(dst_folder)
     file_list = os.listdir(folder)
+    for item in ['5（1）APPLIED ENERGY.xlsx',
+                 '42(1)POWDER TECHNOLOGY.xlsx',
+                 '16China Petroleum Processing & Petrochemical Technology.xlsx',
+                 '29(2)INTERNATIONAL JOURNAL OF HYDROGEN ENERGY.xlsx',
+                 '34(2)JOURNAL OF HAZARDOUS MATERIALS.xlsx',
+                 '38(2)JOURNAL OF THE AMERICAN CHEMICAL SOCIETY.xlsx',
+                 '47(10).xlsx',
+                 '47(6).xlsx',
+                 '42(2)POWDER TECHNOLOGY.xlsx',
+                 '23（1）ENERGY AND BUILDINGS.xlsx',
+                 '33Journal of Energy in Southern Africa.xlsx',
+                 '47(12).xlsx',
+                 '47(4).xlsx',
+                 '30JOURNAL OF ANALYTICAL AND APPLIED PYROLYSIS.xlsx',
+                 '39(2)JOURNAL OF THERMAL ANALYSIS AND CALORIMETRY.xlsx',
+                 '14（2）CHEMICAL ENGINEERING JOURNAL.xlsx',
+                 '36Journal of Renewable and Sustainable Energy.xlsx',
+                 '1.xlsx',
+                 '47(8).xlsx',
+                 '47(23).xlsx',
+                 '47(21).xlsx',
+                 '11（2）BULLETIN OF THE KOREAN CHEMICAL SOCIETy.xlsx',
+                 '38(5)JOURNAL OF THE AMERICAN CHEMICAL SOCIETY.xlsx',
+                 '35(4)JOURNAL OF POWER SOURCES.xlsx',
+                 '25（1）FUEL.xlsx',
+                 '20ELECTROCHEMISTRY COMMUNICATIONS.xlsx',
+                 '10（1）BioResources.xlsx',
+                 '28（3）INDUSTRIAL & ENGINEERING CHEMISTRY RESEARCH.xlsx',
+                 '3（1）APPLIED BIOCHEMISTRY AND BIOTECHNOLOGY.xlsx',
+                 '22(1)ENERGY & FUELS.xlsx',
+                 '47(25).xlsx',
+                 '46(2)SOLAR ENERGY MATERIALS AND SOLAR CELLS.xlsx',
+                 '9BIORESOURCE TECHNOLOGY.xlsx',
+                 '47(18).xlsx',
+                 '44(2)RENEWABLE ENERGY.xlsx',
+                 '27（2）GREEN CHEMISTRY.xlsx',
+                 '9（3）BIORESOURCE TECHNOLOGY.xlsx']:
+        file_list.remove(item)
     for file_ in file_list:
         print file_
         file_url = (folder if str(folder).endswith(os.path.sep) else (folder + os.path.sep)) + file_
@@ -133,7 +171,10 @@ def grab_detail_id_altmetric_all(folder, dst_folder, doi_column):
 def grab_detail_altmetric_all(folder, dst_folder, citation_id_column):
     check_file_url(dst_folder)
     file_list = os.listdir(folder)
+    finished_list = os.listdir(dst_folder)
     for file_ in file_list:
+        if file_ in finished_list:
+            continue
         print file_
         file_url = (folder if str(folder).endswith(os.path.sep) else (folder + os.path.sep)) + file_
         dst_url = (dst_folder if str(dst_folder).endswith(os.path.sep) else (dst_folder + os.path.sep)) + file_

@@ -162,11 +162,15 @@ def grab_detail_plumx(file_url, dst_url, doi_column):
 def grab_detail_plumx_all(folder, dst_folder, doi_column):
     check_file_url(dst_folder)
     file_list = os.listdir(folder)
+    finished_list = os.listdir(dst_folder)
     for file_ in file_list:
+        if file_ in finished_list:
+            continue
         print file_
         file_url = (folder if str(folder).endswith(os.path.sep) else (folder + os.path.sep)) + file_
         dst_url = (dst_folder if str(dst_folder).endswith(os.path.sep) else (dst_folder + os.path.sep)) + file_
         grab_detail_plumx(file_url, dst_url, doi_column)
 
     return
+
 # grab_detail_plumx('data/source/or64_1.xls', 'data/outputs/or64_plumx.xlsx', 'DOI')
