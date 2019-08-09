@@ -105,6 +105,8 @@ def grab_mendeley_views_all(folder, dst_folder, eid_column):
     file_list = os.listdir(folder)
     for file_ in file_list:
         print file_
+        if not str(file_).endswith('xlsx'):
+            continue
         file_url = (folder if str(folder).endswith(os.path.sep) else (folder + os.path.sep)) + file_
         dst_url = (dst_folder if str(dst_folder).endswith(os.path.sep) else (dst_folder + os.path.sep)) + file_
         grab_mendeley_views(file_url, dst_url, eid_column)
