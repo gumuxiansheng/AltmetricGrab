@@ -35,6 +35,30 @@ def grab_detail_id_altmetric(file_url, dst_url, doi_column):
     return
 
 
+def grab_altmetric_total_score(file_url, dst_url, doi_column):
+    df = pd.ExcelFile(file_url)
+
+    with pd.ExcelWriter(dst_url, engine='openpyxl') as writer:
+        for sheet in df.sheet_names:
+            print sheet
+            df = pd.read_excel(file_url, sheet_name=sheet)
+            if 'altmetric_score' not in df.columns:
+                scores = []
+
+                for doi in df[doi_column]:
+                    score = 0
+                    if isinstance(doi, unicode):
+                        res = grab_from_url_json('https://api.altmetric.com/v1/doi/' + doi)
+                        if res is not None:
+                            score = res['score']
+
+                    scores.append(score)
+                df['altmetric_score'] = scores
+
+            df.to_excel(writer, sheet_name=sheet, index=False)
+    return
+
+
 def grab_detail_altmetric(file_url, dst_url, citation_id_column):
     dft = pd.ExcelFile(file_url)
 
@@ -142,6 +166,18 @@ def grab_detail_altmetric_all(folder, dst_folder, citation_id_column):
         file_url = (folder if str(folder).endswith(os.path.sep) else (folder + os.path.sep)) + file_
         dst_url = (dst_folder if str(dst_folder).endswith(os.path.sep) else (dst_folder + os.path.sep)) + file_
         grab_detail_altmetric(file_url, dst_url, citation_id_column)
+
+    return
+
+
+def grab_altmetric_total_score_all(folder, dst_folder, doi_column):
+    check_file_url(dst_folder)
+    file_list = os.listdir(folder)
+    for file_ in file_list:
+        print file_
+        file_url = (folder if str(folder).endswith(os.path.sep) else (folder + os.path.sep)) + file_
+        dst_url = (dst_folder if str(dst_folder).endswith(os.path.sep) else (dst_folder + os.path.sep)) + file_
+        grab_altmetric_total_score(file_url, dst_url, doi_column)
 
     return
 
