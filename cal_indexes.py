@@ -14,14 +14,15 @@ def cal_h_index(work_list):
 
 
 # sub-impact
-def cal_sub_impact(work_list, thresh=1000.0):
+def cal_sub_impact(work_list, thresh=0.1):
     i = 0
-    sum = 0
+    sum_ = 0
+    tc = sum(work_list) * thresh
     for info in sorted(work_list, reverse=True):
-        sum += info
+        sum_ += info
         i += 1
-        if sum < thresh:
-            return thresh / i
+        if sum_ >= tc:
+            return float(tc / float(i))
 
 
 def cal_file(file_url, dst_url, col_names, so='SO'):
@@ -80,30 +81,34 @@ def cal_file_folder_df(folder, dst_url, col_names):
     df_save.to_excel(dst_url, index=False)
 
 
-def cal_file_sub_impact(file_url, threshes=None, so='SO', tc='TC'):
-    if threshes is None:
-        threshes = [100, 500, 1000, 2000, 3000, 4000, 5000]
+def cal_file_sub_impact(file_url, so='SO', tc='TC'):
+    threshes = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]
 
     df = pd.read_excel(file_url)
 
     df_save = pd.DataFrame()
     df_save['SO'] = [df[so][0]]
-    print ('file ......' + file_url)
     for thresh in threshes:
         works = list(df[tc].values)
         df_save[str(thresh)] = [cal_sub_impact(works, thresh)]
 
+    df_save['sub_impact'] = (df_save['0.1'] * 10 + df_save['0.2'] * 9 + df_save['0.3'] * 8 + df_save['0.4'] * 7 + \
+                            df_save['0.5'] * 6 + df_save['0.6'] * 5 + df_save['0.7'] * 4 + df_save['0.8'] * 3 + \
+                            df_save['0.9'] * 2 + df_save['1'] * 1) / 55
     return df_save
 
 
-def cal_file_folder_sub_impact_df(folder, dst_url):
+def cal_file_folder_sub_impact_df(folder, dst_folder, dst_f_name, tc='TC'):
+    check_file_url(dst_folder)
+
     file_list = os.listdir(folder)
     df_save = pd.DataFrame()
     for file_ in file_list:
         print file_
         file_url = (folder if str(folder).endswith(os.path.sep) else (folder + os.path.sep)) + file_
-        df = cal_file_sub_impact(file_url)
+        df = cal_file_sub_impact(file_url, tc=tc)
 
         df_save = df_save.append(df)
 
+    dst_url = (dst_folder if str(dst_folder).endswith(os.path.sep) else (dst_folder + os.path.sep)) + dst_f_name
     df_save.to_excel(dst_url, index=False)
