@@ -68,3 +68,52 @@ def append_altmetric_plumx_all(folder):
                      index=False)
 
     return
+
+
+def merge_plumx_elsevier_springer_views(plu_file_url, els_file_url, spr_file_url, dst_url, plu_columns, els_columns,
+                                        spr_columns, merge_on):
+    read_plu_cols = merge_on[:]
+    read_plu_cols.extend(plu_columns)
+    read_els_cols = merge_on[:]
+    read_els_cols.extend(els_columns)
+    read_spr_cols = merge_on[:]
+    read_spr_cols.extend(spr_columns)
+
+    plumx_df = pd.read_excel(plu_file_url, usecols=read_plu_cols)
+    elsevier_df = pd.read_excel(els_file_url, usecols=read_els_cols)
+    springer_df = pd.read_excel(spr_file_url, usecols=read_spr_cols)
+
+    for col in plu_columns:
+        plumx_df = plumx_df.rename(columns={col: col + '_plu'})
+
+    for col in els_columns:
+        elsevier_df = elsevier_df.rename(columns={col: col + '_els'})
+
+    for col in spr_columns:
+        springer_df = springer_df.rename(columns={col: col + '_spr'})
+
+    df_save = pd.merge(plumx_df, elsevier_df, how='inner', on=merge_on)
+    df_save = pd.merge(df_save, springer_df, how='inner', on=merge_on)
+
+    df_save.to_excel(dst_url, index=False)
+    return
+
+
+def merge_plumx_elsevier_springer_views_all(plu_folder, els_folder, spr_folder, dst_folder):
+    check_file_url(dst_folder)
+    file_list = os.listdir(plu_folder)
+    for file_ in file_list:
+        print file_
+        if not str(file_).endswith('xlsx'):
+            continue
+        plu_file_url = (plu_folder if str(plu_folder).endswith(os.path.sep) else (plu_folder + os.path.sep)) + file_
+        els_file_url = (els_folder if str(els_folder).endswith(os.path.sep) else (els_folder + os.path.sep)) + file_
+        spr_file_url = (spr_folder if str(spr_folder).endswith(os.path.sep) else (spr_folder + os.path.sep)) + file_
+        dst_url = (dst_folder if str(dst_folder).endswith(os.path.sep) else (dst_folder + os.path.sep)) + file_
+        merge_plumx_elsevier_springer_views(plu_file_url, els_file_url, spr_file_url, dst_url,
+                                            plu_columns=['abstruct_views', 'full_text_views', 'exports_saves'],
+                                            els_columns=['views', 'citations'],
+                                            spr_columns=['downloads', 'citationsx'],
+                                            merge_on=['SO', 'DI'])
+
+    return
