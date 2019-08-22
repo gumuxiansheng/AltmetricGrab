@@ -13,6 +13,17 @@ def cal_h_index(work_list):
             return i - 1
 
 
+# sub-impact
+def cal_sub_impact(work_list, thresh=1000.0):
+    i = 0
+    sum = 0
+    for info in sorted(work_list, reverse=True):
+        sum += info
+        i += 1
+        if sum < thresh:
+            return thresh / i
+
+
 def cal_file(file_url, dst_url, col_names, so='SO'):
     df = pd.read_excel(file_url)
 
@@ -63,6 +74,35 @@ def cal_file_folder_df(folder, dst_url, col_names):
         print file_
         file_url = (folder if str(folder).endswith(os.path.sep) else (folder + os.path.sep)) + file_
         df = cal_file_df(file_url, col_names)
+
+        df_save = df_save.append(df)
+
+    df_save.to_excel(dst_url, index=False)
+
+
+def cal_file_sub_impact(file_url, threshes=None, so='SO', tc='TC'):
+    if threshes is None:
+        threshes = [100, 500, 1000, 2000, 3000, 4000, 5000]
+
+    df = pd.read_excel(file_url)
+
+    df_save = pd.DataFrame()
+    df_save['SO'] = [df[so][0]]
+    print ('file ......' + file_url)
+    for thresh in threshes:
+        works = list(df[tc].values)
+        df_save[str(thresh)] = [cal_sub_impact(works, thresh)]
+
+    return df_save
+
+
+def cal_file_folder_sub_impact_df(folder, dst_url):
+    file_list = os.listdir(folder)
+    df_save = pd.DataFrame()
+    for file_ in file_list:
+        print file_
+        file_url = (folder if str(folder).endswith(os.path.sep) else (folder + os.path.sep)) + file_
+        df = cal_file_sub_impact(file_url)
 
         df_save = df_save.append(df)
 
