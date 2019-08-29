@@ -93,8 +93,8 @@ def cal_file_sub_impact(file_url, so='SO', tc='TC'):
         df_save[str(thresh)] = [cal_sub_impact(works, thresh)]
 
     df_save['sub_impact'] = (df_save['0.1'] * 10 + df_save['0.2'] * 9 + df_save['0.3'] * 8 + df_save['0.4'] * 7 + \
-                            df_save['0.5'] * 6 + df_save['0.6'] * 5 + df_save['0.7'] * 4 + df_save['0.8'] * 3 + \
-                            df_save['0.9'] * 2 + df_save['1'] * 1) / 55
+                             df_save['0.5'] * 6 + df_save['0.6'] * 5 + df_save['0.7'] * 4 + df_save['0.8'] * 3 + \
+                             df_save['0.9'] * 2 + df_save['1'] * 1) / 55
     return df_save
 
 
