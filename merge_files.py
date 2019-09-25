@@ -5,7 +5,7 @@ import pandas as pd
 from file_normalization import check_file_url
 
 
-def read_file(file_, usecols):
+def read_file(file_, usecols=None):
     if str(file_).endswith('xlsx'):
         return pd.read_excel(file_, usecols=usecols)
     else:
@@ -122,10 +122,10 @@ def append_altmetric_plumx_all(folder):
     file_list.sort()
     for file_ in file_list:
         print file_
-        if not str(file_).endswith('xlsx'):
+        if not (str(file_).endswith('xlsx') or str(file_).endswith('csv')):
             continue
         file_url = (folder if str(folder).endswith(os.path.sep) else (folder + os.path.sep)) + file_
-        df = pd.read_excel(file_url)
+        df = read_file(file_url)
         df_save = df_save.append(df)
 
     df_save = df_save.drop_duplicates()
