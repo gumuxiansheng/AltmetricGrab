@@ -1,3 +1,4 @@
+# coding:utf-8
 import os
 
 import pandas as pd
@@ -42,7 +43,8 @@ def merge_altmetric_plumx(alt_file_url, plu_file_url, dst_url, alt_columns, plu_
     return
 
 
-def merge_altmetric_plumx_plos(alt_file_url, plu_file_url, plos_file_url, dst_url, alt_columns, plu_columns, plos_columns, merge_on):
+def merge_altmetric_plumx_plos(alt_file_url, plu_file_url, plos_file_url, dst_url, alt_columns, plu_columns,
+                               plos_columns, merge_on):
     read_alt_cols = merge_on[:]
     read_alt_cols.extend(alt_columns)
     read_plu_cols = merge_on[:]
@@ -108,10 +110,11 @@ def merge_altmetric_plumx_plos_all(alt_folder, plu_folder, plos_folder, dst_fold
         plos_file_url = (plos_folder if str(plos_folder).endswith(os.path.sep) else (plos_folder + os.path.sep)) + file_
         dst_url = (dst_folder if str(dst_folder).endswith(os.path.sep) else (dst_folder + os.path.sep)) + file_
         merge_altmetric_plumx_plos(alt_file_url, plu_file_url, plos_file_url, dst_url,
-                              alt_columns=['Alt_Tweeters', 'Alt_Facebook_Pages', 'Alt_Wikipedia_Pages ', 'Alt_Redditors'],
-                              plu_columns=['soical_FACEBOOK_COUNT', 'soical_TWEET_COUNT'],
-                              plos_columns=['Twitter Total', 'Wikipedia Total'],
-                              merge_on=['SO', 'DI'])
+                                   alt_columns=['Alt_Tweeters', 'Alt_Facebook_Pages', 'Alt_Wikipedia_Pages ',
+                                                'Alt_Redditors'],
+                                   plu_columns=['soical_FACEBOOK_COUNT', 'soical_TWEET_COUNT'],
+                                   plos_columns=['Twitter Total', 'Wikipedia Total'],
+                                   merge_on=['SO', 'DI'])
 
     return
 
@@ -181,4 +184,64 @@ def merge_plumx_elsevier_springer_views_all(plu_folder, els_folder, spr_folder, 
                                             spr_columns=['downloads', 'citationsx'],
                                             merge_on=['SO', 'DI'])
 
+    return
+
+
+def merge_all(alt_folder, plu_folder, els_folder, spr_folder, dst_folder):
+    check_file_url(dst_folder)
+    file_list = os.listdir(plu_folder)
+    for file_ in file_list:
+        print file_
+        if not str(file_).endswith('xlsx'):
+            continue
+        alt_file_url = (alt_folder if str(alt_folder).endswith(os.path.sep) else (alt_folder + os.path.sep)) + file_
+        plu_file_url = (plu_folder if str(plu_folder).endswith(os.path.sep) else (plu_folder + os.path.sep)) + file_
+        els_file_url = (els_folder if str(els_folder).endswith(os.path.sep) else (els_folder + os.path.sep)) + file_
+        spr_file_url = (spr_folder if str(spr_folder).endswith(os.path.sep) else (spr_folder + os.path.sep)) + file_
+        dst_url = (dst_folder if str(dst_folder).endswith(os.path.sep) else (dst_folder + os.path.sep)) + file_
+        merge_alt_plu_els_spr(alt_file_url, plu_file_url, els_file_url, spr_file_url, dst_url,
+                              merge_on=['SO', 'DI'])
+
+
+def merge_alt_plu_els_spr(alt_file_url, plu_file_url, els_file_url, spr_file_url, dst_url, merge_on):
+    alt_columns = ['news', 'blogs', 'policy', 'twitter', 'weibo', 'facebook', 'wikipedia', 'redditors', 'f1000',
+                   'video', 'dimensions_citation', 'mendeley', 'citeulike']
+    plu_columns = ['abstruct_views', 'full_text_views', 'link_click_count', 'link_outs', 'exports_saves',
+                   'reader_count_mendeley', 'reader_count_citeulike', 'cited_by_count_scopus',
+                   'cited_by_count_crossref', 'cited_by_count_pubmed', 'twitter', 'facebook', 'news', 'blogs',
+                   'reference_count_wikipedia', 'comment_count_reddit', 'mention_qa_site_mentions']
+    els_columns = ['views', 'citations']
+    spr_columns = ['downloads', 'citationsx']
+
+    read_alt_cols = merge_on[:]
+    read_alt_cols.extend(alt_columns)
+    read_plu_cols = merge_on[:]
+    read_plu_cols.extend(plu_columns)
+    read_els_cols = merge_on[:]
+    read_els_cols.extend(els_columns)
+    read_spr_cols = merge_on[:]
+    read_spr_cols.extend(spr_columns)
+
+    alt_df = read_file(alt_file_url, usecols=read_alt_cols)
+    plumx_df = read_file(plu_file_url, usecols=read_plu_cols)
+    elsevier_df = read_file(els_file_url, usecols=read_els_cols)
+    springer_df = read_file(spr_file_url, usecols=read_spr_cols)
+
+    for col in alt_columns:
+        alt_df = alt_df.rename(columns={col: col + '_plu'})
+
+    for col in plu_columns:
+        plumx_df = plumx_df.rename(columns={col: col + '_plu'})
+
+    for col in els_columns:
+        elsevier_df = elsevier_df.rename(columns={col: col + '_els'})
+
+    for col in spr_columns:
+        springer_df = springer_df.rename(columns={col: col + '_spr'})
+
+    df_save = pd.merge(alt_df, plumx_df, how='inner', on=merge_on)
+    df_save = pd.merge(df_save, elsevier_df, how='inner', on=merge_on)
+    df_save = pd.merge(df_save, springer_df, how='inner', on=merge_on)
+
+    df_save.to_excel(dst_url, index=False)
     return
