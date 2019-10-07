@@ -228,7 +228,7 @@ def merge_alt_plu_els_spr(alt_file_url, plu_file_url, els_file_url, spr_file_url
     springer_df = read_file(spr_file_url, usecols=read_spr_cols)
 
     for col in alt_columns:
-        alt_df = alt_df.rename(columns={col: col + '_plu'})
+        alt_df = alt_df.rename(columns={col: col + '_alt'})
 
     for col in plu_columns:
         plumx_df = plumx_df.rename(columns={col: col + '_plu'})
