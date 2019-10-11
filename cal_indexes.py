@@ -21,7 +21,7 @@ def cal_sub_impact(work_list, thresh=0.1):
     for info in sorted(work_list, reverse=True):
         sum_ += info
         i += 1
-        if sum_ >= tc:
+        if sum_ + 1e-5 >= tc:
             return float(tc / float(i))
 
 
