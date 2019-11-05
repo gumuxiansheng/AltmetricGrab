@@ -68,3 +68,19 @@ def save_csv():
 
     df.to_csv('Journals/scie_all.csv', encoding='utf-8', index=False)
     return
+
+
+def count_categories():
+    categories_list = []
+    with open("Journals/scie_all.json", "r") as f:
+        load_list = json.load(f)
+        for i in range(len(load_list)):
+            for cat in load_list[i]['journalProfile']['categories']:
+                if cat['categoryDescription'] not in categories_list:
+                    categories_list.append(cat['categoryDescription'])
+
+    categories_list.sort()
+    print(categories_list)
+    with open("Journals/scie_categories.txt", "w") as f:
+        f.write(json.dumps(categories_list))
+
