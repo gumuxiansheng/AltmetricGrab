@@ -1,7 +1,8 @@
+# coding:utf-8
 import json
 
 import requests
-import file_normalization as fn
+import pandas as pd
 
 
 def grab_wos_journals():
@@ -26,25 +27,44 @@ def grab_wos_journals():
         'Content-Length': "442",
         'Connection': "keep-alive",
         'cache-control': "no-cache"
-        }
+    }
 
-    for i in range(1, 9300/50 + 2):
+    for i in range(1, 9300 / 50 + 2):
         print (i)
-        payload = "{\n\t\"searchValue\": \"\",\n\t\"pageNum\": " + str(i) + ",\n\t\"pageSize\": 50,\n\t\"sortOrder\": [{\n\t\t\"name\": \"RELEVANCE\",\n\t\t\"order\": \"DESC\"\n\t}],\n\t\"filters\": [{\n\t\t\"filterName\": \"COVERED_LATEST_JEDI\",\n\t\t\"matchType\": \"BOOLEAN_EXACT\",\n\t\t\"caseSensitive\": false,\n\t\t\"values\": [{\n\t\t\t\"type\": \"VALUE\",\n\t\t\t\"value\": \"true\"\n\t\t}]\n\t}, {\n\t\t\"filterName\": \"PRODUCT_CODE\",\n\t\t\"matchType\": \"TEXT_EXACT\",\n\t\t\"caseSensitive\": false,\n\t\t\"values\": [{\n\t\t\t\"type\": \"VALUE\",\n\t\t\t\"value\": \"D\"\n\t\t}]\n\t}]\n}"
+        payload = "{\n\t\"searchValue\": \"\",\n\t\"pageNum\": " + str(
+            i) + ",\n\t\"pageSize\": 50,\n\t\"sortOrder\": [{\n\t\t\"name\": \"RELEVANCE\",\n\t\t\"order\": \"DESC\"\n\t}],\n\t\"filters\": [{\n\t\t\"filterName\": \"COVERED_LATEST_JEDI\",\n\t\t\"matchType\": \"BOOLEAN_EXACT\",\n\t\t\"caseSensitive\": false,\n\t\t\"values\": [{\n\t\t\t\"type\": \"VALUE\",\n\t\t\t\"value\": \"true\"\n\t\t}]\n\t}, {\n\t\t\"filterName\": \"PRODUCT_CODE\",\n\t\t\"matchType\": \"TEXT_EXACT\",\n\t\t\"caseSensitive\": false,\n\t\t\"values\": [{\n\t\t\t\"type\": \"VALUE\",\n\t\t\t\"value\": \"D\"\n\t\t}]\n\t}]\n}"
 
         response = requests.request("POST", url, data=payload, headers=headers)
         save_file = 'Journals/scie_' + str(i) + '.json'
         save_file = open(save_file, 'w+')
         save_file.write(response.content)
         save_file.close()
-        # resjson = response.json()
 
 
 def merge_journals():
     load_list = []
-    for i in range(1, 9300/50 + 2):
+    for i in range(1, 9300 / 50 + 2):
         with open('Journals/scie_' + str(i) + '.json', 'r') as f:
             load_list.extend(json.load(f)['journalProfiles'])
 
     with open("Journals/scie_all.json", "w") as dump_f:
         dump_f.write(json.dumps(load_list))
+
+
+def save_csv():
+    columns = ['publicationId', 'publicationSeqNo', 'issn', 'eissn', 'publicationTitle', 'publicationTitle20',
+               'publicationTitleISO', 'publicationFrequency', 'issuesPerYear', 'submissionURL',
+               'openAccess', 'country', 'publicationStartYear', 'publisherName', 'publisherAddress',
+               'publisherCode', 'publisherURL']
+    df = pd.DataFrame(columns=columns)
+    with open("Journals/scie_all.json", "r") as f:
+        load_list = json.load(f)
+        for i in range(len(load_list)):
+            item_dict = {}
+            for col in columns:
+                if col in load_list[i]['journalProfile'].keys():
+                    item_dict[col] = load_list[i]['journalProfile'][col]
+            df = df.append(item_dict, ignore_index=True)
+
+    df.to_csv('Journals/scie_all.csv', encoding='utf-8', index=False)
+    return
