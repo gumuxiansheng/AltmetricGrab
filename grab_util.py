@@ -21,7 +21,7 @@ def grab_from_url_json(url, headers={'Accept': '* / *',
         res = requests.get(url, headers=headers)
     except ConnectionError as ce:
         print 'xxxxxxx' + str(ce)
-        res = requests.get(url, headers=headers)
+        return grab_from_url_json(url, headers)
     except Exception as ex:
         print ex
 
@@ -39,7 +39,7 @@ def grab_post_from_url_json(url, data=None, json=None, headers={'Accept': '* / *
         res = requests.post(url, data, json, headers=headers)
     except ConnectionError as ce:
         print 'xxxxxxx' + str(ce)
-        res = requests.get(url, headers=headers)
+        return grab_post_from_url_json(url, data, json, headers)
     except Exception as ex:
         print ex
 
