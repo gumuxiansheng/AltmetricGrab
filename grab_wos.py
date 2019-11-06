@@ -80,7 +80,25 @@ def count_categories():
                     categories_list.append(cat['categoryDescription'])
 
     categories_list.sort()
-    print(categories_list)
     with open("Journals/scie_categories.txt", "w") as f:
         f.write(json.dumps(categories_list))
+    return categories_list
 
+
+def flatten_categories():
+    categories = count_categories()
+    df = pd.DataFrame(columns=['publicationId'] + categories)
+    with open("Journals/scie_all.json", "r") as f:
+        load_list = json.load(f)
+        for i in range(len(load_list)):
+            item_dict = {'publicationId': load_list[i]['journalProfile']['publicationId']}
+            for cat in load_list[i]['journalProfile']['categories']:
+                item_dict[cat['categoryDescription']] = 1
+
+            df = df.append(item_dict, ignore_index=True)
+    df = df.fillna(0)
+    df_o = pd.read_csv('Journals/scie_all.csv')
+    df_o = df_o.merge(df, on='publicationId')
+
+    df_o.to_csv('Journals/scie_allx.csv', encoding='utf-8', index=False)
+    return
