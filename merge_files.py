@@ -30,12 +30,13 @@ def merge_altmetric_plumx(alt_file_url, plu_file_url, dst_url, alt_columns, plu_
     plumx_df = pd.read_excel(plu_file_url, usecols=read_plu_cols)
 
     for col in alt_columns:
-        altmetric_df = altmetric_df.rename(columns={col: col + '_alt'})
+        if col != 'TC':
+            altmetric_df = altmetric_df.rename(columns={col: col + '_alt'})
 
     for col in plu_columns:
         plumx_df = plumx_df.rename(columns={col: col + '_plu'})
 
-    df_save = pd.merge(altmetric_df, plumx_df, how='inner', on=merge_on)
+    df_save = pd.merge(altmetric_df, plumx_df, how='left', on=merge_on)
 
     # print df_save
 
@@ -57,7 +58,8 @@ def merge_altmetric_plumx_plos(alt_file_url, plu_file_url, plos_file_url, dst_ur
     plos_df = read_file(plos_file_url, usecols=read_plos_cols)
 
     for col in alt_columns:
-        altmetric_df = altmetric_df.rename(columns={col: col + '_alt'})
+        if col != 'TC':
+            altmetric_df = altmetric_df.rename(columns={col: col + '_alt'})
 
     for col in plu_columns:
         plumx_df = plumx_df.rename(columns={col: col + '_plu'})
@@ -91,7 +93,7 @@ def merge_altmetric_plumx_all(alt_folder, plu_folder, dst_folder):
         plu_file_url = (plu_folder if str(plu_folder).endswith(os.path.sep) else (plu_folder + os.path.sep)) + file_
         dst_url = (dst_folder if str(dst_folder).endswith(os.path.sep) else (dst_folder + os.path.sep)) + file_
         merge_altmetric_plumx(alt_file_url, plu_file_url, dst_url,
-                              alt_columns=['twitter', 'facebook', 'wikipedia', 'redditors', 'f1000'],
+                              alt_columns=['TC', 'twitter', 'facebook', 'wikipedia', 'redditors', 'f1000'],
                               plu_columns=['twitter', 'facebook', 'reference_count_wikipedia', 'comment_count_reddit'],
                               merge_on=['SO', 'DI'])
 
@@ -189,7 +191,7 @@ def merge_plumx_elsevier_springer_views_all(plu_folder, els_folder, spr_folder, 
 
 def merge_all(alt_folder, plu_folder, els_folder, spr_folder, dst_folder):
     check_file_url(dst_folder)
-    file_list = os.listdir(plu_folder)
+    file_list = os.listdir(alt_folder)
     for file_ in file_list:
         print file_
         if not str(file_).endswith('xlsx'):
@@ -204,7 +206,7 @@ def merge_all(alt_folder, plu_folder, els_folder, spr_folder, dst_folder):
 
 
 def merge_alt_plu_els_spr(alt_file_url, plu_file_url, els_file_url, spr_file_url, dst_url, merge_on):
-    alt_columns = ['news', 'blogs', 'policy', 'twitter', 'weibo', 'facebook', 'wikipedia', 'redditors', 'f1000',
+    alt_columns = ['TC', 'news', 'blogs', 'policy', 'twitter', 'weibo', 'facebook', 'wikipedia', 'redditors', 'f1000',
                    'video', 'dimensions_citation', 'mendeley', 'citeulike']
     plu_columns = ['abstruct_views', 'full_text_views', 'link_click_count', 'link_outs', 'exports_saves',
                    'reader_count_mendeley', 'reader_count_citeulike', 'cited_by_count_scopus',
@@ -228,7 +230,8 @@ def merge_alt_plu_els_spr(alt_file_url, plu_file_url, els_file_url, spr_file_url
     springer_df = read_file(spr_file_url, usecols=read_spr_cols)
 
     for col in alt_columns:
-        alt_df = alt_df.rename(columns={col: col + '_alt'})
+        if col != 'TC':
+            alt_df = alt_df.rename(columns={col: col + '_alt'})
 
     for col in plu_columns:
         plumx_df = plumx_df.rename(columns={col: col + '_plu'})
@@ -239,9 +242,9 @@ def merge_alt_plu_els_spr(alt_file_url, plu_file_url, els_file_url, spr_file_url
     for col in spr_columns:
         springer_df = springer_df.rename(columns={col: col + '_spr'})
 
-    df_save = pd.merge(alt_df, plumx_df, how='inner', on=merge_on)
-    df_save = pd.merge(df_save, elsevier_df, how='inner', on=merge_on)
-    df_save = pd.merge(df_save, springer_df, how='inner', on=merge_on)
+    df_save = pd.merge(alt_df, plumx_df, how='left', on=merge_on)
+    df_save = pd.merge(df_save, elsevier_df, how='left', on=merge_on)
+    df_save = pd.merge(df_save, springer_df, how='left', on=merge_on)
 
     df_save.to_excel(dst_url, index=False)
     return
