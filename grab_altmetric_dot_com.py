@@ -84,7 +84,7 @@ def grab_detail_altmetric(file_url, dst_url, citation_id_column):
 
             a_list = [news, blogs, policy, twitter, weibo, facebook, wikipedia, redditors, f1000, video,
                       dimensions_citation, mendeley, citeulike]
-            b_list = ['news', 'blogs', 'policy', 'twitter', 'weibo', 'facebook', 'wikipedia', 'redditors', 'f1000',
+            b_list = ['news', 'blogs', 'policy', 'twitter_users', 'weibo', 'facebook', 'wikipedia', 'redditors', 'f1000',
                       'video', 'dimensions_citation', 'mendeley', 'citeulike']
 
             for citation_id in df[citation_id_column]:
