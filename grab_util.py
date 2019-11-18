@@ -28,7 +28,7 @@ def grab_from_url_json(url, headers={'Accept': '* / *',
     try:
         res = requests.get(url, headers=headers, timeout=10)
     except ConnectionError as ce:
-        print ('ConnectionError' + str(ce))
+        print ('ConnectionError: ' + str(ce))
         return grab_from_url_json(url, headers)
     except ReadTimeout as rte:
         print('ReadTimeout: ' + str(rte))
