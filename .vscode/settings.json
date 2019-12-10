@@ -1,4 +1,4 @@
 {
-    "python.pythonPath": "/Users/mikezhu/Dev/miniconda2/bin/python",
+    "python.pythonPath": "E:\\ProgramData\\Anaconda3\\python.exe",
     "python.formatting.provider": "yapf"
 }
