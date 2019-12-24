@@ -25,6 +25,7 @@ def grab_from_url_json(url, headers={'Accept': '* / *',
                                      'Accept-Language': 'zh-TW, zh; q=0.9, en-US; q=0.8, en; q=0.7, zh-CN; q=0.6',
                                      'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3610.2 Safari/537.36'
                                      }, timeout=10):
+    res = ''
     try:
         res = requests.get(url, headers=headers, timeout=timeout)
     except ConnectionError as ce:
