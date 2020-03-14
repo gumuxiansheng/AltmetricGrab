@@ -3,3 +3,4 @@ data/outputs/Nature/article_tweets_plumx.json
 data/*
 .ipynb_checkpoints/*
 *.pyc
+.vscode/*
