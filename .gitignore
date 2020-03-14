@@ -5,3 +5,4 @@ data/*
 *.pyc
 .vscode/*
 SUSTC_Journals/*
+__pycache__/*
