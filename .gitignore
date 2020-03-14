@@ -1,4 +1,5 @@
 data/outputs/Nature/article_tweets_altmetric_x.json
 data/outputs/Nature/article_tweets_plumx.json
+data/*
 .ipynb_checkpoints/*
 *.pyc
