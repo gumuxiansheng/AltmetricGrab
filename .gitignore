@@ -4,3 +4,4 @@ data/*
 .ipynb_checkpoints/*
 *.pyc
 .vscode/*
+SUSTC_Journals/*
