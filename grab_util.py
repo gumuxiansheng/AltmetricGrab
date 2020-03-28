@@ -46,10 +46,10 @@ def grab_from_url_json(url, headers={'Accept': '* / *',
         res = requests.get(url, headers=headers, timeout=timeout)
     except ConnectionError as ce:
         print ('ConnectionError: ' + str(ce))
-        return grab_from_url_json(url, headers)
+        return grab_from_url_json(url, headers, timeout=timeout)
     except ReadTimeout as rte:
         print('ReadTimeout: ' + str(rte))
-        return grab_from_url_json(url, headers)
+        return grab_from_url_json(url, headers, timeout=timeout)
     except Exception as ex:
         print (ex)
 
