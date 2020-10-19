@@ -1,4 +1,3 @@
-import numpy as np
 import pandas as pd
 import os
 from file_normalization import check_file_url
@@ -47,7 +46,7 @@ def cal_file_folder(folder, dst_folder, col_names):
     for file_ in file_list:
         if (folder != dst_folder) and (file_ in finished_list):
             continue
-        print file_
+        print(file_)
         file_url = (folder if str(folder).endswith(os.path.sep) else (folder + os.path.sep)) + file_
         dst_url = (dst_folder if str(dst_folder).endswith(os.path.sep) else (dst_folder + os.path.sep)) + file_
         cal_file(file_url, dst_url, col_names)
